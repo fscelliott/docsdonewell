@@ -1,0 +1,96 @@
+#TODO: Replace <site root>/index.md with a modified Minimal Mistakes index.html. Be sure to enable pagination if using the home layout by adding the necessary lines to _config.yml. https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#TODO: when it comes time to go to github compare this: https://mmistakes.github.io/minimal-mistakes/docs/installation/
+#If you plan to host with GitHub Pages be sure to properly setup jekyll-remote-theme as it is required for the theme to work properly.
+#to this: https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages
+
+#TODO: consider categories I'd like; look at idratherbewriting
+
+#LEFT OFF IN https://mmistakes.github.io/minimal-mistakes/docs/configuration/: "default key"
+
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: docs done well
+email: fscelliott@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A technical tech writer's blog on dev-oriented documentation, like API programming guides.
+baseurl: "/docsdonewell" 
+# the subpath of your site, e.g. /blog #TODO: remove
+url: "localhost:4000" 
+# the base hostname & protocol for your site, e.g. http://example.com #TODO: change https://docsdonewell.com <--make sure no conflict http/https; GH forces https
+twitter_username: fscelliott
+github_username:  fscelliott
+#repository: "fscelliott/docsdonewell" TODO: when migrate to GH
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+#"contrast" 
+site.locale: "en-US"
+#search: can set custom search options  https://mmistakes.github.io/minimal-mistakes/docs/configuration/ 
+search: true
+
+#Outputting
+#todo: paginate: 5 ...ugh it's a little complicated
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/ 
+#/blog/page:num
+
+
+social:
+  type: Person
+  name: Frances Elliott
+  links:
+    - "https://twitter.com/frances69890423"
+    - "https://www.linkedin.com/in/frances-elliott-5904b814/"
+
+author:
+  name: "Frances Elliott"
+  avatar: "/assets/images/bio-photo.jpg" 
+  bio: "A technical tech writer, currently exploring software dev project management"
+  #email: TODO?
+  #more social media links: TODO?
+    
+#todo: set up google analytics?    
+
+#todo: all search engines.. (or verify site ownership thru Google Analytics instead? 
+#google_site_verification: "yourVerficiationCode" 
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate #TODO: pagination
+  
+ #defaults for front matter
+#todo: read_time https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+
+#comments
+#comments:
+#  provider: "disqus"
+#  disqus:
+#    shortname: "your-disqus-shortname" TODO: sign up as fscelliot OR use my existing which I think is @disqus_UiG5ZDjrsx ("frances elliott") ???
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
