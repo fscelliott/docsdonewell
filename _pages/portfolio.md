@@ -7,4 +7,5 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
+UNDER CONSTRUCTION 
+Samples of my tech writing and information architecture work over the years.
