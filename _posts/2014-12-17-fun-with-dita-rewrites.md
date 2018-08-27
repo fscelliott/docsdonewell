@@ -6,6 +6,7 @@ author: frances
 tags:
 - techcomm
 - dita
+#category: portfolio
 modified_time: '2014-12-29T13:13:14.240-08:00'
 blogger_id: tag:blogger.com,1999:blog-2779361939324367100.post-5300045977690911778
 blogger_orig_url: http://elliottworklife.blogspot.com/2014/12/fun-with-dita-rewrites.html
