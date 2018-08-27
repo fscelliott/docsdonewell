@@ -1,5 +1,3 @@
 main:
-  - title: "External Link"
-    url: https://google.com 
   - title: "Portfolio"
     url: /portfolio/     

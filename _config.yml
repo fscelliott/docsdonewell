@@ -26,9 +26,9 @@ title: docs done well
 email: fscelliott@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A technical tech writer's blog on dev-oriented documentation, like API programming guides.
-baseurl: "/docsdonewell" 
+baseurl: #"/docsdonewell" 
 # the subpath of your site, e.g. /blog #TODO: remove
-url: "localhost:4000" 
+url: https://docsdonewell.com #"localhost:4000" 
 # the base hostname & protocol for your site, e.g. http://example.com #TODO: change https://docsdonewell.com <--make sure no conflict http/https; GH forces https
 twitter_username: fscelliott
 github_username:  fscelliott
@@ -115,10 +115,11 @@ defaults:
 
 
 #comments
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: "your-disqus-shortname" TODO: sign up as fscelliot OR use my existing which I think is @disqus_UiG5ZDjrsx ("frances elliott") ???
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "docsdonewell" 
+    #as per https://docsdonewell.disqus.com/admin/settings/general/ 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

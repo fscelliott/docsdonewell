@@ -5,7 +5,6 @@ author: frances
 #not including layout since it's in the defaults
 ---
 
-# Clarifying software architectural diagrams
 
 At the beginning of my career, hardware and software architectural diagrams intimidated me a bit. But I've come a long way since then; thought I won't claim to understand all the conventions of UML diagrams, I  can come up with my own diagrams and get conversations started. Also, I've gotten fed up enough with "chart junk" over the years that I've read and re-read Edward Tufte's The Visual Display of Quantitative Information, and I make it a point to eliminate extraneous visual information, just as a I eliminate extraneous text.
 
