@@ -38,7 +38,12 @@ repository: "fscelliott/docsdonewell"
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+
+#theme for githubpages hosting
+remote_theme: "mmistakes/minimal-mistakes"
+
+#theme for local /self hosting
+#theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 site.locale: "en-US"
 #search: can set custom search options  https://mmistakes.github.io/minimal-mistakes/docs/configuration/ 
