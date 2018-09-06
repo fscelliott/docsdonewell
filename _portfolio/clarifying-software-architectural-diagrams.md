@@ -18,6 +18,8 @@ The lead software developer created the following diagram to capture software de
 
 
 
+![Before](/assets/images/portfolio/BEFORE_overall_arch.png)
+
 ### After
 
 I used a visual key to cram more implementation information into the diagram (and point out "TBD" areas), simplified arrow direction to flow from left to right and top to bottom, and added clarifying details. I would never claim that my color choices were great from an accessibility or design perspective, but my goal of sparking discussion was met, and I was able to write new software design specifications from the developers' conversations.
