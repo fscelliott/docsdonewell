@@ -19,9 +19,9 @@ task...and it works! and colleagues adopt it, grassroots style!
 1. I rewrote a bunch of old crusty content for minimalism in DITA and 
 shared/structured the heck out of it...without much developer input. 'Cause I 
 understood it! 
-<div> 
-<div>Most recently I'm have fun with rewriting some hardware help for DITA. 
+ 
+Most recently I'm have fun with rewriting some hardware help for DITA. 
 Since the hardware specs are already in DITA, I was able to single-source 
 between them, plus turn a bunch of essays about hardware implementation into 
-really terse tables. yay!<div> 
-<div> 
+really terse tables. yay! 
+ 

@@ -94,7 +94,7 @@ elements. For example, the Reports tab should dropdown (Alph, Hier, etc)
 
 
 ## Interaction design notes for Poolparty Semantic Suite 
-<span style="font-weight: bold;"> 
+ 
 yaaay! This is a much slicker interaction design (I bet it was developed more 
 recently than Synaptica): 
 

@@ -53,7 +53,7 @@ http://www.tricedesigns.com/2013/05/16/phonegap-android-studio/
 PhoneGap Builder (https://build.phonegap.com), put the resulting .apk file on 
 my phone and.... 
 1. YAY! My changes show up in the updated app! 
-<div>The upshot is, I still don't know anything about the Android SDK, but I 
+The upshot is, I still don't know anything about the Android SDK, but I 
 definitely feel I've honed my coding information-hunting skills. 
 
 Here's a screenshot of one of the templates I created, so that future 

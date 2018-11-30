@@ -45,23 +45,15 @@ work. No, the output is not so tangible -- but that's OK with me. I get my
 reward from the process, not from work artifacts. So what parts do I like the 
 best? So far, I most enjoy: 
 
-<div class="MsoNormal" style="line-height: normal; margin-bottom: .0001pt; 
-margin-bottom: 0in; mso-layout-grid-align: none; mso-pagination: none; 
-text-autospace: none;">1. digging deep to truly understand the implications of 
-the technical work in terms of schedule, <span style="font-family: Verdana, 
-sans-serif; font-size: 13.3333px;">risks, and dependencies 
+1. digging deep to truly understand the implications of 
+the technical work in terms of schedule, risks, and dependencies 
 1. translating detailed technical explanations from development managers into 
 summaries for executives 
 1. noticing when critical conversations are lagging and driving them to 
 conclusion 
 1. reconciling ambiguity underlying functional specifications and turning 
 research language into software engineering language 
-1. being the person who has the answers to engineers' questions about <span 
-style="font-family: Verdana, sans-serif; font-size: 
-13.3333px;">priorities<span style="font-family: Verdana, sans-serif; 
-font-size: 10pt;">, cross-functional teams; and articulating agile best <span 
-style="font-family: Verdana, sans-serif; font-size: 13.3333px;">practices<span 
-style="font-family: Verdana, sans-serif; font-size: 10pt;">. 
+1. being the person who has the answers to engineers' questions about priorities, cross-functional teams; and articulating agile best practices. 
 
 
 

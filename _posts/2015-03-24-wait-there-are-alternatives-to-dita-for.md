@@ -42,18 +42,12 @@ and the PDF output:
 
 (I wrote a 
 recipes DITA specialization, because at the time I was really into perfecting 
-my slow cooker skills)<div class="separator" style="clear: both; text-align: 
-center;"> 
-<div class="separator" style="clear: both; text-align: center;"> 
-<div class="separator" style="clear: both; text-align: left;">.<div 
-class="separator" style="clear: both; text-align: left;">Contrast that with 
-the much-easier tutorial Tom posted, and the slick output:<div 
-class="separator" style="clear: both; text-align: left;"> 
-<div class="separator" style="clear: both; text-align: 
-left;">http://tomjohnson1492.github.io/documentation-theme-jekyll/<div 
-class="separator" style="clear: both; text-align: left;"> 
-<div class="separator" style="clear: both; text-align: left;">...OK, I know 
+my slow cooker skills) 
+ 
+.Contrast that with 
+the much-easier tutorial Tom posted, and the slick output: 
+http://tomjohnson1492.github.io/documentation-theme-jekyll/ 
+...OK, I know 
 the compare is somewhat apples and oranges. But still--If I ever get a spare 
-moment, I might just try out that tutorial!<div class="separator" 
-style="clear: both; text-align: left;"> 
-<div class="separator" style="clear: both; text-align: left;"> 
+moment, I might just try out that tutorial! 
+ 

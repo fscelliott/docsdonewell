@@ -51,16 +51,13 @@ Here's a little peek:
 Finally, when it came to looking at existing thesauri, I ran up short. That 
 worries me a little about the state of the field--why are so many abandoned 
 ontologies, taxonomies, and thesauri floating around on the Web? I mean--I 
-actually used Way Back Machine to find this dictionary:  [<span 
-style="font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;; font-size: 
-10.0pt; mso-bidi-font-family: 
-Verdana;">https://web.archive.org/web/20130507093403/http://www.sematech.org/publications/dictionary/u_and_v.htm](https://web.archive.org/web/20130507093403/http:/www.sematech.org/publications/dictionary/u_and_v.htm) 
-<div class="MsoNormal" style="margin-bottom: 0.0001pt;"><span 
-style="font-family: Verdana, sans-serif; font-size: 10pt;"><o:p></o:p>On a 
+actually used Way Back Machine to find this dictionary:  [https://web.archive.org/web/20130507093403/http://www.sematech.org/publications/dictionary/u_and_v.htm](https://web.archive.org/web/20130507093403/http:/www.sematech.org/publications/dictionary/u_and_v.htm) 
+
+On a 
 related note, does Linked Data on the web really have momentum behind it?  Or 
 is it that taxonomy and ontology efforts have a future in enterprises but not 
 as much on the web? I'm definitely going to be watching this debate with 
 interest: http://www.iskouk.org/content/great-debate 
-<div class="separator" style="clear: both; text-align: center;"> 
-<div class="separator" style="clear: both; text-align: center;"> 
-<span id="goog_1973069080"><span id="goog_1973069081"> 
+ 
+ 
+ 

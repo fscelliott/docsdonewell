@@ -18,8 +18,6 @@ brief updates on the coding front:
 'Cause I wrote Python code to build our help system that actually made it into 
 the product's driver build, yay! 
 
-<a name='more'></a> 
-
 This was a really empowering moment for me, because it meant we got our help 
 built when I wanted it built, rather being totally dependent on someone else's 
 schedule. 
@@ -79,9 +77,9 @@ Guide to Python](http://docs.python-guide.org/en/latest/writing/structure/) ,
 and now I have working code that runs 1 test successfully, and which is 
 hopefully easy for the other writers to plug into. 
 
-Here's a snap shot of the 1st working code---all authored by me at this point, 
+<!--Here's a snap shot of the 1st working code---all authored by me at this point, 
 but soon to include others' contributions, hopefully! It's HEAVILY commented, 
 because my cowriters are new to Python. Also I didn't exactly pay attention to 
 commenting best practices; I'm a little embarrassed, but mostly proud: 
 
-https://www.dropbox.com/sh/ftvfg2z733was5r/AABHjSz8GvV6H3eth1-7W0Wia?dl=0 
+https://www.dropbox.com/sh/ftvfg2z733was5r/AABHjSz8GvV6H3eth1-7W0Wia?dl=0 -->

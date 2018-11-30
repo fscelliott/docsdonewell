@@ -44,7 +44,7 @@ So I've temporarily abandoned Scala and I'm currently in the second chapter of
 the Python NLTK book.  It hasn't gotten hard yet and is still a ton of fun. 
 
 * Actually, I've been interested in NLP for a while, but when I checked out 
-Coursera's  [NLP class](https://www.coursera.org/course/nlp) a couple years 
+Coursera's  [NLP class](https://www.coursera.org/learn/language-processing) a couple years 
 ago, I got discouraged--it seemed very mathy! Coming back to it now, I feel 
 more confident in my technical skills in general, and I've started to 
 incompletely connect the dots between NLP and less-mathy linguistics--[this 
