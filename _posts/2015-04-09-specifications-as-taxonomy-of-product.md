@@ -13,8 +13,8 @@ modified_time: '2015-05-20T07:37:16.477-07:00'
 
 I've been working hard  recently to gather specs for a new hardware product 
 I'm documenting. Combing through competitor docs to compare organization, 
-hierarchy, and wording gave me lots of fodder for my [Excel-based 
-taxonomy] 
+hierarchy, and wording gave me lots of fodder for the Excel-based 
+taxonomy I'm developing for the hardware product, 
 increased my conceptual understanding, and springboarded my first draft for a 
 hardware help table of contents. 
 
@@ -24,10 +24,10 @@ organized and concise fashion. In some ways it directly mirrors portions of my
 taxonomy--just reformatted. And in fact, when [Schema.org 
 2.0](http://blog.schema.org/) recently released, I browsed around the release, 
 and my ideas about the similarities of taxonomies and specifications were 
-reinforced. For example, check out the [automotive 
-ontology](http://sdo-property-value-and-cars.appspot.com/Vehicle) proposed 
-extension to Schema.org -- all those properties of vehicles look a lot like 
-(both internal and external) specifications categories to me! 
+reinforced. For example, I found a proposed automotive 
+ontology
+extension to Schema.org (since rejected, I believe). All the properties of vehicles looked a lot like 
+(both internal and external) specifications categories to me.
 
 
 

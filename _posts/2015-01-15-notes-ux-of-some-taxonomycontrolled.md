@@ -24,7 +24,7 @@ we're trying out in the class.
      why can't you easily enter and edit terms in a hierarchical view that 
 also displays non-hierarchical term relationships? (as in the "Hierarchical 
 Report with Additional Relationship Types" report view )?  Is there a 
-philosophical difference from back-of-the-book indexing software, or is it 
+philosophical difference frqom back-of-the-book indexing software, or is it 
 just cumbersome interaction design? (my guess is the latter, since other 
 taxonomy software seems to allow this. In particular, it's pretty clunky in 
 the Item Summary to cycle through 'add (term)-add relationship--edit 
@@ -98,10 +98,10 @@ elements. For example, the Reports tab should dropdown (Alph, Hier, etc)
 yaaay! This is a much slicker interaction design (I bet it was developed more 
 recently than Synaptica): 
 
-    --easy to add terms in a hierarchical view. especially cool that you can 
+-easy to add terms in a hierarchical view. especially cool that you can 
 drag n drop terms to create relationships 
 
---search bar is always present and makes some useful assumptions (you're 
+-search bar is always present and makes some useful assumptions (you're 
 searching w/in the current thesaurus, clicking the suggested auto-complete 
 term from the search bar takes you straight to editing the term) 
 

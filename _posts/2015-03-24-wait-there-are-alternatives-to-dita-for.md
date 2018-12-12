@@ -42,9 +42,9 @@ and the PDF output:
 
 (I wrote a 
 recipes DITA specialization, because at the time I was really into perfecting 
-my slow cooker skills) 
- 
-.Contrast that with 
+my slow cooker skills).
+
+Contrast that with 
 the much-easier tutorial Tom posted, and the slick output: 
 http://tomjohnson1492.github.io/documentation-theme-jekyll/ 
 ...OK, I know 

@@ -38,7 +38,7 @@ environment, import the code, and see if it builds to find out.
 headache....but it looks like this source code doesn't jive at all with their 
 expected project directory structure and file extensions.  
 (http://developer.android.com/training/basics/firstapp/index.html ) 
-1. Could this app have been developed in Elipse? No, I don't think so... 
+1. Could this app have been developed in Eclipse? No, I don't think so... 
 1. Floundering 
 1. All right, let's back up. This app is nothing but a bunch of HTML pages. So 
 let's google "How to make an HTML android app" 

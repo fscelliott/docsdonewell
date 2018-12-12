@@ -36,7 +36,7 @@ At first I was a little bummed to author in Excel when I'd just learned about
 all sorts of fancy thesaurus software like Data Harmony and Synaptica, but 
 this post clued me into creating collapsible sections in Excel, which eased 
 the pain: 
-http://taxodiary.com/2012/04/maintaining-a-thesaurus-in-an-excel-workbook/ 
+http://taxodiary.com/2012/04/maintaining-a-thesaurus-in-an-excel-workbook 
  Overall I think it's the best decision for sharing the thesaurus with other 
 content creators and stakeholders. I've already used it as a conversation 
 starter with my co-writer, and we edited it quite a bit as a result. 
@@ -51,13 +51,13 @@ Here's a little peek:
 Finally, when it came to looking at existing thesauri, I ran up short. That 
 worries me a little about the state of the field--why are so many abandoned 
 ontologies, taxonomies, and thesauri floating around on the Web? I mean--I 
-actually used Way Back Machine to find this dictionary:  [https://web.archive.org/web/20130507093403/http://www.sematech.org/publications/dictionary/u_and_v.htm](https://web.archive.org/web/20130507093403/http:/www.sematech.org/publications/dictionary/u_and_v.htm) 
+actually used Way Back Machine to find a semiconductor dictionary -- https://web.archive.org/web/20130507093403/http://www.sematech.org/publications/dictionary/u_and_v.htm
 
 On a 
 related note, does Linked Data on the web really have momentum behind it?  Or 
 is it that taxonomy and ontology efforts have a future in enterprises but not 
-as much on the web? I'm definitely going to be watching this debate with 
-interest: http://www.iskouk.org/content/great-debate 
+as much on the web? IKSO UK will host a 'great' debate on wheather the thesaurus passed its sell-by date.. I'm definitely going to be watching  with 
+interest: http://www.gurteen.com/gurteen/gurteen.nsf/id/T01541104/
  
  
  
