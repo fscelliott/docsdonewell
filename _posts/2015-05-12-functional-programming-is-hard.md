@@ -20,7 +20,7 @@ the exercises a go in my free time.
 
 But. But. From day one, the coursework emphasizes functional programming. And 
 it's like starting from square one! 
-<a name='more'></a> 
+
 Even capturing parameters from the command line stumped me. I felt like a 
 total dope, until I went home and talked to my spouse, who, keep in mind, is 
 getting a PhD in computational and applied math. 
@@ -43,7 +43,7 @@ Language Toolkit (NLTK), and was bowled over by the resources--there's an
 So I've temporarily abandoned Scala and I'm currently in the second chapter of 
 the Python NLTK book.  It hasn't gotten hard yet and is still a ton of fun. 
 
-* Actually, I've been interested in NLP for a while, but when I checked out 
+\*Actually, I've been interested in NLP for a while, but when I checked out 
 Coursera's  [NLP class](https://www.coursera.org/learn/language-processing) a couple years 
 ago, I got discouraged--it seemed very mathy! Coming back to it now, I feel 
 more confident in my technical skills in general, and I've started to 
