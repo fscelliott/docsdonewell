@@ -99,6 +99,7 @@ author:
 plugins:
   - jekyll-feed
   - jekyll-paginate 
+  - jekyll-include-cache
   
  #defaults for front matter
 #todo: read_time https://mmistakes.github.io/minimal-mistakes/docs/configuration/
