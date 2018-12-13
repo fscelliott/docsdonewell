@@ -7,5 +7,5 @@ entries_layout: grid
 classes: wide
 ---
 
-UNDER CONSTRUCTION 
-Samples of my tech writing and information architecture work over the years.
+
+Samples of my tech writing, UX contributions, and information architecture work over the years.
