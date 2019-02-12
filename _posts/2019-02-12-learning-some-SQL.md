@@ -1,9 +1,23 @@
-#Learning some SQL
+---
+layout: single
+title: Learning some SQL
+date: '2019-02-12T09:55:00.001-08:00'
+author: frances
+tags:
+- technical learning
+modified_time: '2019-02-12T09:55:00.001-08:00'
+
+
+---
+
+
 
 My project management work currently revolves around transforming clinical data into a normalized format and loading it into a database for machine learning researchers to use.
 The project has me wishing I knew more  about SQL -- I run a couple of reporting queries that developers wrote for me through mySQL workbench on a weekly basis, but  wish I could formulate queries of my own.
+
 Recently, a request came in to broaden a existing muti-database query to span more databases.  Before I passed it on to our database developer, I decided to take the opportunity to study the current query, learn more about SQL, and see if I could then size the work involved in broadening the query. (or even do it myself).
-I ultimately concluded that broadening the query would probably involve creating new tables in the databases in question -- so it wouldn't be quite the quick query rewrite that I hoped it would be. My suspicion was confirmed when I took the request to the dev manager and he assigned it lower priority on backlog. 
+
+I ultimately concluded that broadening the query would probably involve creating new tables in the databases in question -- so it wouldn't be quite the quick query rewrite that I hoped it would be. My suspicion was strengthened when I took the request to the dev manager and he assigned it lower priority on backlog. 
 
 I'm attaching here my notes on the SQL query (with dB names changed) so that I can remember my learning process starting from zero; all comments are mine:
 
