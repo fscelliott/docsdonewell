@@ -30,11 +30,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 #A technical tech writer's blog on dev-oriented documentation, like API programming guides.
   
 #FUTURE TROUBLESHOOTING? no need to specify baseurl/url if publishing to https://fscelliott.github.io/docsdonewell/
-baseurl: #"/docsdonewell"
-# the subpath of your site, e.g. /blog #TODO: remove
-url: https://www.franceselliott.com" 
-#"https://www.docsdonewell.com" 
-#"localhost:4000" #or should this be no quotes fscelliott.github.io and no quotes for base url as well?
+
+
+url: "https://www.franceselliott.com" 
+
+#url: "localhost:4000"  #for local test. 
+
+#old URL: #url: "https://www.docsdonewell.com" 
  
 # the base hostname & protocol for your site, e.g. http://example.com #TODO: change https://docsdonewell.com <--make sure no conflict http/https; GH forces https
 twitter_username: fscelliott
