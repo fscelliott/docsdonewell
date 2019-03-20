@@ -14,7 +14,7 @@ Note that the API has since changed quite a bit.  I considered its usability to 
 
 <!--<iframe src="https://docs.google.com/file/d/0B8aGkJVsdqiJamVpUnJ1TDlFbFU/preview" width="100%" height="100%"></iframe>-->
 
-<iframe src="https://drive.google.com/file/d/11-A0oHiriONG14xwMepQ6u9DCdCAbLIZ/preview" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/11-A0oHiriONG14xwMepQ6u9DCdCAbLIZ/preview" width="100%" height="1000%"></iframe>
 
 
 
