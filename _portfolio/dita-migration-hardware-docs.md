@@ -1,5 +1,5 @@
 ---
-title: "Migrating Hardware Calibration Procedures to DITA"
+title: "Migrating hardware calibration procedures to DITA"
 excerpt: "Streamlining procedural variations for better single sourcing"
 author: frances
 #not including layout since it's in the defaults

@@ -1,5 +1,5 @@
 ---
-title: "clarifying software architectural diagrams"
+title: "Clarifying software architectural diagrams"
 excerpt: "redesigning architectural diagrams to clarify engineers' intent"
 author: frances
 #not including layout since it's in the defaults
