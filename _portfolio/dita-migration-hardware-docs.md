@@ -52,12 +52,3 @@ I split up the Adjustment introduction into reusable chunks, cut a lot of conten
   ![Before](/assets/images/portfolio/dita_reuse_adjust_after.png)
 
 
-
-Email This
-BlogThis!
-Share to Twitter
-Share to Facebook
-Share to Pinterest
-
-No comments:
-Post a Comment

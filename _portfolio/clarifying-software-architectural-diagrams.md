@@ -26,13 +26,3 @@ I used a visual key to cram more implementation information into the diagram (an
 
 ![After](/assets/images/portfolio/AFTER_overall_arch.png)
 
-
-
-Email This
-BlogThis!
-Share to Twitter
-Share to Facebook
-Share to Pinterest
-
-No comments:
-Post a Comment

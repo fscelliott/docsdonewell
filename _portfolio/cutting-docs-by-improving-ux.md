@@ -86,13 +86,3 @@ But sometimes my insistence on naming things was a boon. For example, I suggeste
 
 In the end, I'd say I had a hand in 80% of the UI text, and affected a couple of key user interactions.
 
-
-
-Email This
-BlogThis!
-Share to Twitter
-Share to Facebook
-Share to Pinterest
-
-No comments:
-Post a Comment
