@@ -50,7 +50,7 @@ Here's a screenshot of my complete overhaul of the existing documentation:
 
 
 
-### 
+
 
 ## My UX process
 

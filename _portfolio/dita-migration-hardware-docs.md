@@ -37,7 +37,7 @@ When you look at the source behind a typical topic I structured, you can see it'
 
   Here are some example of how I rewrote to cut wordiness and chunk content:
 
-  ### Before (adjustment intro)
+### Before (adjustment intro)
 
   A previous writer's introduction to the Adjustment section represented a compromise between our legacy step-by-step coding instructions and a newer, shorter format -- but was still quite lengthy:
 
