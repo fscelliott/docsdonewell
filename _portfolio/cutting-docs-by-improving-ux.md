@@ -8,7 +8,6 @@ author: frances
 <!-- toc -->
 
 - [TLDR](#tldr)
-- [Initial Task](#initial-task)
 - [Goals and Results](#goals-and-results)
 - [Before](#before)
 - [After](#after)
@@ -22,13 +21,17 @@ To skip straight to my writing sample, see [Debugging a Device in the SFP While 
 
 ## Initial task
 
-My assignment was to document a feature that allowed two different programs to hand off read/write access to a device. (An analogy in the consumer electronics world would be interacting with a TV using both a remote control and an iPad.)
+
 
 ## Goals and results
 
+My assignment was to document a feature that allowed two different programs to hand off read/write access to a device. (An analogy in the consumer electronics world would be interacting with a TV using both a remote control and an iPad.)
 I initially focused on rewriting the existing 1.0 documentation for the 2.0 release, but I quickly realized that the existing documentation was difficult to read because the feature was hard to use. 
 I therefore voluntarily took on the role of providing UX feedback and shaping the "microcopy" for UI elements--the text on dialogues, buttons, and displays.
-In the end, I cut the existing 1.0 documentation roughly in half for the 2.0 release.
+In the end, I:
+- cut the existing 1.0 documentation roughly in half for the 2.0 release
+- had a hand in 80% of the UI text
+- influenced a couple of key user interactions.
 
 
 
@@ -94,5 +97,5 @@ But sometimes my insistence on naming things was a boon. For example, I suggeste
 
 
 
-In the end, I'd say I had a hand in 80% of the UI text, and affected a couple of key user interactions.
+
 
