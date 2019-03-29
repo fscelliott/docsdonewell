@@ -7,7 +7,7 @@ author: frances
 
 <!-- toc -->
 
-- [TLDR] (#tldr)
+- [TLDR](#tldr)
 - [Initial Task](#initial-task)
 - [Initial Task](#initial-task)
 - [Goals and Results](#goals-and-results)

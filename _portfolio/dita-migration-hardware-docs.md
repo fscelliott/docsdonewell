@@ -6,10 +6,15 @@ author: frances
 ---
 
 <!-- toc -->
+- [TLDR](#tldr)
 - [Goals and results](#goals-and-results)
 - [Before] (#before)
 - [After](#after)
 <!-- tocstop -->
+
+
+## TLDR
+To skip straight to my writing sample, see [PXIe-XXXX Calibration Template](https://drive.google.com/file/d/18uNb2zUvpzIL6pAgSWgZONeIRnX6vWtn/preview)
 
 
 ## Goals and results
