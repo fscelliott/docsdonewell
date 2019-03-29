@@ -14,7 +14,9 @@ author: frances
 
 
 ## TLDR
-To skip straight to my writing sample, see [PXIe-XXXX Calibration Template](https://drive.google.com/file/d/18uNb2zUvpzIL6pAgSWgZONeIRnX6vWtn/preview)
+To skip straight to my writing sample, see 
+<a href="https://drive.google.com/file/d/18uNb2zUvpzIL6pAgSWgZONeIRnX6vWtn/preview" target="_blank">PXIe-XXXX Calibration Template</a>
+
 
 
 ## Goals and results
