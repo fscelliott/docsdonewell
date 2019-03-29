@@ -45,7 +45,7 @@ The previous writer authored nearly 2,000 words on this feature, in part because
 
 ### After
 
-I cut documentation in half, to roughly 1,000 words, and in the process:
+I cut documentation down to about 1,000 words, and in the process:
 
 - rewrote for DITA reuse, with 2 device groups in mind (a successor writer has already reused my documentation with minimal changes for a new group)
 - de-emphasized a formerly central task (launching the SFP from a probe) after usability tests and conversations convinced me that, while "cool," it wasn't the main use case
