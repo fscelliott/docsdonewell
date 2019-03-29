@@ -5,6 +5,10 @@ author: frances
 #not including layout since it's in the defaults
 ---
 
+<!-- toc -->
+- [Initial Task](## Initial Task)
+- [Goals](## Goals)
+<!-- tocstop -->
 
 
 ## Initial Task
