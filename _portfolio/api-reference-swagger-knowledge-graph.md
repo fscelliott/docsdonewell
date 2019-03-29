@@ -16,7 +16,5 @@ The API usability was pretty raw when I documented the 1.0 version. I would say 
 
 
 
-The API has since been simplified. For the current docs, see the [Knowledge Graph endpoints in the Watson Discovery service](https://console.bluemix.net/docs/services/discovery/building-kg.html#kg). Note link may change frequently.
-
-
+The API has since been substantially changed. For the current docs, see the Knowledge Graph endpoints in the Watson Discovery service (link changes frequently).
 
