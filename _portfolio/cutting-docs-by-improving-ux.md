@@ -6,25 +6,30 @@ author: frances
 ---
 
 <!-- toc -->
+
+- [TLDR] (#tldr)
 - [Initial Task](#initial-task)
-- [Goals](#goals)
+- [Initial Task](#initial-task)
+- [Goals and Results](#goals-and-results)
 - [Before](#before)
 - [After](#after)
 - [My UX contributions](#my-ux-contributions)
 <!-- tocstop -->
 
 
-## Initial Task
+## TLDR
+To skip straight to my writing sample, see [Debugging a Device in the SFP While in Use by Another Application](https://drive.google.com/file/d/1ldV6fe70wGRM_iOzZ9RELEjeH4kjWFrF/preview)
+
+
+## Initial task
 
 My assignment was to document a feature that allowed two different programs to hand off read/write access to a device. (An analogy in the consumer electronics world would be interacting with a TV using both a remote control and an iPad.)
 
-## Goals
+## Goals and results
 
-I initially focused on rewriting the existing 1.0 documentation for the 2.0 release, but I quickly realized that the existing documentation was difficult to read because the feature was hard to use. I therefore voluntarily took on the role of providing UX feedback and shaping the "microcopy" for UI elements--the text on dialogues, buttons, and displays.
-
-## Outcomes and Lessons Learned
-
-I cut the existing 1.0 documentation roughly in half for the 2.0 release.
+I initially focused on rewriting the existing 1.0 documentation for the 2.0 release, but I quickly realized that the existing documentation was difficult to read because the feature was hard to use. 
+I therefore voluntarily took on the role of providing UX feedback and shaping the "microcopy" for UI elements--the text on dialogues, buttons, and displays.
+In the end, I cut the existing 1.0 documentation roughly in half for the 2.0 release.
 
 
 

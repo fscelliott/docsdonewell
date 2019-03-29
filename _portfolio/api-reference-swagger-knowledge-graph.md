@@ -12,7 +12,7 @@ I would say that the most challenging endpoint to document was GET /relationship
 
 Note that the API has since changed quite a bit.  I considered its usability to be pretty raw when I documented the 1.0 version. The API has since been simplified and incorporated into another API -- See the Knowledge Graph endpoints in the Watson Discovery service (currently [here](https://console.bluemix.net/docs/services/discovery/building-kg.html#kg), but link may change frequently).
 
-<!--<iframe src="https://docs.google.com/file/d/0B8aGkJVsdqiJamVpUnJ1TDlFbFU/preview" width="100%" height="100%"></iframe>-->
+
 
 <iframe src="https://drive.google.com/file/d/11-A0oHiriONG14xwMepQ6u9DCdCAbLIZ/preview" width="100%" height="800em"></iframe>
 
