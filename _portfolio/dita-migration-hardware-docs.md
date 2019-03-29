@@ -50,5 +50,16 @@ I split up the Adjustment introduction into reusable chunks, cut a lot of conten
 
 
   ![Before](/assets/images/portfolio/dita_reuse_adjust_after.png)
+  
+ 
+For the full DITA template I authored, see:
+
+<iframe src="https://drive.google.com/file/d/18uNb2zUvpzIL6pAgSWgZONeIRnX6vWtn/preview" width="100%" height="800em"></iframe>
+
+
+
+
+
+
 
 
