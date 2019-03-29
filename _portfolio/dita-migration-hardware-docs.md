@@ -8,7 +8,7 @@ author: frances
 <!-- toc -->
 - [TLDR](#tldr)
 - [Goals and results](#goals-and-results)
-- [Before] (#before)
+- [Before](#before)
 - [After](#after)
 <!-- tocstop -->
 
