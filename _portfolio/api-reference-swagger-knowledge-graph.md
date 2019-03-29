@@ -8,9 +8,9 @@ author: frances
 
 At IBM Watson, I was the first technical writer to document the Knowledge Graph API. I wrote the following Swagger API reference almost entirely by myself, with minimal developer input. Please note the following PDF represents only the tip of the iceberg; I also wrote extensive documentation on the json payload parameters, not shown here for the sake of brevity.
 
-I would say that the most challenging endpoint to document was GET /relationshipsByTemplate, an in-development endpoint that required me to leverage my knowledge of the "semantic web" and to experiment heavily with the endpoint myself in order to write intelligibly and come up with my own examples.
+The API usability was pretty raw when I documented the 1.0 version. I would say that the most challenging endpoint to document was GET /relationshipsByTemplate, an in-development endpoint that required me to leverage my knowledge of the semantic web and to experiment heavily with the endpoint myself in order to come up with relevant examples.
 
-Note that the API has since changed quite a bit.  I considered its usability to be pretty raw when I documented the 1.0 version. The API has since been simplified and incorporated into another API -- See the Knowledge Graph endpoints in the Watson Discovery service (currently [here](https://console.bluemix.net/docs/services/discovery/building-kg.html#kg), but link may change frequently).
+The API has since been simplified. For the current docs, see the [Knowledge Graph endpoints in the Watson Discovery service](https://console.bluemix.net/docs/services/discovery/building-kg.html#kg). Note link may change frequently.
 
 
 

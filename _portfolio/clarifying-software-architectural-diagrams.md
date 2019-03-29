@@ -17,7 +17,7 @@ At the beginning of my career, hardware and software architectural diagrams inti
 
 ## Goals and results
 
-I wanted to revise a proposed high-level software rearchitecture diagram in order to spark further developer discussions, so I could get clarification on the software design specifications that I was writing.
+I wanted to revise a high-level software rearchitecture diagram in order to clarify the formal software design specifications I was writing as a release manager.
 I would never claim that my color choices were great from an accessibility or design perspective, but my goal of sparking discussion was met, and from those discussions I was able to write new software design specifications.
 
 ### Before
