@@ -1,6 +1,6 @@
 ---
 title: "Swagger API reference"
-excerpt: "Swagger reference for IBM Watson Cognitive API"
+excerpt: "Swagger reference for IBM Watson cognitive API"
 author: frances
 #not including layout since it's in the defaults
 ---
