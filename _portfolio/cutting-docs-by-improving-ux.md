@@ -23,13 +23,12 @@ I cut the existing 1.0 documentation roughly in half for the 2.0 release.
 
 ### Before
 
-The previous writer authored nearly 2,000 words on this feature, in part because the technical use case was more complex and the UX was less thought out. Here's a screenshot of the preexisting documentation:
+The previous writer authored nearly 2,000 words on this feature, in part because the technical use case was more complex and the UX was less thought out. Here's the preexisting documentation:
 
 
 
+<iframe src="https://drive.google.com/file/d/1YLQ_PqA1YfnrJAo7J2TmJbVa9l6BuzsC/preview" width="100%" height="300em"></iframe>
 
-
-  ![Before](/assets/images/portfolio/ux_docs_sfp_before.png)
 
 
 
@@ -42,11 +41,14 @@ I cut documentation in half, to roughly 1,000 words, and in the process:
 - added a troubleshooting section based on observing usability testing
 - tailored headings to aid search results by reflecting UI text 
 
-Here's a screenshot of my complete overhaul of the existing documentation:
+Here's my complete overhaul of the existing documentation:
+
+
+<iframe src="https://drive.google.com/file/d/1ldV6fe70wGRM_iOzZ9RELEjeH4kjWFrF/preview" width="100%" height="800em"></iframe>
 
 
 
-  ![Before](/assets/images/portfolio/ux_docs_sfp_after.png)
+
 
 
 
