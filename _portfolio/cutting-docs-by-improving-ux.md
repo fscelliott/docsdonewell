@@ -6,8 +6,8 @@ author: frances
 ---
 
 <!-- toc -->
-- [Initial Task](## Initial Task)
-- [Goals](## Goals)
+- [Initial Task](#Initial Task)
+- [Goals](#Goals)
 <!-- tocstop -->
 
 
