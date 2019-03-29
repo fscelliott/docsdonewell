@@ -8,6 +8,9 @@ author: frances
 <!-- toc -->
 - [Initial Task](#initial-task)
 - [Goals](#goals)
+- [Before](#before)
+- [After](#after)
+- [My UX contributions](#my-ux-contributions)
 <!-- tocstop -->
 
 
@@ -58,7 +61,7 @@ Here's my complete overhaul of the existing documentation:
 
 
 
-## My UX process
+## My UX contributions
 
 Revising the documentation was a product of  my extensive work with the development team and with a usability research on the UX of our product. 
 
@@ -76,9 +79,6 @@ And I used Balsamiq wireframes to drive team meetings around terminology and wor
 
 ![Before](/assets/images/portfolio/ux_docs_sfp_wireframes.png)
 
-
-
-## UX personal lessons learned and outcomes
 
 
 
