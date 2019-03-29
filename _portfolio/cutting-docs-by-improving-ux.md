@@ -16,7 +16,10 @@ author: frances
 
 
 ## TLDR
-To skip straight to my writing sample, see [Debugging a Device in the SFP While in Use by Another Application](https://drive.google.com/file/d/1ldV6fe70wGRM_iOzZ9RELEjeH4kjWFrF/preview)
+To skip straight to my writing sample, see 
+<a href="https://drive.google.com/file/d/1ldV6fe70wGRM_iOzZ9RELEjeH4kjWFrF/preview" target="_blank">Debugging a Device in the SFP While in Use by Another Application</a>
+
+
 
 
 
