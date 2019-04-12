@@ -14,7 +14,8 @@ modified_time: '2019-04-04T13:13:14.240-08:00'
 
 Whoo-hoo! That SQL coursera course  I took turned out to be really useful -- in the last 2 weeks or so, I authored not 1, but 2 SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago.
 
-A disclaimer -- before publishing, I thought about whether I was revealing any workplace-confidential information. 
+A disclaimer -- before publishing, I thought about whether publishing my SQL snippets would reveal any workplace-confidential information. 
+
 I don't think so because:
 
 - It's no secret we're collecting clincial images for machine-learning training
