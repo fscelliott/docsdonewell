@@ -16,15 +16,25 @@ Whoo-hoo! That SQL coursera course  I took turned out to be really useful -- in 
 
 A disclaimer -- before publishing, I thought about whether I was revealing any workplace-confidential information. 
 I don't think so because:
-1.  It's no secret we're collecting clincial images for machine-learning training
-2. I've redacted the names of all databases involved
-3. I'm not sharing any of the query results 
 
-OK! So, onward to my SQL queries:
-SQL query #1:
+- It's no secret we're collecting clincial images for machine-learning training
 
-I got a request from my boss asking to inventorize the clincial data we've received that is intended for machine-learning training.
-She wanted the data bucketed by project, site, and:
+- I've redacted the names of all databases involved
+
+- I'm not sharing any of the query results 
+
+
+
+  OK! So, onward to my SQL queries:
+
+  ## SQL query #1:
+
+I got a request from my boss asking for an inventory of the clinical data we've received that is intended for machine-learning training.
+
+For each of our data providers and for each of our projects, she wanted the data bucketed by:
+
+ 
+
 - Total number of patients 
 - Total number of studies by modality 
 - Total number of images by modality
@@ -34,11 +44,12 @@ She wanted the data bucketed by project, site, and:
 Since she CC'd me not just the dB engineers, I thought I'd take a crack at it to lessen the engineers' load.
 
 Before I started writing the query, I: 
-explored all table schemas
-figured out only 1 table had modalities; examined those possible modality values.
-knew I needed to link this modalities table to other tables; figured out which fields were MUL keys.
-Determined I'd use accession_number to figure out # of unique images based on dB source.
-Knew I could leverage other queries I'd seen to get the rest of the info.
+
+- explored all table schemas
+- figured out only 1 table had modalities; examined those possible modality values.
+- knew I needed to link this modalities table to other tables; figured out which fields were MUL keys.
+- Determined I'd use accession_number to figure out # of unique images based on dB source.
+- Knew I could leverage other queries I'd seen to get the rest of the info.
 
 The meat of the query I came up with is (NOTE: database names REDACTED):
 
@@ -95,29 +106,37 @@ GROUP BY Provider, Project, Batch_ID, Batch_Description, modality;
 
 ```
 
-TROUBLESHOOTING:
-- In writing the query, I uncovered some duplicate listings of images in one of our dBs. Our lead dB engineer confirmed it needed to be cleaned up, so I opened a github card.
-- Frustratingly, when I compared my results to other, prexisting SQL queries, I realized that I was in some cases overcounting the # of patients and images per project and provider. 
+#### TROUBLESHOOTING:
+
+In writing the query, I uncovered some duplicate listings of images in one of our dBs. Our lead dB engineer confirmed it needed to be cleaned up, so I opened a github card.
+
+Frustratingly, when I compared my results to other, prexisting SQL queries, I realized that I was in some cases overcounting the # of patients and images per project and provider. 
 I asked a DB engineer to correct my query; what he sent me was constructed a little differently BUT he had the same discrepancies.
+
 We concluded together that this was because a patient could have MULTIPLE modalities -- duh, of course.
 At this point, I was wondering what our data needs were, and I suggested perhaps bucketing patients by the modality of their primary study, and ignoring other modalities (but, I thought this might be tough since checking for a primary study involves checking CTP codes..)
 However, my boss seemed to be satisfied instead with a query that showed all total patients (not doublecounted) combined with a report of modality frequency (ie how many patients have more than 1 modality, and what modality combos they have.
 
-SQL features I learned about from writing this query
+#### SQL features I learned about from writing this query:
+
+
+
 I learned about a couple of SQL functions that were not covered in the coursera course by examining the code of the DB engineer who helped me out by writing an alternate query to mine: 
 UNION ALL -- useful when dealing with almost-duplicate dBs where you have run the same query (with some modifications) across both then combine the results
 GROUP_CONCAT -- really nice for gettting the list of image modalities as a comma-separated list! yeah!
 
+## SQL Query #2
 
-SQL Query #2
-When I first started project managing this team, I relied on an SQL query, let's call it 'data summary', that let me know when clincial data had been ingested into our database by provider and project, and gave me a rough sense of the quality of that data (IE, rough estimates of whether patients had, at a bare minimum, associated images and reports).
-Recnetly, our dB engineers introduced another quality check: counting the number of patients who had at least one complete study that was of primary interest to our algorithms team (ie, the study had the right CTP or other medical codes or descriptions).  This quality check information isn't stored in any tables at present, but I did find the SQL queries they were using to run it.
-I decided I wanted  to integrate the new quality checks into the exsiting data summary query.
+When I first started project managing this team, I relied on an SQL query, let's call it 'data summary', that let me know when clinical data had been ingested into our database by provider and project, and gave me a rough sense of the quality of that data (IE, rough estimates of whether patients had, at a bare minimum, associated images and reports).
+
+Recently, our dB engineers introduced another quality check: counting the number of patients who had at least one complete study that was of primary interest to our algorithms team (ie, the study had the right CTP or other medical codes or descriptions).  This quality check information isn't stored in any tables at present, but I did find the SQL queries they were using to run it.
+
+I decided I wanted  to integrate the new quality checks into the existing data summary query.
 So, I took the new query, which ran on a per-project/per-provider basis, and turned it into a subquery so I could get some totals. 
-Then, I ran into big challenges trying to combine it with the existing data summary query, and after a day of trying stuff out on my own, bailed and asked a dB engineer for advice.
-When I talked to a dB engineer, his first response was to show me how to create a temporary table for the new quality checks, then combine those with the existing data summary. However, the dB admin was reluctant to grant me CREAT TEMP TABLE privledges (I learned there can be all sorts of probles with temporary table names colliding, etc) and recommended that we create a private dB in my name if I wanted create table privledges. I didn't feel like I did enough dB work to warrant my own dB (especially since none of the engineers appear to have their own), so I worked with a dB engineer to rewrite the query without creating tables.
 
-I'm kinda not surprised that I needed some help on this one -- in the end, the engineer came up with a query that features a subquery inside a subquery inside an inner join(!!!!) that sounds very complicated to me, espeically compared with create/drop table solution, but what do I know of standard SQL practices? In any case, it runs quickly. Here it is, with comments indicating the stuff I wrote:
+Then, I ran into big challenges trying to combine it with the existing data summary query, and after a day of trying stuff out on my own, bailed and asked a dB engineer for advice. When I talked to a dB engineer, his first response was to show me how to create a temporary table for the new quality checks, then combine those with the existing data summary. However, the dB admin was reluctant to grant me CREATE TEMP TABLE privileges (I learned there can be all sorts of problems with temporary table names colliding, etc) and recommended that we create a private dB in my name if I wanted create table privileges. I didn't feel like I did enough dB work to warrant my own dB (especially since none of the engineers appear to have their own), so I worked with a dB engineer to rewrite the query without creating tables.
+
+I'm kinda not surprised that I needed some help on this one -- in the end, the engineer came up with a query that features a subquery inside a subquery inside an inner join(!!!!) that sounds very complicated to me, especially compared with create/drop table solution, but what do I know of standard SQL practices? In any case, it runs quickly. Here it is, with comments indicating the stuff I wrote:
 
 ```
 
