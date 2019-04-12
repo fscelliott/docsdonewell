@@ -107,7 +107,7 @@ GROUP BY Provider, Project, Batch_ID, Batch_Description, modality;
 
 ```
 
-#### TROUBLESHOOTING:
+#### Troubleshooting:
 
 In writing the query, I uncovered some duplicate listings of images in one of our dBs. Our lead dB engineer confirmed it needed to be cleaned up, so I opened a github card.
 
