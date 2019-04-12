@@ -32,7 +32,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #FUTURE TROUBLESHOOTING? no need to specify baseurl/url if publishing to https://fscelliott.github.io/docsdonewell/
 
 
-url: "https://www.franceselliott.com" 
+url: "https://www.franceselliott.com"  #production env
 
 #url: "localhost:4000"  #for local test. 
 
