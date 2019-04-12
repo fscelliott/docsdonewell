@@ -123,8 +123,9 @@ However, my boss seemed to be satisfied instead with a query that showed all tot
 
 
 I learned about a couple of SQL functions that were not covered in the coursera course by examining the code of the DB engineer who helped me out by writing an alternate query to mine: 
-UNION ALL -- useful when dealing with almost-duplicate dBs where you have run the same query (with some modifications) across both then combine the results
-GROUP_CONCAT -- really nice for gettting the list of image modalities as a comma-separated list! yeah!
+
+- UNION ALL -- useful when dealing with almost-duplicate dBs where you have run the same query (with some modifications) across both then combine the results
+- GROUP_CONCAT -- really nice for gettting the list of image modalities as a comma-separated list on a per-provider/per-project basis! yeah!
 
 ## SQL Query #2
 
