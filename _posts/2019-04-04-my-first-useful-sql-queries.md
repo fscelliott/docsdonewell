@@ -12,13 +12,13 @@ modified_time: '2019-04-04T13:13:14.240-08:00'
 ---
 
 
-Whoo-hoo! That SQL coursera course  I took turned out to be really useful -- in the last 2 weeks or so, I authored not 1, but 2 SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago.
+Whoo-hoo! That [SQL coursera course] (<https://www.coursera.org/learn/analytics-mysql?specialization=excel-mysql>)  I took (part of the Excel to MySQL: Analytic Techniques for Business Specialization) turned out to be really useful -- in the last 2 weeks or so, I authored not 1, but 2 SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago.
 
 A disclaimer -- before publishing, I thought about whether publishing my SQL snippets would reveal any workplace-confidential information. 
 
 I don't think so because:
 
-- It's no secret we're collecting clincial images for machine-learning training
+- It's no secret we're collecting clinical images for machine-learning training
 
 - I've redacted the names of all databases involved
 
@@ -115,8 +115,8 @@ Frustratingly, when I compared my results to other, prexisting SQL queries, I re
 I asked a DB engineer to correct my query; what he sent me was constructed a little differently BUT he had the same discrepancies.
 
 We concluded together that this was because a patient could have MULTIPLE modalities -- duh, of course.
-At this point, I was wondering what our data needs were, and I suggested perhaps bucketing patients by the modality of their primary study, and ignoring other modalities (but, I thought this might be tough since checking for a primary study involves checking CTP codes..)
-However, my boss seemed to be satisfied instead with a query that showed all total patients (not doublecounted) combined with a report of modality frequency (ie how many patients have more than 1 modality, and what modality combos they have.
+At this point, I was wondering what our data needs were, and I suggested perhaps bucketing patients by the modality of their primary study, and ignoring other modalities (but, I thought this might be tough since checking for a primary study involves checking CTP codes.)
+However, my boss seemed to be satisfied instead with a query that showed all total patients (not double counted) combined with a report of modality frequency (i.e., how many patients have more than 1 modality, and what modality combos they have).
 
 #### SQL features I learned about from writing this query:
 
@@ -125,7 +125,7 @@ However, my boss seemed to be satisfied instead with a query that showed all tot
 I learned about a couple of SQL functions that were not covered in the coursera course by examining the code of the DB engineer who helped me out by writing an alternate query to mine: 
 
 - UNION ALL -- useful when dealing with almost-duplicate dBs where you have run the same query (with some modifications) across both then combine the results
-- GROUP_CONCAT -- really nice for gettting the list of image modalities as a comma-separated list on a per-provider/per-project basis! yeah!
+- GROUP_CONCAT -- really nice for getting the list of image modalities as a comma-separated list on a per-provider/per-project basis! yeah!
 
 ## SQL Query #2
 
