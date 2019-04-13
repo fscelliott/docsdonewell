@@ -12,7 +12,7 @@ modified_time: '2019-04-04T13:13:14.240-08:00'
 ---
 
 
-Whoo-hoo! That [SQL coursera course] (<https://www.coursera.org/learn/analytics-mysql?specialization=excel-mysql>)  I took (part of the Excel to MySQL: Analytic Techniques for Business Specialization) turned out to be really useful -- in the last 2 weeks or so, I authored not 1, but 2 SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago.
+Whoo-hoo! That SQL coursera [course](https://www.coursera.org/learn/analytics-mysql?specialization=excel-mysql)  I took (part of the Excel to MySQL: Analytic Techniques for Business Specialization) turned out to be really useful -- in the last 2 weeks or so, I authored not 1, but 2 SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago.
 
 A disclaimer -- before publishing, I thought about whether publishing my SQL snippets would reveal any workplace-confidential information. 
 
