@@ -11,7 +11,7 @@ modified_time: '2015-03-24T12:53:18.253-07:00'
 ---
 
 I got a permanently dedicated section of our department's newsletter. *someone 
-took the time to make me a logo! *I feel so loved. 
+took the time to make me a logo!* I feel so loved. 
 
 ![script corner](/assets/images/scriptcorner.png)
 

@@ -41,8 +41,8 @@ but for example, he spent 3 hours hunting down a suuuuuper old .exe that lived
 deep in our version control system! 
 
 
-## Someone else is calling me a code architect! Even though I consider myself 
-a hacker... 
+## Someone else is calling me a code architect!  
+Even though I consider myself a hacker.
 There's a couple other writers on my floor who also code, and one of them 
 invited me to collaborate on a project recently.  It went great--he handled 
 most of it, I handled all the file I/O portions, and we ended up with a tool 
