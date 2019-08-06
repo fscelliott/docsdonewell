@@ -20,10 +20,9 @@ should do*, I worked independently for the most part, occasionally checking in
 to make sure I was interpreting his specs correctly, read up on ansible, 
 kubernetes, a few python modules (jinja2, argparse, and configparser), learned 
 a lot about linux (our deployment environment), a few features of yaml 
-and..... two weeks later I have a working script that is intended to be used 
+and...two weeks later I have a working script that is intended to be used 
 by our devops team in production. The experience was such a contrast to my 
-early Python days, when error messages were mysterious and frustrating; most 
-of the time, I had an instinct for what was wrong and quickly debugged. 
+early Python days, when error messages were mysterious and frustrating. Now, I mostly have an instinct for what's wrong and can quickly debug. 
 
 So at the moment, I don't have to ask, "when will the tool be ready to 
 document, and what will it do?" Because I'm writing it. Which is a good thing, 

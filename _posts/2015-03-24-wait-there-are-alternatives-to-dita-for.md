@@ -39,7 +39,6 @@ and the PDF output:
 
 ![dita html](/assets/images/slow_cooker_dita_pdf.png) 
 
-
 (I wrote a 
 recipes DITA specialization, because at the time I was really into perfecting 
 my slow cooker skills).
@@ -50,4 +49,3 @@ http://tomjohnson1492.github.io/documentation-theme-jekyll/
 ...OK, I know 
 the compare is somewhat apples and oranges. But still--If I ever get a spare 
 moment, I might just try out that tutorial! 
- 

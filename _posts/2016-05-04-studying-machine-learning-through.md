@@ -22,7 +22,7 @@ never occurred to me I might wish one day I had.
 Fortunately, the instructor is really, really good at going slow and 
 reassuringly pointing out when we don't actually have to understand the 
 calculus or stats he's talking about.  He's also really good a giving us an 
-intuitive understanding of the purpose of a formula -- so, while I don't 
+intuitive understanding of the purpose of a formula. So, while I don't 
 understand how to calculate a partial derivative for gradient descent, I *do* 
 understand how taking the tangent of a curve gets us to take a step in the 
 direction of steepest descent. 
@@ -36,15 +36,15 @@ I thought doing the homework would force me to understand the calculus/stats
 the teacher said we didn't need to understand...but it turns out that's not 
 the case. Instead, so far it's more about learning the ins and outs of matrix 
 math and of Octave, the programming language we're using. I'll admit, I'd be 
-pretty lost without StackOverflow and the course wiki -- but when I see 
-students posting the same questions I had, it reassures me that I'm somewhat 
+pretty lost without StackOverflow and the course wiki. That said, when I see 
+students posting the same questions I had, it reassures me that I'm
 on the right track. 
 
 This course got me thinking about how being totally unintimidated and getting 
 by with "sorta understanding" is a valuable tech writer skill. Back in my 
 student days, I wanted to master everything from the get-go. But teaching 
 myself coding and learning about technology on the job taught me to grab at 
-the big picture from the get-go instead, and fill in the confusing bits as I 
+the overview first, and fill in the confusing bits as I 
 go. It's like my ability to read a book or a bunch of online info really 
 quickly and connect the big-picture points first (something my 
 engineering-trained spouse would never do).  That's not an approach that works 
@@ -59,19 +59,19 @@ writer -- I get to study!), and I find myself revisiting math with fresh
 appreciation. Maybe math is not my main talent, but who cares? I'm learning, 
 and I love how my brain feels when that happens. 
 
-## update 
+## Update 
 In the end, I did the homework and implemented gradient descent for linear 
 regression and for logistic regression in Octave (with much online help). 
 After that, I mostly audited the course and took notes. Some highlights I took 
 away (probably I've mis-stated a bunch of stuff; I'd have to rewatch the 
-videos to get it exactly right!): 
+videos to get it exactly right): 
 
-1. neural networks let you compute truth tables for logic operations like AND, 
+1. Neural networks let you compute truth tables for logic operations like AND, 
 OR, XNOR, bv varying the weights (thetas) of your inputs and then running the 
 sigmoid function on the sum of the weighted inputs. In each hidden layer, you 
 learn a new theta through forward propagation, i.e. through reapplying the 
 sigmoid function(???) 
-1. support vector machines are similar to logistic regression, with the 
+1. Support vector machines are similar to logistic regression, with the 
 addition of kernels (landmarks to which you measure the similarity, or 
 distance, of your examples). In cost optimization, you compute the 'vector 
 inner product'  (just a Pythagorean measure of length) between theta and 
