@@ -13,21 +13,21 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Montserrat, Georgia, Times, serif !default;
+$serif: Raleway, Georgia, Times, serif !default;
 $sans-serif: -apple-system, Montserrat, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: Montserrat, $sans-serif !default;
-$helvetica: Montserrat, Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica:  Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
-$georgia: Montserrat, Georgia, serif !default;
-$times: Montserrat, Times, serif !default;
-$bodoni: Montserrat, "Bodoni MT", serif !default;
-$calisto: Montserrat,  "Calisto MT", serif !default;
-$garamond: Montserrat, Garamond, serif !default;
+$georgia:  Georgia, serif !default;
+$times:  Times, serif !default;
+$bodoni:  "Bodoni MT", serif !default;
+$calisto:   "Calisto MT", serif !default;
+$garamond:  Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
