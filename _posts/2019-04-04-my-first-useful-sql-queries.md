@@ -12,7 +12,7 @@ modified_time: '2019-04-04T13:13:14.240-08:00'
 ---
 
 
-Whoo-hoo! In the last couple weeks, I authored not one, but two SQL queries that were actually useful for my project management tasks! Not bad given my null knowledge of SQL not a month ago. That SQL coursera [course](https://www.coursera.org/learn/analytics-mysql?specialization=excel-mysql)  I took (part of the Excel to MySQL: Analytic Techniques for Business Specialization) turned out to be really useful!
+Whoo-hoo! In the last few weeks, I went from zero knowledge of SQL, to authoring two SQL queries that were actually useful for my project management tasks! That SQL coursera [course](https://www.coursera.org/learn/analytics-mysql?specialization=excel-mysql)  I took (part of the Excel to MySQL: Analytic Techniques for Business Specialization) turned out to be really useful!
 
 A disclaimer -- before publishing, I thought about whether sharing my SQL snippets would reveal any workplace-confidential information. 
 
