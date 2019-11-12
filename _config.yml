@@ -22,12 +22,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Technical project manager
+title: Technical project manager & information developer
 #title: docs done well
-email: fscelliott@gmail.com
+email: fsc.elliott@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A technical project manager's reflections on software development practices
-#A technical tech writer's blog on dev-oriented documentation, like API programming guides.
+#Reflections on software development practices
+A tech-heavy tech writer's blog on all things work. 
+#dev-oriented documentation, like API programming guides.
   
 #FUTURE TROUBLESHOOTING? no need to specify baseurl/url if publishing to https://fscelliott.github.io/docsdonewell/
 
