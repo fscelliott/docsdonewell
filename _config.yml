@@ -25,8 +25,9 @@
 title: Technical project manager & information developer
 #title: docs done well
 email: fsc.elliott@gmail.com
-description: >- # this means to ignore newlines until next key
-A tech-heavy tech writer's blog on all things work. 
+description: >- A tech-heavy tech writer's blog on all things work.
+#>- # this means to ignore newlines until next key
+ 
 #Reflections on software development practices
 #dev-oriented documentation, like API programming guides.
   
