@@ -25,9 +25,9 @@
 title: Technical project manager & information developer
 #title: docs done well
 email: fsc.elliott@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-#Reflections on software development practices
+description: >- # this means to ignore newlines until next key
 A tech-heavy tech writer's blog on all things work. 
+#Reflections on software development practices
 #dev-oriented documentation, like API programming guides.
   
 #FUTURE TROUBLESHOOTING? no need to specify baseurl/url if publishing to https://fscelliott.github.io/docsdonewell/
