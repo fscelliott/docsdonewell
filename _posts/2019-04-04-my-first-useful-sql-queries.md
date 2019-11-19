@@ -26,7 +26,7 @@ I don't think so because:
 
 
 
-  OK! So, onward to my SQL queries:
+ OK! So, onward to my SQL queries:
 
   ## SQL query #1:
 
@@ -42,7 +42,7 @@ For each of our data providers and for each of our projects, she wanted the data
 
 
 
-Since she CC'd me not just the dB engineers, I thought I'd take a crack at it to lessen the engineers' load.
+Since she CC'd me, not just the dB engineers, I thought I'd take a crack at it to lessen the engineers' load.
 
 Before I started writing the query, I: 
 
@@ -52,7 +52,7 @@ Before I started writing the query, I:
 - Determined I'd use accession_number to figure out # of unique images based on dB source.
 - Knew I could leverage other queries I'd seen to get the rest of the info.
 
-The meat of the query I came up with is (NOTE: database names REDACTED):
+The meat of the query I came up with is as follows: (NOTE: database names REDACTED)
 
 ```
 
