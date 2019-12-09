@@ -1,6 +1,17 @@
-/* ==========================================================================
-   Variables
+/*
+   Google fonts
    ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+/* 
+Variables
+==========================================================================*/
+   
+
+
+$montserrat: 'Montserrat', sans-serif; //not sure why I'm declaring this var, oh well -fe
 
 /*
    Typography
@@ -14,17 +25,26 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 
-/*$serif: Raleway, Georgia, Times, serif !default;
-$sans-serif: -apple-system, Montserrat, BlinkMacSystemFont, "Roboto", "Segoe UI",*
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;*/
 
-/*reverting to older minmistakes typography*/
+/*
+   Typography frances customizations
+   ========================================================================== */
 
-$serif : "PT Serif", Georgia, Times, serif;
+$serif: Raleway, Georgia, Times, serif !default;
+$sans-serif: $montserrat, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",*
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+
+/*
+   Typography default minmistakes
+   ========================================================================== */
+/*$serif : "PT Serif", Georgia, Times, serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",*
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+*/
 
 /* sans serif typefaces */
 
