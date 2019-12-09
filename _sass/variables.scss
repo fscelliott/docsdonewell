@@ -39,10 +39,10 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 /*
    Typography default minmistakes
    ========================================================================== */
-/*$serif : "PT Serif", Georgia, Times, serif;
+/*
+$serif : "PT Serif", Georgia, Times, serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",*
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 */
 
@@ -61,16 +61,23 @@ $calisto:   "Calisto MT", serif !default;
 $garamond:  Garamond, serif !default;
 
 
+
+/*
+   Typography frances customization
+   ========================================================================== */
+
 $global-font-family : $sans-serif;
 $header-font-family : $sans-serif-narrow;
-$caption-font-family: $sans-serif !default;*/
+$caption-font-family: $sans-serif !default;
 
 /*
    Typography default minmistakes
    ========================================================================== */
+/*
 $global-font-family : $serif;
 $header-font-family : $sans-serif-narrow;
-$caption-font-family: $serif !default;*/
+$caption-font-family: $serif !default;
+*/
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
