@@ -1,7 +1,13 @@
 https://reactjs.org/tutorial/tutorial.html 
      -like how they highlight in yellow things that might not make sense
      - like how they give you starter code and recommend NOT copy/pasting
+     -like how they give you a 'learn by doing' AND a conceptual reference up front:
+     
+     "Tip
 
+This tutorial is designed for people who prefer to learn by doing. If you prefer learning concepts from the ground up, check out our step-by-step guide. You might find this tutorial and the guide complementary to each other."
+
+    -like how they reassure you that the exercise is relevant: "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
 
 https://docs.docker.com/get-started/
 
