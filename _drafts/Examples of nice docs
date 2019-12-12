@@ -1,6 +1,7 @@
 https://reactjs.org/tutorial/tutorial.html 
      -like how they highlight in yellow things that might not make sense
      - like how they give you starter code and recommend NOT copy/pasting
+     -give you multiple codepens at different stges of completion ("View the full code at this point")
      -like how they give you a 'learn by doing' AND a conceptual reference up front:
      
      "Tip
