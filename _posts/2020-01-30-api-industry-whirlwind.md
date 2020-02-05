@@ -22,8 +22,6 @@ https://www.devnetwork.com/api-world-conference-reveals-api-developer-pain-point
 
 ## State of the API industry
 
-
-
 A takeaway is that there's tremendous interest, but it's still the wild west in terms of standardizing development and maintenance
 
 https://static1.smartbear.co/smartbearbrand/media/pdf/smartbear_state_of_api_2019.pdf
@@ -38,7 +36,9 @@ https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis
 
 and
 
+https://history.apievangelist.com/
 
+Fun fact: I learned from an API strategist that Capitol One is another big company besides Amazon that has thousands of internal APIs. 
 
 ## Cool, there are awards for API docs!
 
@@ -64,7 +64,7 @@ First off, how do they make money, what are the business models?
 
 https://www.apiopscycles.com/api-business-models
 
-Then how do we measure:
+Then how do we measure the KPIs? (key performance indicators):
 
 https://www.apiopscycles.com/measure 
 
@@ -82,9 +82,8 @@ https://pronovix.com/blog/devportal-design-guide-part-5-further-visual-solutions
 
 And while we're at it, I think we can draw a ton of parallels between APIs as a product and SaaS business models. I never REALLY understood the "long slow SaaS ramp of death" till I read this; it's **mind blowing* stuff*... and it helps me understand that low-touch API products need to be optimized aggressively for getting the user to trial. 
 
-https://getpocket.com/redirect?url=https%3A%2F%2Fstripe.com%2Fatlas%2Fguides%2Fbusiness-of-saas
+https://stripe.com/atlas/guides/business-of-saas
 
-## 
 
 
 
