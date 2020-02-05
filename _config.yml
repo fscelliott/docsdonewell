@@ -22,10 +22,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Technical project manager & information developer
+title: Developer experience consultant and technical writer
 #title: docs done well
 email: fsc.elliott@gmail.com
-description: A tech-heavy tech writer's blog on all things work.
+description: Developer experience and docs
 #>- # this means to ignore newlines until next key
  
 #Reflections on software development practices
@@ -91,8 +91,8 @@ social:
 author:
   name: "Frances Elliott"
   avatar: "/assets/images/bio-photo.jpg" 
-  bio: "Current software dev project management, past technical writer. I use this space to reflect personally on my work challenges and accomplishments."
-  linkedin: "frances-elliott-5904b814"
+  bio: "Developer experience consultant, particularly specialized in API onboarding, and technical writer. Former software dev project management. I use this space to reflect personally on my work challenges and accomplishments."
+  linkedin: "frances-elliott"
   github: "fscelliott"
   
   #email: TODO?
