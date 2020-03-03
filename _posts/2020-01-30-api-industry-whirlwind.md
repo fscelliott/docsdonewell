@@ -89,6 +89,6 @@ You only have 3 minutes!
 
 [Developer Portal Design Tips](https://pronovix.com/blog/devportal-design-guide-part-5-further-visual-solutions-improve-user-experience)
 
-And while we're at it, I think we can draw a ton of parallels between APIs as a product and SaaS business models. I never REALLY understood the "long slow SaaS ramp of death" till I read this; it's **mind blowing* stuff*... and it helps me understand that low-touch API products need to be optimized aggressively for getting the user to trial. 
+And while we're at it, I think we can draw a ton of parallels between APIs as a product and SaaS business models. I never REALLY understood the "long slow SaaS ramp of death" till I read this; it's **mind blowing** stuff... and it helps me understand that low-touch API products need to be optimized aggressively for getting the user to trial (but maybe high-touch API products don't need onboarding optimization as much). 
 
 [Business of SaaS](https://stripe.com/atlas/guides/business-of-saas)
