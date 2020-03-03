@@ -43,7 +43,7 @@ While we're at it, how did we get here?
 
 and
 
-https://history.apievangelist.com/
+[History of APIs](https://history.apievangelist.com/)
 
 Fun fact: I learned from an API strategist that Capitol One is another big company besides Amazon that has thousands of internal APIs. (And sorry, but I'm a customer and...their web AND mobile experiences are constantly breaking on me! It makes me wonder if they're keeping my $$ safe!)
 
