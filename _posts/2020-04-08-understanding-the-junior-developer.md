@@ -13,18 +13,6 @@ modified_time: '2020-04-08T13:13:14.240-08:00'
 
 
 
-
----
-layout: single
-title: Understanding the junior developer
-date: '2020-04-08T09:55:00.001-08:00'
-author: frances
-tags:
-- devX
-  modified_time: '2020-04-08T13:13:14.240-08:00'
-
----
-
 So first off a personal update -- 8 months ago, I got laid off the day I returned from maternity leave! Within a half hour of returning to my desk! Whew boy! It was a blessing in disguise in some ways, because 1) I'd been thinking for some time I could be more effective in a consulting role and 2) as part of my severance package, I got to attend a General Assembly coding bootcamp.
 
 I ended up auditing the bootcamp because wow, it demands a ton of sacrifice with the end goal of getting a developer job. In contrast, I am happy to write for developers and improve their experiences. Nonetheless, I worked through all the lectures, did a few homework assignments, and got a lot out of it. Not the least of which is that I validated my existing coding skills, gained deeper insight into the "junior developer" persona, and reaffirmed my conviction that tailoring your developer experience and docs to junior developers is a **Good Thing**.
