@@ -25,5 +25,5 @@ Since the hardware specs are already in DITA, I was able to single-source
 between them, plus turn a bunch of essays about hardware implementation into 
 really terse tables. yay! 
  
- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRxFqhfwm1sWfDjL21KqWTtdn8QcnkqnL8SxFR6QSNwH1Q1DV_lZ7XvS6TfKc7ZYCCVZZvivbuYTyCO/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+ <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRxFqhfwm1sWfDjL21KqWTtdn8QcnkqnL8SxFR6QSNwH1Q1DV_lZ7XvS6TfKc7ZYCCVZZvivbuYTyCO/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1920" height="1080" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
  
