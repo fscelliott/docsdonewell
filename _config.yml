@@ -45,13 +45,13 @@ twitter_username: fscelliott
 github_username:  fscelliott
 repository: "fscelliott/docsdonewell" 
 
-
+theme: minimal-mistakes-jekyll
 # Build settings
 markdown: kramdown
 
 #Theme settings 
 #theme for githubpages hosting
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
 
 #theme for local /self hosting
 #theme: minimal-mistakes-jekyll
