@@ -1,0 +1,12 @@
+---
+layout: single
+title: Spearheading a docs as code initiative
+date: '2020-06-17T09:55:00.001-08:00'
+author: frances
+tags:
+- docsascode
+- techcomm
+modified_time: '2020-06-17T13:13:14.240-08:00'
+ 
+---
+I've always wanted to lead a docs as code initiative, and I got the chance this quarter with my most recent client.  In case you're not familiar, "docs as code" often boils down to docs stored as Markdown or other lightweight syntax, in GitHub, with a pull request & merging process familiar to the software development team.  [link to justwriteclick, idratherbe writing]
