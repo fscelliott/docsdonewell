@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
-/* ==========================================================================
-   Variables
+/*
+   Google fonts
    ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+/* 
+Variables
+==========================================================================*/
+   
+
+
+$montserrat: 'Montserrat', sans-serif; //not sure why I'm declaring this var, oh well -fe
 
 /*
    Typography
@@ -14,24 +24,60 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: 'Montserrat', sans-serif !default;
-$sans-serif: 'Montserrat', sans-serif !default;
-$monospace: 'Montserrat', sans-serif !default;
+
+
+/*
+   Typography frances customizations
+   ========================================================================== */
+
+$serif: Raleway, Georgia, Times, serif !default;
+$sans-serif: $montserrat, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",*
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+
+/*
+   Typography default minmistakes
+   ========================================================================== */
+/*
+$serif : "PT Serif", Georgia, Times, serif;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",*
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+*/
 
 /* sans serif typefaces */
-$sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+$sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+/*$sans-serif-narrow: $sans-serif !default;*/
+$helvetica:  Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
-$georgia: 'Montserrat', sans-serif !default;
-$times: 'Montserrat', sans-serif !default;
-$bodoni: 'Montserrat', sans-serif !default;
-$calisto: 'Montserrat', sans-serif !default;
-$garamond:  'Montserrat', sans-serif !default;
+$georgia:  Georgia, serif !default;
+$times:  Times, serif !default;
+$bodoni:  "Bodoni MT", serif !default;
+$calisto:   "Calisto MT", serif !default;
+$garamond:  Garamond, serif !default;
 
-$global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+
+
+/*
+   Typography frances customization
+   ========================================================================== */
+
+$global-font-family : $sans-serif;
+$header-font-family : $sans-serif-narrow;
+$caption-font-family: $sans-serif !default;
+
+/*
+   Typography default minmistakes
+   ========================================================================== */
+/*
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
 $caption-font-family: $serif !default;
+*/
 
 /* type scale */
 $type-size-1: 2.441em !default; // ~39.056px
@@ -43,20 +89,12 @@ $type-size-6: 0.75em !default; // ~12px
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
-/* headline scale */
-$h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.25em !default; // ~20px
-$h-size-3: 1.125em !default; // ~18px
-$h-size-4: 1.0625em !default; // ~17px
-$h-size-5: 1.03125em !default; // ~16.5px
-$h-size-6: 1em !default; // ~16px
-
 /*
    Colors
    ========================================================================== */
 
 $gray: #7a8288 !default;
-$dark-gray: mix(#000, $gray, 50%) !default;
+$dark-gray: mix(#000, $gray, 40%) !default;
 $darker-gray: mix(#000, $gray, 60%) !default;
 $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
@@ -65,7 +103,7 @@ $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
+$muted-text-color: mix(#fff, $text-color, 35%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
 $footer-background-color: $lighter-gray !default;
@@ -94,7 +132,6 @@ $foursquare-color: #0072b1 !default;
 $github-color: #171516 !default;
 $gitlab-color: #e24329 !default;
 $instagram-color: #517fa4 !default;
-$keybase-color: #ef7639 !default;
 $lastfm-color: #d51007 !default;
 $linkedin-color: #007bb6 !default;
 $mastodon-color: #2b90d9 !default;
@@ -111,7 +148,7 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-$link-color: mix(#000, $info-color, 20%) !default;
+$link-color: mix(#000, $info-color, 15%) !default;
 $link-color-hover: mix(#000, $link-color, 25%) !default;
 $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
