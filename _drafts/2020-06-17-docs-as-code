@@ -10,3 +10,32 @@ modified_time: '2020-06-17T13:13:14.240-08:00'
  
 ---
 I've always wanted to lead a docs as code initiative, and I got the chance this quarter with my most recent client.  In case you're not familiar, "docs as code" often boils down to docs stored as Markdown or other lightweight syntax, in GitHub, with a pull request & merging process familiar to the software development team.  [link to justwriteclick, idratherbe writing]
+
+Pros: 
+
+- familiar pull request & merge process for the engineering team
+- docs live closer to code
+- tech writer & engineers can more easily collaborate
+- access to build checking tools through travis, etc, for example, for broken links
+
+
+
+Cons:
+
+- can be fragile (my client has a deprecated, custom "docs as code" site that often broke, and the people who built it left, so no one wanted to touch it)
+- often lose some of the advanced tech comm authoring tools & requirements [link to idrwatherbewriting]
+- If you're not working in a microservices code base, your docs publishing toolchain might be part of a bloated build process
+
+Why this docs-as-code initiative? Well, my client has 9 SDKs, and the engineers author the docs in a WISYWIG online docs platform, ReadMe. ReadMe is very nice in many ways, but lacked some administrative capabilities for power users:
+
+- no global find/replace functionality 
+- no links validation
+- slow, point-n-click process to key administrative tasks like copying, deleting, migrating files
+
+It was frustrating to them, and to me as well as a coauthor. Luckily, I learned about a little tool that took advantage of ReadMe's API to sync GitHub markdown to ReadMe's published platform https://github.com/flowcommerce/readme-sync.  I started a months' long process:
+
+- tested the tool locally with a sandbox project. Confirmed it worked as expected; tested behavior and issued a pull request to readme-sync repo documenting my undeerstanding of the behavior for future people
+- Presented a demo of the tool at the engineers' community of practice meeting and got buy-in to pursue a docs-as-code approach. The engineering manager was quite enthusiastic.
+- In collaboration with the engineering manager, wrote up a spec for how we wanted to structure the docs directory in the repos  & the tool behavior we wanted. Lots of back and forth uncovered a couple key tradeoffs between the structure we wanted (each SDK repo has its own docs dir) vs the tool behavior (synsc on a per-category basis)
+- Worked with a great DevOps guy to write a shell script to publish the docs, which  Travis runs any time there's a commit in the /docs directory [TODO: I could link to it when it's public...]. This was a cool experience -- he live coded, and I pointed out requirements and limitations whenever he got a little off course. I've never seen such a shell scripting master, I learned a lot, and he was quite eager to share his knowledge, a true devop-er in that he wants to share his knowledge and has quite good pedigoical skills.
+- Got the ReadMe-flavored Markdown migrated to Github flavored markdown. Uncovered some wrinkles with relative links. 
