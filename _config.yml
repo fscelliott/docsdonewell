@@ -106,8 +106,10 @@ analytics:
     anonymize_ip: false # default
 
 
-#todo: all search engines.. (or verify site ownership thru Google Analytics instead? 
-#google_site_verification: "yourVerficiationCode" 
+#todo: other search engines, not just verify with google search console 
+google_site_verification: "pDiqOafXX3L9e0bxsZmjLjIVTBBGbZ1dJj6oTOpXJJc" 
+
+
 
 plugins:
   - jekyll-feed
