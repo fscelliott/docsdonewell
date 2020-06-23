@@ -98,7 +98,13 @@ author:
   #email: TODO?
   #more social media links: TODO?
     
-#todo: set up google analytics?    
+#google analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-170522599-1"
+    anonymize_ip: false # default
+
 
 #todo: all search engines.. (or verify site ownership thru Google Analytics instead? 
 #google_site_verification: "yourVerficiationCode" 
