@@ -1,0 +1,36 @@
+---
+layout: single
+title: Fun with devrel and b2dev
+date: '2020-08-30T09:55:00.001-08:00'
+author: frances
+modified_time: '2020-08-30T13:13:14.240-08:00'
+ 
+---
+I'm embedded in a devrel team as the sole dev docs writer with my latest client, and I have to say, it's a lot of fun! Here are some of the contributing factors:
+
+- The client is making a massive pivot from selling to a non-tech market, to selling to developers. I call this "b2dev" though Google doesn't seem to think this is a term.
+- The devrel team thinks a lot about how to strategically use the docs that I write
+- They're a great resource for strategic questions about WHAT to write -- who's the audience? what are the use cases? what should the examples focus on?
+
+
+Let's touch on some of these points on why my work is so fun right now:
+
+### The pivot to a developer audience
+
+The client used to sell SaaS to large enterprise, whose users were nontechnical. Their docs were more of an internal reference for dedicated support to work with these customers, or for advanced users who'd already been sold the product. Now, their docs need to become more much of a technical sales & evaluation tool: they're still selling to enterprise, but the individual developer has a much larger role in the sales decision process, so their docs need to be highly technical and attractive at the same time. That means they're willing to invest in docs improvements, which is where I come in. Yay!
+
+As a corollarly, they're working hard on improving the developer experience (DX) of the product itself -- and "product", in their minds, DOES include the SDK! So right now, I'm working on 
+
+### The devrel team helps me think strategically
+
+So, strategy is an interesting topic for me, especially since I read [How to tell if you're a content strategist](https://idratherbewriting.com/2016/10/26/how-to-tell-if-youre-a-content-strategist/) and realized it mirrored many of my own thoughts. What does it mean to be a 'dev docs strategist'? I have to admit, I love writing docs on new-to-me topics -- it would be hard for me to let go of the addictive quality of learning new technical topics & then writing about them. I like to go deep, in other words. And in myexperienc it's very, very hard to switch between deep/detailed thinking about the docs, versus thinking about how to make those docs visible at a high level -- inbound linking strategy from other sites, for example.  The sort of 'strategy' that comes naturally to me is the sort of stuff Tom outlines that fits more with "deep" docs work:
+
+- Evaluate whether the content addresses user needs and uses language that matches into your user’s lexicon.
+- Analyze competitors docs, interview product owners, & incorporate user feedback to reorganize navigation
+- Ask searching questions (of multiple people, since you'll get different stories) to suss out the true value of a feature, and explain that in the topic rather than assuming prior knowledge of that value.
+
+
+I feel like I could sum up the difference between "deep" strategy and "devrel" strategy by taking the Welcome page as an example. When I first join a team, the welcome page is something I'll look at with a very critical eye, and try to improve. But 6 months into working on the docs, I probably never rarely think about the welcome page; I'm too wrapped up in the intricacies of internal linking strategy & organization. The great thing about being with a devrel team is that they force me not to forget the Welcome page; to revisit it. 
+
+
+
