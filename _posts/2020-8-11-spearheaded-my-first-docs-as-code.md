@@ -11,6 +11,23 @@ modified_time: '2020-08-11T13:13:14.240-08:00'
 
 I can finally say that I've led a [docs as code](https://www.writethedocs.org/guide/docs-as-code/) initiative! It took buy-in from the engineering manager, technical elbow-grease, and a helpful DevOps lead, but after a 3-months effort, I've got the infrastructure in place and the developers educated. Now we'll see what fruit my efforts bear.
 
+In case you're not familiar with docs as code, here are some of the salient points I considered before setting this up:
+
+
+Pros: 
+
+- familiar pull request & merge process for the engineering team
+- docs live closer to code
+- tech writer & engineers can more easily collaborate
+- access to build checking tools through travis, etc, for example, for broken links
+
+Cons:
+
+- can be fragile (my client previously has a deprecated, custom "docs as code" site that often broke, and the people who built it left, so no one wanted to touch it)
+- often lose some of the advanced tech comm authoring tools & requirements
+- If you're not working in a microservices code base, your docs publishing toolchain might be part of a bloated build process
+
+
 The full story is that my current client uses [ReadMe](https://readme.com/) to publish their docs. ReadMe has many nice features, but their WYSIWYG online markdown editor has made the same tradeoffs between contributor ease versus administrative power that many wikis have made. In other words, community contribution is easy, but administrative capabilities for writers, like finding and replacing across pages are...lacking, in many cases. As Anne Gentle at [Just Write Click](https://justwriteclick.com/) once put it in a conversation with me, it "makes the easier things easier, and the harder things harder." It boiled down to this: since the client has 9 SDKs, it's getting harder and harder to maintain the growing docs if we can't find and replace across duplicate content.
 
 I found that for my own purposes, I could often get admin tasks done quickly by using a Node-based, [open-source readme-sync tool](https://github.com/flowcommerce/readme-sync/) tool for roundtripping GitHub markdown to ReadMe. The tool uses ReadMe's API to sync markdown to the ReadMe published platform. It was worth it for one-off, large-scale change management of the docs, but it was a pain, because I had to export the files from ReadMe, then manipulate the directories and filenames from the ReadMe export in order to the tool to work.
