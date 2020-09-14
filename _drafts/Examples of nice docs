@@ -21,3 +21,6 @@ https://docs.docker.com/get-started/
 
 https://blog.risingstack.com/learn-javascript-for-free/
      - nice 'alternative to paying for a bootcamp' article, especially project ideas
+     
+https://docs.mapbox.com/mapbox-gl-js/api/
+      - I like how you can use a toggle control to conditionally display whole paragraphs/page sections depending on your language/implementation. It's a step up from multi-language code sample boxes.
