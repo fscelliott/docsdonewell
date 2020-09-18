@@ -19,7 +19,7 @@ Let's touch on some of these points on why my work is so fun right now:
 
 The client used to sell SaaS to large enterprise, whose users were nontechnical. Their docs were more of an internal reference for dedicated support to work with these customers, or for advanced users who'd already been sold the product. Now, their docs need to become more much of a technical sales & evaluation tool: they're still selling to enterprise, but the individual developer has a much larger role in the sales decision process, so their docs need to be highly technical and attractive to a first-time evaluator at the same time. That means they're willing to invest in docs improvements, which is where I come in. Yay!
 
-As a corollarly, they're working hard on improving the developer experience (DX) of the product itself -- and "product", in their minds, DOES include the SDK! So right now, I'm helping align an SDK overhaul with a UI overhaul by being the canary in the coalmine in regards to domain model inconsistencies -- more on that in another post.
+As a corollary, they're working hard on improving the developer experience (DX) of the product itself -- and "product", in their minds, DOES include the SDK! So right now, I'm helping align an SDK overhaul with a UI overhaul by being the canary in the coalmine in regards to domain model inconsistencies -- more on that in another post.
 
 ### The devrel team helps me think strategically
 
