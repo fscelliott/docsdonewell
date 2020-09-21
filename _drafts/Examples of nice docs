@@ -24,3 +24,7 @@ https://blog.risingstack.com/learn-javascript-for-free/
      
 https://docs.mapbox.com/mapbox-gl-js/api/
       - I like how you can use a toggle control to conditionally display whole paragraphs/page sections depending on your language/implementation. It's a step up from multi-language code sample boxes.
+
+
+https://mailchimp.com/developer/guides/run-async-requests-with-the-batch-endpoint/#make-a-batch-operations-request
+       - huh this seems to COMBINE an API reference with guides, examples. how did they do it??? 
