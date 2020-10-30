@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Developer onboarding: Docker vs Contentful CLI
-date: '2020-1-30T09:55:00.001-08:00'
+date: '2020-10-30T09:55:00.001-08:00'
 author: frances
 tags:
 - techcomm
