@@ -17,10 +17,10 @@ I made a little video:
 
 
 
-Highlights:
+Timestamps:
 
-0:00 - Why this video? I'm researching developer onboarding experiences.
-1:18 - Walkthrough of Docker desktop CLI guide. nice features: recoverable experience, no signup required,  but mainly: GUI interface wrapper for terminal tutorial(!) 
-9:01 - An aside on account sign-up friction and why a SaaS company might or might not optimize it
-11:00 - Maildrop and other disposable email tools for recreating onboarding experiences
-11:22 - Walkthrough of contentful's CLI guide. nice features: launch browser to display my API token, numbered steps, y/n prompts to create the project, step explanations
+- 0:00 - Why this video? I'm researching developer onboarding experiences.
+- 1:18 - Walkthrough of Docker desktop CLI guide. nice features: recoverable experience, no signup required,  but mainly: GUI interface wrapper for terminal tutorial(!) 
+- 9:01 - An aside on account sign-up friction and why a SaaS company might or might not optimize it
+- 11:00 - Maildrop and other disposable email tools for recreating onboarding experiences
+- 11:22 - Walkthrough of contentful's CLI guide. nice features: launch browser to display my API token, numbered steps, y/n prompts to create the project, step explanations
