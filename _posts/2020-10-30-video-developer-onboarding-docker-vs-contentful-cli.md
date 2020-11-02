@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Developer onboarding: Docker vs Contentful CLI
+title: Developer onboarding - Docker vs Contentful CLI
 date: '2020-10-29T09:55:00.001-08:00'
 author: frances
 modified_time: '2020-10-29T13:13:14.240-08:00'
