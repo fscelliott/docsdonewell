@@ -3,7 +3,7 @@ TODO add front matter
 doc tools
 - Beyond Compare [mac/windows/linux] feature rich diffing, free
 - VSCode
-- 
+- screentogif
 
 productivity tools
 Greenshot - I've set mine to always copy to clipboard and save to picture/greenshot-pics
