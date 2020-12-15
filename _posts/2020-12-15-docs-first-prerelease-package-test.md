@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Tip for docs-first: test prerelease Github packages
+title: Docs-first tip: test prerelease Github packages
 date: '2020-12-15T09:55:00.001-08:00'
 author: frances
 modified_time: '2020-12-15T13:13:14.240-08:00'
