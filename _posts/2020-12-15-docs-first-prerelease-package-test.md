@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Docs-first tip: test prerelease Github packages
+title: Docs first tip: test prerelease Github packages
 date: '2020-12-15T09:55:00.001-08:00'
 author: frances
 modified_time: '2020-12-15T13:13:14.240-08:00'
@@ -8,9 +8,9 @@ modified_time: '2020-12-15T13:13:14.240-08:00'
 
 ---
 
-I'm all about a docs-first approach -- for example, in the latest SDK domain-model overhaul I participated in, I was able to contribute to the API's call signature consistency  by commenting early on the technical design docs.
+I'm all about a docs-first approach -- for example, in the latest SDK domain-model overhaul I participated in, I was able to contribute to the API's call signature consistency by commenting early on the technical design docs.
 
-I'm also about testing my code samples as early as possible! And today I found a way to do it in Python; hope it helps other! I'm sure it's quite familiar to QA teams, but it was my first time figuring it out (guess I've never been so ahead of a release curve as now).
+I'm also about testing my code samples as early as possible! And today I found a way to do it in Python; hope it helps other! I'm sure this trick is quite familiar to QA teams, but it was my first time figuring it out (guess I've never been so ahead of a release curve as now).
 
 ### Question: 
 I wanted to test a prerelease branch of an SDK hosted as a python package on Github.
@@ -24,6 +24,7 @@ It's pretty simple! Use pipenv. For example, say I wanted to install the new-fea
 
 `pipenv install -e git+https://github.com/some-sdk.git@new-feature-branch#egg=some-sdk`
 
+Where I get the egg from the value of `name` in the package's `setup.py`.
 Then I just run my sample code using pipenv:
 
 `pipenv run python sample_code.py`
