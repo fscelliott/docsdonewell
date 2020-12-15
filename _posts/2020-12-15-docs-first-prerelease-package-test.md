@@ -40,9 +40,9 @@ I used:
 
 ### Troubleshooting:
 
-If you're not getting the results you expect:
+If you're not getting the results you expect, do some sanity checking:
 - are you pulling the branch as you expect? do you see the methods/attributes that you expect from your branch? you can examine your module in your code, for example: 
   `import somesdk ` then `print(dir(somesdk)) #see methods and attributes`
 - try `pipenv clean` to uninstall anything not specified in Pipfile.lock
 - examine your Pipefile.lock. Does the `req` for your package listed there match the latest commit hash for the branch you want?
-- 
+
