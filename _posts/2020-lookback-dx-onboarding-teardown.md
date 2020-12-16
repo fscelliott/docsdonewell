@@ -17,5 +17,8 @@ As we wrap up 2020 (whew, whom amongst us is not glad to see its tail end?), I'd
 
 Here are the teardowns:
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQOG4mNWEJE-SiDPcxYJzK1SRhte8RaOnF8d_ZuxHH6da0JGCyE9AyrkzG04qtOWEsoQDi6QWCeSxHd/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0yeU_IJPUrYDH0BVVpQZYrCaK791BIjaNe5eZz-HQf4cddy7Oq_nuwPJjq_QldIwEINrd3TndGCJU/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
