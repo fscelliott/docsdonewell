@@ -24,6 +24,7 @@ Here are the teardowns:
 
 
 So, what did I get done from the challenges I uncovered in these teardowns? 
+
 Plenty! Some stuff was outside of my control; some stuff got reprioritized with shifting business goals, but here are some highlights:
 
 ### Welcome page
@@ -31,31 +32,36 @@ The welcome page was a wall 'o text. I added an [architectural diagram](https://
 ![image](/assets/images/optim_diagram.png)
 
 ### Too much detail, too soon
-The docs dived too early into detailed technical explanations, mixed with introductory how-to topics. I improved the progressive disclosure of the docs but stuffing a lot of those long explanations into a "concepts" section (after winnowing out unnecessary explanations), and added warnings when the topics were advanced:
+The docs dived too early into detailed technical explanations, mixed with introductory how-to topics. I improved the progressive disclosure of the docs by exiling a lot of those long explanations into a "concepts" section (after winnowing out unnecessary explanations), and added warnings when the topics were advanced:
 ![image](/assets/images/progressive_disclosure.png)
 
 
 ### Too many dev resource links in Optimizely's global nav
-This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- \developer-docs -- which overlapped with another page, \developers, and which didn't really contain docs -- just links to docs.   
+This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- optimizely.com\developer-docs -- which overlapped with another page, \developers, and which didn't really contain docs -- just links to docs!   
 
+### Non-onboarding improvments to the user journey
 
 But as usual, the biggest improvements for the docs turned out to be things that only came from months of being embedded and discovering needs through conversations. Stuff like: 
 
 
 - Added an SDK compatibility matrix, since the SDK versioning had recently been decoupled across languages, leading to potential confusion without a single source of truth
-- Since we were pivoting to a developer audience, I upped the emphasis on code w:
+- Since we were pivoting to a developer audience, I upped the emphasis on code with:
    - code implementation sections in all the major how-to articles
-   - WORKING code examples in key quickstarts (and the javascript one doesn't require an SDK install; it can be run in codepen!) 
+   - *working* code examples in key quickstarts
+   - writing a quickstart code example that could actually be run in codepen without an SDK install 
+   - implemented docs as code for Microservice/Rest API docs
+   - totally reorganized topics + overhauling SDK references for new domain model encompassing UI/UX overhaul and SDK overhaul (lisit hrs here?) 
 
-- implemented docs as code for Microservice/Rest API docs
--totally reorganized topics + overhauled SDK references for new domain model encompassing UI/UX overhaul and SDK overhaul (lisit hrs here?) 
-
-The table of contents got completely revamped -- here I highlight some of the secionts that were cmopletely changed:
+The table of contents got completely revamped -- here I highlight some of the sections that were completely changed:
 ![image](/assets/images/optim-before-after.png)
 
+What impact did all this have? Well, my efforts were guided by some basic metrics on pages with most popular pageviews -- I priortized my efforts on the most popular pages. And I noticed that while the most popular pages stayed unchanged (which makes start, since they are important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
 
 
-TODO: talk analytics & results (which pages most traffic + curation)
+
+![image](/assets/images/optim-metrics.png)
+
+
 
 
 
