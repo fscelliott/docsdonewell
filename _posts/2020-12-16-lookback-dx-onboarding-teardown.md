@@ -55,7 +55,8 @@ But as usual, the biggest improvements for the docs turned out to be things that
 The table of contents got completely revamped -- here I highlight some of the sections that were completely changed:
 ![image](/assets/images/optim-before-after.png)
 
-What impact did all this have? Well, my efforts were guided by some basic metrics on pages with most popular pageviews -- I priortized my efforts on the most popular pages. And I noticed that while the most popular pages stayed unchanged (which makes start, since they are important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
+What impact did all this have? Well, I'd say it's acknowledged that it can be hard to bring analytics to docs, but I got good feedback on the changes! And in terms of metrics, 
+my efforts were certainly guided by some basic page view rankings. Naturally, I priortized my efforts on the most popular pages. And I noticed that while the ranking of most popular pages stayed unchanged (which makes sense, since they are important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
 
 
 
