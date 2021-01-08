@@ -13,7 +13,7 @@ When I take on a new client, I like to take advantage of my fresh eyes to walk t
 
 I did the same when I took Optimizely on as a client back in March 2020. (Hello - I started just as covid-19 hit the USA! I still remember a coworker in San Francisco cancelling an afternoon meeting because "we're about to go into lockdown." It got real, real fast.)
 
-As we wrap up 2020 (whew, whom amongst us is not glad to see its tail end?), I'd like to look back at my teardowns as a measure of my impact on the dev docs. 
+As we wrap up 2020, (whew, whom amongst us is not glad to see its tail end?) I'd like to look back at my teardowns as a measure of my impact on the dev docs. 
 
 Here are the teardowns:
 
@@ -28,18 +28,16 @@ So, what did I get done from the challenges I uncovered in these teardowns?
 Plenty! Some stuff was outside of my control; some stuff got reprioritized with shifting business goals, but here are some highlights:
 
 ### Welcome page
-The welcome page was a wall 'o text. I added an [architectural diagram](https://docs.developers.optimizely.com/full-stack/docs/welcome) I took from marketing, and authored my own, more technial diagram to add to our implementation checklist.
-![image](/assets/images/optim_diagram.png)
+The welcome page was a wall 'o text. I added an [architectural diagram](https://docs.developers.optimizely.com/full-stack/docs/welcome) I took from marketing, and authored my own, more technical diagram to add to our [implementation checklist](https://docs.developers.optimizely.com/full-stack/docs/implementation-checklist).
 
 ### Too much detail, too soon
-The docs dived too early into detailed technical explanations, mixed with introductory how-to topics. I improved the progressive disclosure of the docs by exiling a lot of those long explanations into a "concepts" section (after winnowing out unnecessary explanations), and added warnings when the topics were advanced:
-![image](/assets/images/progressive_disclosure.png)
+The docs dived too early into detailed technical explanations, mixed with introductory how-to topics. I improved the progressive disclosure of the docs by exiling a lot of those long explanations into a "concepts" section (after winnowing out unnecessary explanations), and added warnings when the topics were [advanced](https://docs.developers.optimizely.com/full-stack/docs/how-bucketing-works).
 
 
 ### Too many dev resource links in Optimizely's global nav
 This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- optimizely.com\developer-docs -- which overlapped with another page, \developers, and which didn't really contain docs -- just links to docs!   
 
-### Non-onboarding improvments to the user journey
+### Non-onboarding improvements to the user journey
 
 But as usual, the biggest improvements for the docs turned out to be things that only came from months of being embedded and discovering needs through conversations. Stuff like: 
 
@@ -56,7 +54,7 @@ The table of contents got completely revamped -- here I highlight some of the se
 ![image](/assets/images/optim-before-after.png)
 
 What impact did all this have? Well, I'd say it's acknowledged that it can be hard to bring analytics to docs, but I got good feedback on the changes! And in terms of metrics, 
-my efforts were certainly guided by some basic page view rankings. Naturally, I priortized my efforts on the most popular pages. And I noticed that while the ranking of most popular pages stayed unchanged (which makes sense, since they are important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
+my efforts were certainly guided by some basic page view rankings. Naturally, I prioritized my efforts for the most popular pages. And I noticed that while the ranking of most popular pages stayed unchanged (which makes sense, since they *are* important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
 
 
 
