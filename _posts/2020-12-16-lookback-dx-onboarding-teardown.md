@@ -49,7 +49,7 @@ But as usual, the biggest improvements for the docs turned out to be things that
 - *working* code examples in key quickstarts
 - a quickstart code example that could actually be run in codepen without an SDK install 
 
-There were lots of other docs improvments, but I'm most proud of aiding in a domain-model overhaul of the SDKs and online app; since I made an effort to get in on design conversations early in the process, I was able to reconcile some inconsistencies between the app vs SDK, and advocate for the developer persona to change some API signatures I saw as less than ideal. Ultimately the info architecture of the docs got a total overhaul in a 100+ hr effort. In this messy visual, I highlight how topic migrated:
+There were lots of other docs improvments, but I'm most proud of aiding in a domain-model overhaul of the SDKs and online app; since I made an effort to get in on design conversations early in the process, I was able to reconcile some inconsistencies between the app vs SDK, and advocate for the developer persona to change some API signatures I saw as less than ideal. Ultimately the info architecture of the docs got a total overhaul in a 100+ hr effort. In this messy visual, I highlight how much the info architecture changed:
 ![image](/assets/images/optim-before-after.png)
 
 
