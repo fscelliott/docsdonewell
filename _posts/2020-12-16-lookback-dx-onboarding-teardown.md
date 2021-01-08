@@ -33,9 +33,14 @@ The welcome page was a wall 'o text. I added an [architectural diagram](https://
 ### Too much detail, too soon
 The docs dived too early into detailed technical explanations, mixed with introductory how-to topics. I improved the progressive disclosure of the docs by exiling a lot of those long explanations into a "concepts" section (after winnowing out unnecessary explanations), and added warnings when the topics were [advanced](https://docs.developers.optimizely.com/full-stack/docs/how-bucketing-works).
 
+I noticed that while the ranking of most popular pages stayed unchanged (which makes sense, since they *are* important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
+
+![image](/assets/images/optim-metrics.png)
+
 
 ### Too many dev resource links in Optimizely's global nav
 This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- optimizely.com\developer-docs -- which overlapped with another page, \developers, and which didn't really contain docs -- just links to docs!   
+
 
 ### Non-onboarding improvements to the user journey
 
@@ -44,15 +49,8 @@ But as usual, the biggest improvements for the docs turned out to be things that
 - *working* code examples in key quickstarts
 - a quickstart code example that could actually be run in codepen without an SDK install 
 
-There were lots of other docs improvments, but I'm most proud of aiding in a domain-model overhaul of the SDKs and online app; since I made an effort to get in on design conversations early in the process, I was able to reconcile some inconsistencies between the app vs SDK, and advocate for the developer persona to change some API signatures I saw as less than ideal. Ultimately the info architecture of the docs got a total overhaul in a 100+ hr effort. Here I highlight some of the biggest structural changes: 
+There were lots of other docs improvments, but I'm most proud of aiding in a domain-model overhaul of the SDKs and online app; since I made an effort to get in on design conversations early in the process, I was able to reconcile some inconsistencies between the app vs SDK, and advocate for the developer persona to change some API signatures I saw as less than ideal. Ultimately the info architecture of the docs got a total overhaul in a 100+ hr effort. In this messy visual, I highlight how topic migrated:
 ![image](/assets/images/optim-before-after.png)
-
-What impact did all this have? Well, I'd say it's acknowledged that it can be hard to bring analytics to docs, but I got good feedback on the changes! And in terms of metrics, 
-my efforts were certainly guided by some basic page view rankings. Naturally, I prioritized my efforts for the most popular pages. And I noticed that while the ranking of most popular pages stayed unchanged (which makes sense, since they *are* important), some of the very-visited but too-advanced conceptual pages decreased their rank after my efforts..which was exactly what I was going for!
-
-
-
-![image](/assets/images/optim-metrics.png)
 
 
 
