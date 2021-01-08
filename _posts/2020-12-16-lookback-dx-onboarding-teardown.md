@@ -39,18 +39,12 @@ This one required me to put on my cross-team hat and talk to marketing. Ultimate
 
 ### Non-onboarding improvements to the user journey
 
-But as usual, the biggest improvements for the docs turned out to be things that only came from months of being embedded and discovering needs through conversations. Stuff like: 
+But as usual, the biggest improvements for the docs turned out to be things that only came from months of being embedded and discovering needs through conversations. For example, since we were pivoting to a developer audience, I upped the emphasis on code by writing:
+- code implementation sections in all the major how-to articles
+- *working* code examples in key quickstarts
+- a quickstart code example that could actually be run in codepen without an SDK install 
 
-
-- Added an SDK compatibility matrix, since the SDK versioning had recently been decoupled across languages, leading to potential confusion without a single source of truth
-- Since we were pivoting to a developer audience, I upped the emphasis on code with:
-   - code implementation sections in all the major how-to articles
-   - *working* code examples in key quickstarts
-   - writing a quickstart code example that could actually be run in codepen without an SDK install 
-   - implemented docs as code for Microservice/Rest API docs
-   - totally reorganized topics + overhauling SDK references for new domain model encompassing UI/UX overhaul and SDK overhaul (lisit hrs here?) 
-
-The table of contents got completely revamped -- here I highlight some of the sections that were completely changed:
+There were lots of other docs improvments, but I'm most proud of aiding in a domain-model overhaul of the SDKs and online app; since I made an effort to get in on design conversations early in the process, I was able to reconcile some inconsistencies between the app vs SDK, and advocate for the developer persona to change some API signatures I saw as less than ideal. Ultimately the info architecture of the docs got a total overhaul in a 100+ hr effort. Here I highlight some of the biggest structural changes: 
 ![image](/assets/images/optim-before-after.png)
 
 What impact did all this have? Well, I'd say it's acknowledged that it can be hard to bring analytics to docs, but I got good feedback on the changes! And in terms of metrics, 
