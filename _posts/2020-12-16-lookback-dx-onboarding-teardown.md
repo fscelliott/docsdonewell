@@ -39,7 +39,7 @@ I noticed that while the ranking of most popular pages stayed unchanged (which m
 
 
 ### Too many dev resource links in Optimizely's global nav
-This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- optimizely.com\developer-docs -- which overlapped with another page, \developers, and which didn't really contain docs -- just links to docs!   
+This one required me to put on my cross-team hat and talk to marketing. Ultimately I removed a page that was quite prominent -- optimizely.com/developer-docs -- which overlapped with another page, /developers, and which didn't really contain docs -- just links to docs!  Ultimizely it 'smelled' like a marketing page, and Adam Duvander [points out](https://everydeveloper.com/evaluate-documentation-like-a-developer/), developers will quickly abandon such a page. Down it went, in favor of a direct link to the docs!   
 
 
 ### Non-onboarding improvements to the user journey
