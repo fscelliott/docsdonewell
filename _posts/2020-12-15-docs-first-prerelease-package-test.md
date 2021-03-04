@@ -15,7 +15,7 @@ I'm also about testing my code samples as early as possible! And today I found a
 ### Question: 
 I wanted to test a prerelease branch of an SDK hosted as a python package on Github.
 
-Normally I install this package through pip, like `pip some-sdk`. How to install it straight from GitHub?
+Normally I install this package through pip, like `pip some-sdk`. How to install it straight from a GitHub repository branch, where the pre-release code lives?
 
 ### Answer:
 
@@ -28,6 +28,8 @@ Where I get the egg from the value of `name` in the package's `setup.py`.
 Then I just run my sample code using pipenv:
 
 `pipenv run python sample_code.py`
+
+**note** I'm aware that pipenv seems to be ... not in a terribly healthy place release-wise? But for my limited purposes here, it worked fine. I'm sure you could do something similar with virtualenv, I just haven't investigated it.  
 
 I'm sure there are similarly easy approaches for other nice package managers, like npm for javascript, etc.
 
