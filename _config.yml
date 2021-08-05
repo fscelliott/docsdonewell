@@ -51,8 +51,8 @@ markdown: kramdown
 
 #Theme settings 
 #theme for githubpages hosting
-remote_theme: "mmistakes/minimal-mistakes"
-
+#remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0
 #theme for local /self hosting
 #theme: minimal-mistakes-jekyll
 #minimal_mistakes_skin: "default"
