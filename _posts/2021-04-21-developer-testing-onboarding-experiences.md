@@ -17,7 +17,7 @@ The quickstarts underwent a fairly interesting (to me, at least) evolution.  Whe
 1. Their place in the domain model hierarchy (starting with the base concept).
 2.  Their order of importance in terms of what we were selling (i.e., first explain the feature we most want to sell).
 
-And building on a previous tutorial, the quickstart was a mix of code snippets and UI instructions -- it didn't result in a functional demo app. It looked something like this: 
+And building on a previous tutorial, the quickstart was a mix of code snippets and UI instructions -- it didn't result in a functional demo app.
 
 
 Then I went to user test, and oh boy -- my quickstart quickly turned upside down! In the end, I had something totally different:
@@ -27,7 +27,7 @@ Then I went to user test, and oh boy -- my quickstart quickly turned upside down
 
 I was particularly pleased to watch one developer during user testing, who didn't both to run my sample app at all, but fully understood the quickstart's main points just from reading the code and looking at the sample command-line output I'd provided. 
 
-I also formed some opinions on sample apps:
+I also formed some opinions on sample apps (not universal, of course):
 
 - They should start from a totally blank project. This gives the user confidence that there's no "hidden config magic" (to quote a tester) that will break when they try to integrate samples into their application.
 - They should be well commented (obviously). 
