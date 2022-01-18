@@ -43,7 +43,7 @@ I must have been hungry when I wrote these walkthroughs. To learn about checkbox
 Keep it short
 ====
 
-I had a strict rule: keep each walkthrough to just one page. But I also wanted to showcase the breadth of extraction methods. That meant I had to show, not tell. So I carefully chose extraction steps that build in complexity, from rows to tables; from checkboxes to regions. There’s also an intentional misstep! (sometimes highlighting common errors is the quickest way to showcase concepts).  If you do get stuck there's a [cheat sheet](docs.sensible.com/cheat) with solutions and links to explanations.
+I had a strict rule: keep each walkthrough to just one page. But I also wanted to showcase the breadth of extraction methods. That meant I had to show, not tell. So I carefully chose extraction steps that build in complexity, from rows to tables; from checkboxes to regions. There’s also an intentional misstep! (sometimes highlighting common errors is the quickest way to showcase concepts).  If you do get stuck there's a [cheat sheet](https://docs.sensible.so/docs/cheat) with solutions and links to explanations.
 
 
 Easy to start from scratch
