@@ -1,9 +1,9 @@
 ---
 layout: single
 title: Launching developer self-serve walkthroughs
-date: '2021-04-21T00:00:00.000Z'
+date: '2022-01-18T00:00:00.000Z'
 author: frances
-modified_time: '2021-04-21T00:00:00.000Z'
+modified_time: '2022-01-18T00:00:00.000Z'
 
 ---
 
