@@ -14,17 +14,17 @@ modified_time: '2022-01-18T00:00:00.000Z'
 
 Recently my client Sensible launched their developer self-serve experience. It’s exciting to be a part of it, because self-serve for enterprise-grade PDF data extraction is fairly groundbreaking (I know of no other startups out there doing it, in fact). 
 
-My self-serve goal is to get users to their first meaningful data extraction in minutes. So, I’m debuting debuting a series of interactive walkthroughs that greet you in your dashboard when you sign up for a free [self-serve account](https://app.sensible.so/register/):
+My self-serve goal is to get users to their first meaningful data extraction in minutes. So, I’m debuting a series of interactive walkthroughs that greet you in your dashboard when you sign up for a free [self-serve account](https://app.sensible.so/register/):
 
 ![image](/assets/images/sensi_walkthroughs.png)
 
 This is a big improvement over our former empty dashboard, which linked to a longer [getting started guide](https://docs.sensible.so/docs/quickstart) I wrote.
 
-Here’re some of the guiding principles I used to create these walkthroughs:
+Here are some of the guiding principles I used to create these walkthroughs:
 
 Interactive
 ====
-A fun aspect of these walkthroughs is their inherent interactivity.  They’re formatted as PDFs, and their text is both the instructions, and the data to extract. You view them in the Sensible UI, and then you extract what you view. Meta, right?
+My favorite aspect of these walkthroughs is their inherent interactivity.  They’re formatted as PDFs, and their text is both the instructions, and the data to extract. You view them in the Sensible UI, and then you extract what you view. Meta, right?
 
 ![image](/assets/images/sensi_interactive.png)
 
@@ -57,6 +57,6 @@ While you can build on Sensible's [broad library](https://github.com/sensible-hq
 Feedback welcome
 ====
 
-These walkthroughs underwent many iterations before their present form, and now I look forward to user testing them. We welcome feedback -- submit your comments or suggestions to support@sensible.so. 
+These walkthroughs underwent many iterations before their present form, and now I look forward to user testing them. We welcome feedback -- drop us a line at support@sensible.so or at our [community](https://community.sensible.so/).
 
 
