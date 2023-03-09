@@ -11,7 +11,7 @@ Recently I investigated AI-powered tools for writing documentation. Of course, p
 
 Anyway, two tools that I recently investigated are:
 
-- **Codepilot labs** (powered by Codex, branched from GPT). I see encouraging chatter about Codepilot's ability to generate code among engineers on slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job lies in my ability to read and explain code! Could Codepilot help me or do it better than me?
+- **Codepilot labs** (powered by Codex, branched from GPT). I've see encouraging chatter about Codepilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job lies in my ability to read and explain code! Could Codepilot help me or do it better than me?
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
 
 Let's dive in!
