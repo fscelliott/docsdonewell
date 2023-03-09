@@ -50,7 +50,7 @@ Theneo review
 at a quick glance, some thoughts (as in 'would I personally use this for my clients'?):
 
 1. when they said 'stripe like docs' I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but I was disappointed that doesn't seem the case
-2. ok so historically, tech writers have been burned by vendor-lockin with crappy "techcomm tools". Personally that makes me very wary of anything that won't let me control/sync my content directly in GitHub as well as whatever interface the tool offers. (ie tool must play well with 'docs as code'). I can't tell how much Theneo supports this -- they have no docs, and CI deployment tab isn't enabled so I can't go play
+2. ok so historically, documentation writers have been burned by vendor-lockin with crappy "techcomm tools". Personally that makes me very wary of anything that won't let me control/sync my content directly in GitHub as well as whatever interface the tool offers. (ie tool must play well with 'docs as code'). I can't tell how much Theneo supports this -- they have no docs, and CI deployment tab isn't enabled so I can't go play
 3. not super impressed with the auto-generated descriptions. I'd still need a thinking human writing the docs, and I can't tell how smart the assistant is -- would it auto-generate reuse strategies for all params with the same description for example?
 
 ​        -> it does get me thinking that there are plenty of AI-automatable tasks potentially to be done here with human review, but I'm not sure that theneo has identified those most valuable areas.
