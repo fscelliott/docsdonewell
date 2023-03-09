@@ -21,30 +21,30 @@ Let's dive in!
 Copilot review 
 ----
 
-**Installing with appropriate security**
+**Getting access**
 
 There were a couple of things here: 
 
-- I didn't realize that the "explain" feature is part of Copilot *Labs* not Copilot itself.  I signed up for Copilot, then installed *both* in VS Code from the Visual Studio marketplace, and made sure that I'd authorized Github in VS Code  by also installing the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
+- I didn't realize that the "explain" feature is part of Copilot *Labs* not Copilot itself.  I signed up for Copilot, then installed *both* in VS Code from the Visual Studio marketplace, and made sure that I'd authorized Github in VS Code  by previously installing the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
 
 - I also didn't want to expose any code from private codebases. So in the interest of security, in Github I (regretfully) removed any of the sharing/suggestion features for Copilot: 
 
   ![copilot settings](/assets/images/copilot_1.png)
 
+**Experience**
 
-
-**Using**
-
-
+**Bottom line**
 
 
 
 Theneo review
 ---
 
+**Getting access**
 
 
 
+**Experience**
 
 
 
