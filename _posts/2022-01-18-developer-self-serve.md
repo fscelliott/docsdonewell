@@ -7,7 +7,11 @@ modified_time: '2023-03-09T00:00:00.000Z'
 
 ---
 
-Recently I investigated a few AI-powered tools for writing developer documentation. Of course, part of my investigation was prompted by existential ~~dread~~ curiosity -- will AI replace documentarians?  My initial answer is no; we still need humans to write high-quality developer docs, but tools like GPT will absolutely change how we write. And I think that's a good thing! I'm encouraged by early research on AI's transformative role, such as those that found that ["separate studies of both writers and programmers find 50% increases in productivity with AI, and higher performance and satisfaction"](https://twitter.com/emollick/status/1631397931604488194).
+Recently I investigated a few AI-powered tools for writing developer documentation. My investigation was prompted by two things:
+
+- I had a front-row seat in GPT's populatity rise; I documented a GPT3 powered tool from my client Sensible back in December 2022, before GPT's explosive entry into public discourse, and I was immediately stunned by its potential compared to other AI tools I've documented in the past. So I was pretty excited to see what LLMs could do for documentation writing.
+
+- existential ~~dread~~ curiosity -- will AI replace documentarians?   My initial answer is no; we still need humans to write high-quality developer docs, but tools like GPT will absolutely change how we write. And I think that's a good thing! I'm encouraged by early research on AI's transformative role, such as those that found that ["separate studies of both writers and programmers find 50% increases in productivity with AI, and higher performance and satisfaction"](https://twitter.com/emollick/status/1631397931604488194).
 
 Anyway, two tools that I recently investigated are:
 
