@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Reviewing some GPT tools for documentation writing
+title: Reviewing AI tools for documentation writing
 date: '2022-01-18T00:00:00.000Z'
 author: frances
 modified_time: '2023-03-09T00:00:00.000Z'
@@ -15,6 +15,16 @@ Anyway, two tools that I recently investigated are:
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
 
 Let's dive in!
+
+
+
+Codepilot review 
+----
+
+Theneo review
+---
+
+
 
 
 
