@@ -13,6 +13,7 @@ Anyway, two tools that I recently investigated are:
 
 - **Copilot labs** (powered by Codex, branched from GPT). I've see encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
+- an old favorite (TODO) -- errata.ai
 
 Let's dive in!
 
