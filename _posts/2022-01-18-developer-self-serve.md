@@ -17,7 +17,6 @@ Anyway, two tools that I recently investigated are:
 
 - **Copilot labs** (powered by Codex, branched from GPT). I've see encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
-- an old favorite (TODO) -- errata.ai
 
 Let's dive in!
 
@@ -65,7 +64,7 @@ For my test, I chose a code I was reading in order to document a new feature, [w
 
 My first tests helped me realize that you can't give Copilot big chunks of code to explain. You've got to keep it small.   
 
-Here's what Copilot came up with compared to my explanation:
+Here's what Copilot came up with compared to my preceeding explanation:
 
 > /* Here is the explanation for the code above: 
 >
@@ -76,7 +75,7 @@ Here's what Copilot came up with compared to my explanation:
 > 5. The descriptionEmbedding is the embedding of the descriptions
 > 6. The headerEmbeddings are the embeddings of the headers. */
 
-Not super helpful. Here's the code in question: 
+Not super helpful. Here's the code in question for my explanation versus Copilot's explanation: 
 
 ```typescript
 // Calculate an embedding for the concatenated column descriptions and the headers of all multi-row tables
@@ -149,8 +148,6 @@ It returns:
 **Bottom line**
 
 Copilot is great for helping me understand the mechanics or purpose of smaller snippets of code. However, it can't explain the *purpose* or *intent* behind large blocks of code very well -- which is my job as a documentarian.
-
-
 
 Theneo review
 ---
