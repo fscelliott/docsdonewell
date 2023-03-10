@@ -24,19 +24,50 @@ Let's dive in!
 
 
 Copilot review 
-----
+===
 
-**Getting access**
+Getting access
+---
 
 There were a couple of things here: 
 
-- I didn't realize that the "explain" feature is part of Copilot *Labs* not Copilot itself.  I signed up for Copilot, then installed *both* in VS Code from the Visual Studio marketplace, and made sure that I'd authorized Github in VS Code  by previously installing the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
+- I didn't realize that the "explain" feature is part of Copilot *Labs*.  I signed up for Copilot, then installed *both* Copilot and Copilot Labs in VS Code from the Visual Studio marketplace, and made sure that I'd authorized Github in VS Code  by previously installing the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
 
-- I also didn't want to expose any code from private codebases. So in the interest of security, in Github I (regretfully) removed any of the sharing/suggestion features for Copilot: 
+- I also didn't want to expose any code from private codebases. So in the interest of security, in Github I (somewhat regretfully) removed any of the sharing/suggestion features for Copilot: 
 
   ![copilot settings](/assets/images/copilot_1.png)
 
-**Experience**
+Experience
+---
+
+To test out Copilot, I decided to test its explanation against my own.  I was documenting a new feature, [which uses GPT3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table) for my client Sensible. I read the code, got a rough undrestanding, chatted with the code author, and wrote up the following explanation in the docs (Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill):
+
+
+
+**My explanation**
+
+> For an overview of how the NLP Table method works, see the following steps:
+>
+> - Sensible extracts all tables in the document using a Microsoft OCR provider.
+>
+> - Sensible extracts the table title, if present. In detail:
+>
+> - Sensible extracts lines contained in a rectangular region immediately above each table, since that region is likely to contain the table title.
+>   - The height of that region equals the line height of the first non-empty cell of the table + 0.1 inches, and the region extends down to the top boundary of the table.
+>   - For information about how Sensible determines if lines are "contained" in a region, see Region.
+> - Sensible scores each table by how well it matches the descriptions you provide of the data you want to extract. To create the score:
+>  - Sensible concatenates all your column descriptions with your overall table description.
+>   - Sensible concatenates the first two rows of the table with the table title.
+>  - Sensible compares the two concatenations using the OpenAPI Embeddings API.
+> 
+>
+> - Sensible uses GPT-3 to restructure the best-scoring table based on your column descriptions and your overall table description. Sensible returns the restructured table.
+
+**Copilot's explanation**
+
+
+
+
 
 **Bottom line**
 
