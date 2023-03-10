@@ -66,7 +66,7 @@ I read the code, got a rough understanding, chatted with the code author, and wr
 
 **Versus Copilot's explanation**
 
-My first tests helped me realize that you can't give Copilot big chunks of code to explain. You've got to keep it small.   
+
 
 Here's what Copilot came up with compared to my preceding explanation:
 
@@ -79,7 +79,7 @@ Here's what Copilot came up with compared to my preceding explanation:
 > 5. The descriptionEmbedding is the embedding of the descriptions
 > 6. The headerEmbeddings are the embeddings of the headers. */
 
-Not super helpful. Here's the code in question for my explanation versus Copilot's explanation: 
+Not super helpful. My first tests helped me realize that you can't give Copilot big chunks of code to explain. You've got to keep it small. Here's the way-too-long code block that I used to compare my explanation versus Copilot's explanation: 
 
 ```typescript
 // Calculate an embedding for the concatenated column descriptions and the headers of all multi-row tables
@@ -148,7 +148,6 @@ It returns:
 ```
 
 
-
 **Bottom line**
 
 Copilot is great for helping me understand the mechanics or purpose of smaller snippets of code. However, it can't explain the *purpose* or *intent* behind large blocks of code very well -- which is my job as a documentarian.
@@ -184,15 +183,12 @@ A generated description like "The URL of the webhook to be triggered" isn't grea
 
 
 
-
-
 My quick impressions of Theneo:
 
 1. When they said "Stripe like docs" I thought they were promising the "three panel" format Stripe offers with full code samples (like their [checkout docs]( https://stripe.com/docs/checkout/quickstart)) but that wasn't the case.
 2. Ok time to be blunt: So historically, documentation writers have been burned by vendor lock-in by crappy techcomm tools. Sad but true: we just don't have the same quality of toolchains as do software developers (though this is definitely changing for the better). Personally, that makes me very wary of anything that won't let me control/sync my content directly in GitHub. In other words, the tool must play well with docs as code. I can't tell how much Theneo supports this -- they have no docs, and while there was a CI deployment tab, it wasn't enabled when I went the free/self-serve signup route so I couldn't go play with it.
 3. I'm not super impressed with the auto-generated descriptions for API parameters at first glance. I'd still need a thinking human writing the docs.
 4. I can't tell how smart the AI generation is -- would it auto-generate reuse strategies for all params with the same description, for example? Would it do so according to the reuse rules of the underlying file format, i.e., for an openapi file, would it use `$ref` syntax? Or would it do something homegrown that I couldn't easily export?
-
 
 
 **Bottom line**
