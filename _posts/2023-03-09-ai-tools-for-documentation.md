@@ -44,7 +44,9 @@ To test out Copilot, I decided to test its explanation of a code block against m
 
 **My explanation**
 
-For my test, I chose a code block I was reading in order to document a new feature, [which uses GPT-3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs. Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill:
+For my test, I chose a code block I was reading in order to document a new feature, [which uses GPT-3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. (As an aside, I got a kick out of using a GPT-3 powered tool (Copilot) to examine code that ultimately also uses GPT-3 and other OpenAI tools. Meta!)
+
+I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs. Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill:
 
 > For an overview of how the NLP Table method works, see the following steps:
 >
@@ -60,6 +62,7 @@ For my test, I chose a code block I was reading in order to document a new featu
 > 
 >
 > 
+
 
 **Versus Copilot's explanation**
 
