@@ -164,21 +164,34 @@ Experience
 
 I was mostly intrigued by the promise of generating docs.  However, it turns out that Theneo is a pretty early-stage startup and lacks documentation, so I ended up with a lot of unanswered questions.
 
-To test it, 
+To test its generative capacity, I imported an openapi file I'd worked on, but with most of my description strings removed. 
+
+I liked that there were a variety of formats supported for import:
+
+![copilot settings](/assets/images/theneo_1.png)
+
+Once I was in the API docs editor, my very first exposure to their auto-generated docs wasn't super impressive. It looked like I got to choose between different suggestions for each parameter:
+
+![copilot settings](/assets/images/theneo_4.png)
+
+"The URL of the webhook to be triggered" isn't great docs though -- what's the purpose of the webhook? Compare it to my docs for this particular webhook (again, for Sensible):  
+
+> The webhook specifies to return document extraction results to the defined webhook as soon as they're complete, so you don't have to poll for results status. Sensible also calls this webhook on error. 
 
 
 
+So I didn't get to a 'wow' moment in the first few minutes, and that was enough to make me to abandon my evaluation. Maybe there was some AI generative writing capacity that's really gold value in there, but if so, I missed it. 
 
+**Bottom line**
 
-at a quick glance, some thoughts (as in 'would I personally use this for my clients'?):
+My quick impressions of Theneo:
 
-1. when they said 'stripe like docs' I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but I was disappointed that doesn't seem the case
-2. ok so historically, documentation writers have been burned by vendor-lockin with crappy "techcomm tools". Personally that makes me very wary of anything that won't let me control/sync my content directly in GitHub as well as whatever interface the tool offers. (ie tool must play well with 'docs as code'). I can't tell how much Theneo supports this -- they have no docs, and CI deployment tab isn't enabled so I can't go play
-3. not super impressed with the auto-generated descriptions. I'd still need a thinking human writing the docs, and I can't tell how smart the assistant is -- would it auto-generate reuse strategies for all params with the same description for example?
+1. When they said 'stripe like docs' I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but I was disappointed that doesn't seem the case.
+2. Ok so historically, documentation writers have been burned by vendor-lockin with crappy "techcomm tools". Personally that makes me very wary of anything that won't let me control/sync my content directly in GitHub as well as whatever interface the tool offers. (ie tool must play well with 'docs as code'). I can't tell how much Theneo supports this -- they have no docs, and CI deployment tab isn't enabled when I went the free/self-serve signup route so I can't go play with it.
+3. I'm not super impressed with the auto-generated descriptions for API parameters at first glance. I'd still need a thinking human writing the docs.
+4.  I can't tell how smart the AI generation is -- would it auto-generate reuse strategies for all params with the same description, for example? Would it do so according to the reuse rules of the underlying file format, i.e., for an openapi file, would it use `$ref` syntax? Or would it do something homegrown that I couldn't easily export?
 
-​        -> it does get me thinking that there are plenty of AI-automatable tasks potentially to be done here with human review, but I'm not sure that theneo has identified those most valuable areas.
-
-1. bottom line, personally, I wouldn't use it until I was sure of the docs-as-code capabilities and until I saw some robust documentation abt theneo.
+Overall, it does get me thinking that there are plenty of AI-automatable tasks potentially to be done here with human review, but I'm not sure that Theneo has identified -- or at least showcased -- those most valuable areas yet.
 
 
 
