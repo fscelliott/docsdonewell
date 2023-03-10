@@ -9,7 +9,7 @@ modified_time: '2023-03-09T00:00:00.000Z'
 
 Recently I investigated a few AI-powered tools for writing developer documentation. My investigation was prompted by two things:
 
-- I had a front-row seat in GPT's popularity rise; I documented a GPT3 powered tool from my client Sensible back in December 2022, just before GPT's explosive entry into the public imagination, and I was immediately stunned by its potential compared to other AI tools I've documented in the past. So I was pretty excited to see what LLMs could do for documentation writing.
+- I had a front-row seat in GPT's popularity rise; I documented a GPT-3 powered tool from my client Sensible back in December 2022, just before GPT's explosive entry into the public imagination, and I was immediately stunned by its potential compared to other AI tools I've documented in the past. So I was pretty excited to see what large language models (LLMs) could do for generating documentation.
 
 - Existential ~~dread~~ curiosity -- will AI replace documentarians?   My initial answer is no; we still need humans to write high-quality developer docs, but tools like GPT will absolutely change how we write. And I think that's a good thing! I'm encouraged by early research on AI's transformative role, such as those that found that ["separate studies of both writers and programmers find 50% increases in productivity with AI, and higher performance and satisfaction"](https://twitter.com/emollick/status/1631397931604488194).
 
@@ -44,7 +44,7 @@ To test out Copilot, I decided to test its explanation of a code block against m
 
 **My explanation**
 
-For my test, I chose a code I was reading in order to document a new feature, [which uses GPT3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs (Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill):
+For my test, I chose a code I was reading in order to document a new feature, [which uses GPT-3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs (Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill):
 
 > For an overview of how the NLP Table method works, see the following steps:
 >
