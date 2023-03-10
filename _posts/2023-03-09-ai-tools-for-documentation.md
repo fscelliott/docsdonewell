@@ -175,7 +175,7 @@ Once I was in the API docs editor, my very first exposure to their auto-generate
 
 ![copilot settings](/assets/images/theneo_4.png)
 
-"The URL of the webhook to be triggered" isn't great docs though -- what's the purpose of the webhook? Compare it to my docs for this particular webhook (again, for Sensible):  
+A generated description like "The URL of the webhook to be triggered" isn't great docs though -- what's the purpose of the webhook? Compare it to my docs for this particular webhook (again, for Sensible):  
 
 > The webhook specifies to return document extraction results to the defined webhook as soon as they're complete, so you don't have to poll for results status. Sensible also calls this webhook on error. 
 
