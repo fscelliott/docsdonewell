@@ -9,13 +9,13 @@ modified_time: '2023-03-09T00:00:00.000Z'
 
 Recently I investigated a few AI-powered tools for writing developer documentation. My investigation was prompted by two things:
 
-- I had a front-row seat in GPT's populatity rise; I documented a GPT3 powered tool from my client Sensible back in December 2022, just before GPT's explosive entry into the public imagination, and I was immediately stunned by its potential compared to other AI tools I've documented in the past. So I was pretty excited to see what LLMs could do for documentation writing.
+- I had a front-row seat in GPT's popularity rise; I documented a GPT3 powered tool from my client Sensible back in December 2022, just before GPT's explosive entry into the public imagination, and I was immediately stunned by its potential compared to other AI tools I've documented in the past. So I was pretty excited to see what LLMs could do for documentation writing.
 
 - Existential ~~dread~~ curiosity -- will AI replace documentarians?   My initial answer is no; we still need humans to write high-quality developer docs, but tools like GPT will absolutely change how we write. And I think that's a good thing! I'm encouraged by early research on AI's transformative role, such as those that found that ["separate studies of both writers and programmers find 50% increases in productivity with AI, and higher performance and satisfaction"](https://twitter.com/emollick/status/1631397931604488194).
 
 Anyway, two tools that I recently investigated are:
 
-- **Copilot labs** (powered by Codex, a version of GPT-3). I've see encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
+- **Copilot labs** (powered by Codex, a version of GPT-3). I've seen encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out its "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
 
 Let's dive in!
@@ -28,7 +28,7 @@ Copilot review
 Getting access
 ---
 
-There were a couple of things here: 
+I encountered a few challenges installing Copilot for VS Code: 
 
 - I didn't realize that the "explain" feature is part of Copilot *Labs*.  I signed up for Copilot, then installed *both* Copilot and Copilot Labs in VS Code from the Visual Studio marketplace, and made sure that I'd authorized Github in VS Code  by previously installing the [GitHub Pull Requests and Issues](https://code.visualstudio.com/docs/sourcecontrol/github) extension.
 
@@ -64,7 +64,7 @@ For my test, I chose a code I was reading in order to document a new feature, [w
 
 My first tests helped me realize that you can't give Copilot big chunks of code to explain. You've got to keep it small.   
 
-Here's what Copilot came up with compared to my preceeding explanation:
+Here's what Copilot came up with compared to my preceding explanation:
 
 > /* Here is the explanation for the code above: 
 >
@@ -164,7 +164,7 @@ Experience
 
 I was mostly intrigued by the promise of generating docs.  However, it turns out that Theneo is a pretty early-stage startup and lacks documentation, so I ended up with a lot of unanswered questions.
 
-To test its generative capacity, I imported an openapi file I'd worked on, but with most of my description strings removed. 
+To test its generative capacity, I imported an openapi file I'd worked on, after I removed most of my documentation strings from the `description` parameters. 
 
 I liked that there were a variety of formats supported for import:
 
@@ -184,8 +184,8 @@ Once I was in the API docs editor, my very first exposure to their auto-generate
 
 My quick impressions of Theneo:
 
-1. When they said 'stripe like docs' I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but I was disappointed that doesn't seem the case.
-2. Ok time to be blunt: So historically, documentation writers have been burned by vendor lock-in by crappy "techcomm tools". Sad but true: we just haven't gotten the same quality of toolchains as do software developers (though this is definitely changing for the better). Personally that makes me very wary of anything that won't let me control/sync my content directly in GitHub. In other words, the tool must play well with 'docs as code'. I can't tell how much Theneo supports this -- they have no docs, and CI deployment tab isn't enabled when I went the free/self-serve signup route so I can't go play with it.
+1. When they said "Stripe like docs" I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but that wasn't the case.
+2. Ok time to be blunt: So historically, documentation writers have been burned by vendor lock-in by crappy techcomm tools. Sad but true: we just don't have the same quality of toolchains as do software developers (though this is definitely changing for the better). Personally, that makes me very wary of anything that won't let me control/sync my content directly in GitHub. In other words, the tool must play well with docs as code. I can't tell how much Theneo supports this -- they have no docs, and while there was a CI deployment tab, it wasn't enabled when I went the free/self-serve signup route so I couldn't go play with it.
 3. I'm not super impressed with the auto-generated descriptions for API parameters at first glance. I'd still need a thinking human writing the docs.
 4. I can't tell how smart the AI generation is -- would it auto-generate reuse strategies for all params with the same description, for example? Would it do so according to the reuse rules of the underlying file format, i.e., for an openapi file, would it use `$ref` syntax? Or would it do something homegrown that I couldn't easily export?
 
@@ -193,7 +193,7 @@ My quick impressions of Theneo:
 
 **Bottom line**
 
-So I didn't get to a 'wow' moment in the first few minutes, and that was enough to make me to abandon my evaluation. Overall, it does get me thinking that there are plenty of AI-automatable tasks potentially to be done here with human review, but I'm not sure that Theneo has identified -- or at least showcased -- those most valuable areas yet.
+So I didn't get to a 'wow' moment in the first few minutes, and that was enough to make me abandon my evaluation. Overall, it does get me thinking that there are plenty of AI-automatable tasks potentially to be done when coupled with human review, but I'm not sure that Theneo has identified -- or at least showcased -- those most valuable areas yet.
 
 
 
