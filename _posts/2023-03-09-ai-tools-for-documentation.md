@@ -34,7 +34,8 @@ I encountered a few challenges installing Copilot for VS Code:
 
 - I also didn't want to expose any code from private codebases. So in the interest of security, in Github I (somewhat regretfully) removed any of the sharing/suggestion features for Copilot: 
 
-  ![copilot settings](/assets/images/copilot_1.png)
+
+  <img src="/assets/images/copilot_1.png"  width="100%">
 
 Experience
 ---
