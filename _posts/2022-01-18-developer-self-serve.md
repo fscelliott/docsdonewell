@@ -15,7 +15,7 @@ Recently I investigated a few AI-powered tools for writing developer documentati
 
 Anyway, two tools that I recently investigated are:
 
-- **Copilot labs** (powered by Codex, branched from GPT). I've see encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
+- **Copilot labs** (powered by Codex, a version of GPT-3). I've see encouraging chatter about Copilot's ability to generate code from prompts among engineers on Slack, so I thought I'd try out it's "Explain code" capabilities. After all, a large part of my job is reading and explaining code! Could Copilot help me or do it better than me?
 - **Theneo** -- a new developer portal tool that says it uses AI to generate Stripe-like docs.
 
 Let's dive in!
@@ -150,13 +150,25 @@ It returns:
 Copilot is great for helping me understand the mechanics or purpose of smaller snippets of code. However, it can't explain the *purpose* or *intent* behind large blocks of code very well -- which is my job as a documentarian.
 
 Theneo review
+===
+
+Theneo promises to use AI to help you generate your API docs. 
+
+Getting access
 ---
 
-**Getting access**
+Getting access was easy; there was a self-serve signup link at https://www.theneo.io/. 
+
+Experience
+---
+
+I was mostly intrigued by the promise of generating docs.  However, it turns out that Theneo is a pretty early-stage startup and lacks documentation, so I ended up with a lot of unanswered questions.
+
+To test it, 
 
 
 
-**Experience**
+
 
 at a quick glance, some thoughts (as in 'would I personally use this for my clients'?):
 
