@@ -44,7 +44,7 @@ To test out Copilot, I decided to test its explanation of a code block against m
 
 **My explanation**
 
-For my test, I chose a code I was reading in order to document a new feature, [which uses GPT-3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs (Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill):
+For my test, I chose a code block I was reading in order to document a new feature, [which uses GPT-3 to extract tables from PDFs](https://docs.sensible.so/docs/nlp-table), for my client Sensible. I read the code, got a rough understanding, chatted with the code author, and wrote up the following explanation in the docs. Sensible has a core value of transparency, so I promise this explanation wasn't documentation overkill:
 
 > For an overview of how the NLP Table method works, see the following steps:
 >
@@ -185,7 +185,7 @@ A generated description like "The URL of the webhook to be triggered" isn't grea
 
 My quick impressions of Theneo:
 
-1. When they said "Stripe like docs" I thought they were promising the "three panel" format stripe offers with full code samples (like this: https://stripe.com/docs/checkout/quickstart) but that wasn't the case.
+1. When they said "Stripe like docs" I thought they were promising the "three panel" format Stripe offers with full code samples (like their [checkout docs]( https://stripe.com/docs/checkout/quickstart)) but that wasn't the case.
 2. Ok time to be blunt: So historically, documentation writers have been burned by vendor lock-in by crappy techcomm tools. Sad but true: we just don't have the same quality of toolchains as do software developers (though this is definitely changing for the better). Personally, that makes me very wary of anything that won't let me control/sync my content directly in GitHub. In other words, the tool must play well with docs as code. I can't tell how much Theneo supports this -- they have no docs, and while there was a CI deployment tab, it wasn't enabled when I went the free/self-serve signup route so I couldn't go play with it.
 3. I'm not super impressed with the auto-generated descriptions for API parameters at first glance. I'd still need a thinking human writing the docs.
 4. I can't tell how smart the AI generation is -- would it auto-generate reuse strategies for all params with the same description, for example? Would it do so according to the reuse rules of the underlying file format, i.e., for an openapi file, would it use `$ref` syntax? Or would it do something homegrown that I couldn't easily export?
@@ -194,7 +194,7 @@ My quick impressions of Theneo:
 
 **Bottom line**
 
-So I didn't get to a 'wow' moment in the first few minutes, and that was enough to make me abandon my evaluation. Overall, it does get me thinking that there are plenty of AI-automatable tasks potentially to be done when coupled with human review, but I'm not sure that Theneo has identified -- or at least showcased -- those most valuable areas yet.
+So I didn't get to a 'wow' moment in the first few minutes with Theneo, and that was enough to make me abandon my evaluation. Overall, it does get me thinking that there are plenty of AI-automatable tasks potentially to be done when coupled with human review, but I'm not sure that Theneo has identified -- or at least showcased -- those most valuable areas yet.
 
 
 
