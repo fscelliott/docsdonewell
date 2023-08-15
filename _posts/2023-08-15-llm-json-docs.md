@@ -11,7 +11,10 @@ I'm [documenting advanced prompt configuration for LLMs quite a bit these days](
 One of my more annoyingly manual tasks when writing API docs is to compare an actual returned JSON payload made with a test Postman call to the JSON structure I've documented. I haven't really found a semantic JSON comparison tool online that I'm thrilled with, and I haven't bothered to dig through VS Code extensions to see if there's a tool that can compare it for me. I'm sure it exists, I just haven't done the research. However, I found ChatGPT-3 gave me quite a nice answer to this prompt:
 
 ```
-Compare the following JSON blobs. Sort the blobs alphabetically by their keys, then for the sorted blobs, tell me if the blobs are structurally identical in terms of key names. Ignore different values for the keys, ignore repeated array items, and ignore  empty arrays in the comparison.
+Compare the following JSON blobs. Sort the blobs alphabetically by their keys, then for the sorted blobs,
+tell me if the blobs are structurally identical in terms of key names.
+Ignore different values for the keys, ignore repeated array items, and ignore  empty arrays in the comparison.
+
 BLOB 1:
 
 
@@ -113,7 +116,11 @@ Both BLOB 1 and BLOB 2 have the same structural layout in terms of key names. Th
     - "fields_present"
     - "skipped"
     - "warnings"
-```
+
 
 Please note that the comparison ignores differences in values, repeated array items, and empty arrays, focusing solely on the presence of keys and their nested structures.
+
+```
+
+I ask for the alphabetical sort, so I can eyeball the sorted blobs myself and sanity check the answer.
 
