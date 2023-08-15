@@ -4,7 +4,6 @@ title: Trip: Proofread documented JSON blobs using LLMs
 date: '2023-08-15T00:00:00.000Z'
 author: frances
 modified_time: '2023-03-09T00:00:00.000Z'
-
 ---
 
 I'm [documenting advanced prompt configuration for LLMs quite a bit these days](https://docs.sensible.so/docs/prompt), and so I thought I'd share a small tip for using LLMs to actually write the docs.
