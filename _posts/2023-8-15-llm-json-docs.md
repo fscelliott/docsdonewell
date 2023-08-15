@@ -7,7 +7,7 @@ modified_time: '2023-03-09T00:00:00.000Z'
 
 ---
 
-I'm [documenting advanced prompt configuration for LLMs quite a bit these days](), and so I thought I'd share a small tip for using LLMs to actually write the docs.
+I'm [documenting advanced prompt configuration for LLMs quite a bit these days](https://docs.sensible.so/docs/prompt), and so I thought I'd share a small tip for using LLMs to actually write the docs.
 
 One of my more annoyingly manual tasks when writing API docs is to compare an actual returned JSON payload made with a test Postman call to the JSON structure I've documented. I haven't really found a semantic JSON comparison tool online that I'm thrilled with, and I haven't bothered to dig through VS Code extensions to see if there's a tool that can compare it for me. I'm sure it exists, I just haven't done the research. However, I found ChatGPT-3 gave me quite a nice answer to this prompt:
 
