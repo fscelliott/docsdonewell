@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Trick: Proofreading documented JSON blobs using LLMs
+title: Trip: Proofread documented JSON blobs using LLMs
 date: '2023-08-15T00:00:00.000Z'
 author: frances
 modified_time: '2023-03-09T00:00:00.000Z'
