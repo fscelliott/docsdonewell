@@ -12,7 +12,7 @@ One of my more annoyingly manual tasks when writing API docs is to compare an ac
 
 ```
 Compare the following JSON blobs. Sort the blobs alphabetically by their keys, then for the sorted blobs,
-tell me if the blobs are structurally identical in terms of key names.
+tell me if the blobs are structurally identical in terms of key names. If they're different, tell me specifics of how they're different.
 Ignore different values for the keys, ignore repeated array items, and ignore  empty arrays in the comparison.
 
 BLOB 1:
