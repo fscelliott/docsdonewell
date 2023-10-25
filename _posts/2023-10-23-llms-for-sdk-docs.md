@@ -29,4 +29,4 @@ This wish item is pretty similar to the previous tool wish item. Notice that I s
 
 ## Github action to notify me when SDK/API docs need updates
 
-I'd love auto-generated PRs that suggest changes to my Github-sourced docs based on committed changes to the codebases. And again, bonus points for traceability -- show me what changed in the codebases that necessitate the changes.
+I'd love auto-generated PRs that suggest changes to my Github-sourced docs based on committed changes to the codebases. And again, bonus points for traceability -- show me what changed in the codebases that necessitate the doc changes.
