@@ -33,6 +33,8 @@ I'd love auto-generated PRs that suggest changes to my Github-sourced docs based
 
 ## Auto-update internal links
 
+Links maintenance can be a big, manual bear for docs writers. Off the top of my head:
+
 If I change a page slug, give me suggestions for updating existing links. Give me configurable options for recognizing links too; for example, when I work in the Readme platform, I often use the internal syntax `[link title](doc:slug)`.
 
 If I delete a page, let me know about broken links.
