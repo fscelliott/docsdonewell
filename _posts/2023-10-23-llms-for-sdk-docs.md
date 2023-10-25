@@ -6,7 +6,7 @@ author: frances
 modified_time: '2023-10-25T00:00:00.000Z'
 ---
 
-I'm writing some SDK docs from scratch, and it got me thinking about LLM-powered doc tools I'd love to see for SDKs and APIs. In no particular order:
+I'm writing some SDK docs from scratch, and it got me thinking about LLM-powered doc tools I'd love to see for SDKs and APIs. Ignoring questions of current feasibility and in no particular order, I'd love to see:
 
 ## Language-agnostic tool to auto-generate openapi spec from codebases
 
