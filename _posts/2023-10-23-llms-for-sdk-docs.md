@@ -30,3 +30,11 @@ This wish item is pretty similar to the previous tool wish item. Notice that I s
 ## Github action to notify me when SDK/API docs need updates
 
 I'd love auto-generated PRs that suggest changes to my Github-sourced docs based on committed changes to the codebases. And again, bonus points for traceability -- show me what changed in the codebases that necessitate the doc changes.
+
+## Auto-update internal links
+
+If I change a page slug, give me suggestions for updating existing links. Give me configurable options for recognizing links too; for example, when I work in the Readme platform, I often use the internal syntax `[link title](doc:slug)`.
+
+If I delete a page, let me know about broken links.
+
+If I create a new page and the LLM recognizes that it's related to existing topics, ask me if I want to link to any of the existing topics.
