@@ -39,4 +39,4 @@ If I change a page slug, give me suggestions for updating existing links. And gi
 
 If I delete a page, let me know about broken links.
 
-If I create a new page and the LLM recognizes that it's related to existing topics, ask me if I want to link to any of the existing topics. This one is probably very difficult to do well with LLMs, because there are so many nuances about feature relationships. For example, when a new feature renders another less desireable, but not exactly obsolete, the relationship can be very hard to recognize without deep knowledge of the product.
+If I create a new page and the LLM recognizes that it's related to existing topics, ask me if I want to link to any of the existing topics. This one is probably very difficult to do well with current LLMs, because there are so many nuances about feature relationships. For example, when a new feature renders another less desireable, but not exactly obsolete, the relationship can be very hard to recognize without deep knowledge of the product.
