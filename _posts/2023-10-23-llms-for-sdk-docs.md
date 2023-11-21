@@ -16,27 +16,25 @@ But what if an LLM could do the work for me? Maybe I could set one language as m
 
 ## Language-agnostic tool to auto-generate openapi spec from codebases
 
-Sometimes I go into a codebase completely blind about the API I need to document. In those cases, I've used existing tools that generate openapi specs from codebases. Generally the output is a skeleton that I then use to hand-write the API docs.^1^
+Sometimes I go into a codebase completely blind about the API I need to document. In those cases, I've used existing tools that generate openapi specs from codebases. Generally the output is a skeleton that I then use to hand-write the API docs.**
 
-But existing api spec auto-gen tools are kinda painful to install and run when you're a documentarian who doesn't work habitually in one language or codebase. It would be so cool if there were a LLM-powered language-agnostic tool that didn't require me to install a development environment, but just let me point it to the entire codebase and have it automatically identify the API-related portions and generate the REST API spec(s). Bonus points for traceability, like adding comments to the spec indicating which file and line(s) the LLM got an endpoint or parameter from. Additional bonus points for autopopulating the `description` parameters from code comments. If there are no code comments, at this point I'd rather have empty `descriptions`; in my experience auto-generated LLM content for `descriptions` tend to be poor quality, like `the webhook for the endpoint`.
+But existing API spec auto-gen tools are kinda painful to install and run when you're a documentarian who doesn't work habitually in one language or codebase. It would be so cool if there were a LLM-powered language-agnostic tool that didn't require me to install a development environment, but just let me point it to the entire codebase and have it automatically identify the API-related portions and generate the REST API spec(s). Bonus points for autopopulating the `description` parameters from code comments. If there are no code comments, at this point I'd rather have empty `descriptions`; in my experience auto-generated LLM content for `descriptions` tend to be poor quality.
 
-^1^ I generally hand-write and maintain the openapi specs that power API docs. It's a constraint I wish I wasn't working within. But while I've heard it bandied about as a best practice to source an openapi spec from the code or source at least some of the code, such as types, from the openapi spec, I don't see that happen a ton in the wild. What most often happens is that if someone cares enough to hire me to write the API docs, then I'm hand-maintaining the openapi spec so that I can have fine-grained control over the `description` properties. For example: a customer versions their API a lot, so I write templates for the specs and source the versioned `description`'s in config files.
+** Why do I generally hand-write and maintain the openapi specs that power API docs? It's a constraint I wish I wasn't working within. While I've heard it bandied about as a best practice to source an openapi spec from the code or source at least some of the code, such as types, from the openapi spec, I don't see that happen a ton in the wild. What most often happens is that if someone cares enough to hire me to write the API docs, then I'm hand-maintaining the openapi spec so that I can have fine-grained control over the `description` properties. For example: a customer versions their API a lot, so I write templates for the specs and source the versioned `description`'s in config files.
 
 
 ## Tool to auto-generate SDK docs from codebases
 
-This wish item is pretty similar to the previous tool wish item. Notice that I say 'from the codebase' though, not 'from an openapi spec'.  A quality SDK will often combine or otherwise automate tricky API endpoints, so a 1:1 correspondence between an API and SDK often isn't the best user experience.
+This wish item is pretty similar to the previous tool wish item. Notice that I say "from the codebase" though, not "from an openapi spec."  A quality SDK will often combine or otherwise automate tricky API endpoints, so a 1:1 correspondence between an API and SDK often isn't the best user experience.
 
 ## Github action to notify me when SDK/API docs need updates
 
-I'd love auto-generated PRs that suggest changes to my Github-sourced docs based on committed changes to the codebases. And again, bonus points for traceability: point me to what changed in the codebases that necessitate the doc changes.
+I'd love auto-generated PRs that suggest changes to my Github-sourced docs based on committed changes to the codebases. Bonus points for traceability: easily accessible pointers to what changed in the codebases that necessitate the doc changes.
 
 ## Auto-update internal links
 
-Links maintenance can be a big, manual bear for docs writers. Off the top of my head:
+Links maintenance can be a big, manual process. Off the top of my head:
 
-If I change a page slug, give me suggestions for updating existing links. And give me configurable options for recognizing internal link syntax. For example, when I work in the Readme platform, I often use the internal syntax `[link title](doc:slug)`.
-
-If I delete a page, let me know about broken links.
-
-If I create a new page and the LLM recognizes that it's related to existing topics, ask me if I want to link to any of the existing topics. This one is probably very difficult to do well with current LLMs, because there are so many nuances about feature relationships. For example, when a new feature renders another less desireable, but not exactly obsolete, the relationship can be very hard to recognize without deep knowledge of the product.
+- If I change a page slug, give me suggestions for updating existing links. And give me configurable options for recognizing internal link syntax. For example, when I work in the Readme platform, I often use the internal syntax `[link title](doc:slug)`.
+- If I delete a page, let me know about broken links.
+- If I create a new page and the LLM recognizes that it's related to existing topics, ask me if I want to link to any of the existing topics. This one is probably very difficult to do well with current LLMs, because there are so many nuances about feature relationships. For example, when a new feature renders another less desireable, but not exactly obsolete, the relationship can be very hard to recognize without deep knowledge of the product.
