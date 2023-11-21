@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Wishlist for LLM-powered authoring tools for SDK and API documentation
+title: My wishlist for LLM-powered authoring tools for SDK and API documentation
 date: '2023-10-25T00:00:00.000Z'
 author: frances
 modified_time: '2023-10-25T00:00:00.000Z'
