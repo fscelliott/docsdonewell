@@ -3,7 +3,7 @@ layout: single
 title: Overhauling docs for product-lead growth
 date: '2024-02-28T00:00:00.000Z'
 author: frances
-modified_time: '2023-10-25T00:00:00.000Z'
+modified_time: '2024-04-18T00:00:00.000Z'
 ---
 
 One of my pleasures as a founding writer is getting to improve the docs as the product improves.  Self-serve developer tools are fun to document, because well designed product-lead growth features usually lead to more beautiful docs that are satisfyingly to revise.
@@ -25,16 +25,4 @@ The new table of contents, in contrast:
 ![Old table of contents](/assets/images/post_restructure/toc_after_sensible.png)
 
 
-
-While I was at it, I took a look at analytics:
-
-
-
-pages_before_sensible
-
-pages_after_sensible
-
-google_before_sensible
-
-TODO: talk about the OCR page??
 
