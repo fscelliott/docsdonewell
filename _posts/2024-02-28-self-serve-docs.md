@@ -6,7 +6,7 @@ author: frances
 modified_time: '2024-04-18T00:00:00.000Z'
 ---
 
-One of my pleasures as a founding writer is getting to improve the docs as the product improves.  Self-serve developer tools are fun to document, because well designed product-lead growth features usually lead to more beautiful docs that are satisfyingly to revise.
+One of my pleasures as a founding writer a startups is restructuring the docs as the product improves.  Self-serve developer tools are fun to document, because well designed product-lead growth features usually lead to more beautiful docs that are satisfyingly to revise.
 
 I got a chance to overhaul the docs for my client Sensible recently because they've added some excellent self-serve features for developers, including:
 
@@ -24,5 +24,5 @@ The new table of contents, in contrast:
 
 ![Old table of contents](/assets/images/post_restructure/toc_after_sensible.png)
 
-
+I'm feeling proud of these changes. Looking forward to observing my docs metrics over the next few months to see how they impact my top-visited pages and top docs site searches.
 
