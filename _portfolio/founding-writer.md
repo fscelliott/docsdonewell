@@ -6,7 +6,7 @@ author: frances
 ---
 
 
-For an example of a docs site I authored as a founding writer, see [Sensible documentation(https://docs.sensible.so).
+For an example of a docs site I authored as a founding writer, see [Sensible documentation](https://docs.sensible.so).
 
 ![Before](/assets/images/portfolio/sensible_docs.png)
 
