@@ -1,0 +1,48 @@
+---
+layout: single
+title: A whirlwind reading tour of API strategy
+date: '2019-11-19T09:55:00.001-08:00'
+author: frances
+tags:
+- techcomm
+- dita
+modified_time: '2019-11-19T13:13:14.240-08:00'
+
+
+---
+
+#A whirlwind reading tour of API strategy
+
+Recently, I had some time to stick my head outside my workplace bubble, and I went on a huge reading tour of the API product industry landscape. It was so much fun! Here are some of the best resources I found a long the way:
+
+##API Products vs API Solutions: Where's the $$ for technical writers? 
+
+What's the difference between an "API product" vs "API solution"? Here's a good article on the distinction: [Two Breeds of API: API Products and API Solutions](http://api-as-a-product.com/articles/digital-transformation-api-product/)
+
+The summary is that API "solutions" are intra-enterprise, created by IT teams to break down silos or put a fresh coat of paint on old technology for internal teams' use. Typically they are run as projects and often don't have budget for a technical writer. 
+
+API "products" are what tech writers are more familiar with -- they are a means for the company to sell something to external develpers, 
+and they are surrounded by all that jazz like developer portals and possibly product managers and a DevRel team.
+
+When you take a look at API industry painpoints, lack of docs is always listed as a big one. However, as a freelance or enterprise tech writer, those 'bulk of the iceburg' undocumented APIs are internal to enterprises, and they probably aren't are your radar because 1) you can't generally google for them 2) the IT people in charge of those APIs aren't used to thinking of APIs as products, and they're not looking to budget or hire for a writer. Probably if you want to make a difference in the internal API world, you might want to partner with an API strategist or digital transformation strategist (or brand yourself as such) and get used to talking to IT executives who think in terms of budgets and projects, not in terms of product lifecycles.  
+
+
+##API History
+
+I really like this article: [API Evangelist History of APIs](http://history.apievangelist.com/#Amazon%20S3). One thing this article doesn't explain is that Amazon did something really revolutionary around 2002: it went full-tilt on "API solutions" and mandated that all departments communicate with each other internally via APIs [The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/). I don't know how many other companies have gone as whole hog, though I know Capitol One is another one. I also didn't really realize until I read this article that "cloud" was historically kinda synomomous with "Amazon Web Service."
+
+
+##The future of API documentation
+Again, I turn to API Evangelist -- his ideas around visualizing payloads and adding interactivity are fascinating! 
+
+
+##API Ops
+
+##API Product Strategy
+
+##The latest and greatest tech
+
+##API Usability and Developer Experience
+
+
+
