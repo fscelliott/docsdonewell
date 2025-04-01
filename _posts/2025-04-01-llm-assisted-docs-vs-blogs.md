@@ -39,7 +39,7 @@ Here's how my experiment went:
   - It removed unrelated paragraphs wholesale from the update (for example, it removed a **General limitations** section)
   - It removed helpful tips that I'd included mixed in with the UI instructions.
   - It failed to catch all necessary updates (for example, retaining a mention of email triggers in the introduction, which it should have updated to Google Drive)
-  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Now I have to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there's a differently named UI element I'm not aware of.
+  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Now I have to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there's a differently named UI element I'm not aware of. I wouldn't trust Chat not to hallucinate an answer to these questions.
 
 
 That said, I'm sure that with the right LLM, the right docs as context, and the right prompts, I'll succeed soon at updating docs using LLMs. 
