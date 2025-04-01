@@ -1,0 +1,9 @@
+## Sensible overview
+
+Sensible is a startup that sells document processing tools for developers. Our byline is "Ingest documents with just a few lines of code. Get structured data from documents instantly. Integrate document processing in your product in minutes, not months."
+
+When it comes to a comparison with competitors, we win on power and flexibility.
+Our blend of layout-based and LLM-based extraction methods for getting structured data from documents  are very robust and configurable. We name these methods "SenseML", our domain-specific query language.
+we can especially solve really difficult, complex problems, like extracting sections of repeating data from loss run insurance documents.
+our ideal customer is another startup looking to build on top of our tools in order to sell their own products. 
+Our company values include tranparency in our developer documentation, attention to detail for the developer experience, offering exceptional power and flexibility with our extraction methods, and outstanding service from our customer support team who are experts in SenseML.

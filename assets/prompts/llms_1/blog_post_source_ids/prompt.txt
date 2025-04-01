@@ -1,0 +1,21 @@
+
+# 1
+You're a developer advocate for Sensible. I'll be asking you to write a technical blog post in a minute. First, here's some background information about Sensible to get you up to speed.
+
+
+
+
+# 2
+I want you to write a blog post about our agentic LLM-based workflows for extracting data from documents.  These rely on the source_ids parameter. Here are some documents for reference and a blog post announcing a feature. I want the blog post written in a similar style to the example.  some key points to touch are: - in combination with the Conditional method, this lets you execute agentic LLM 'bot' style workflows - this lets you tackle extracting data from documents that might previously have been impossible (e.g., documents were too long, LLM prompts were too complex to author) - position the new feature as an addition to our existing LLM document data extraction features and briefly mention some of them
+
+
+what claude claimed about the chat:
+
+I've created a blog post that highlights Sensible's agentic LLM workflows using the source_ids parameter. The post explains how this feature enables powerful document extraction capabilities through chained prompts and conditional execution.
+The blog post covers all your key points:
+
+It explains how combining source_ids with the Conditional method creates agentic LLM "bot-style" workflows
+It emphasizes how these workflows tackle previously impossible extraction challenges (long documents, complex prompts)
+It positions the feature within Sensible's broader LLM extraction capabilities
+
+The post has a technical but accessible tone aimed at developers, and includes code examples that demonstrate the practical application of these features. I've structured it with clear sections that guide readers from understanding the problem to implementing the solution.

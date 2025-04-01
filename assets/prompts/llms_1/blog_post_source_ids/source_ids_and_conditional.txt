@@ -1,0 +1,146 @@
+##  Conditional method
+
+Use the Conditional method to handle [document variations](doc:document-variations) in a document type. This method extracts alternate sets of fields, depending on whether a [JsonLogic](doc:jsonlogic) condition passes or fails. For example, you want to extract data from two affiliate banks' statements. The statements' layouts are so similar that you can reuse 90 percent of your SenseML queries to handle both. Rather than authoring two separate configs, you can handle the remaining 10 percent  with conditional field execution. 
+
+The following simplified code snippet shows an overview of the Conditional method: 
+
+```json
+id: conditional
+condition: JsonLogic # condition about already extracted fields. must output a boolean 
+fieldsOnPass: [] # fields to extract if the boolean is true
+fieldsOnFail: [] # fields to extract if the boolean is false
+```
+
+## List method
+
+This LLM-based method extracts repeating data in a document based on your description of the list’s overall contents and each individual item. Data such as the work history or skills on a resume, the vehicles on an auto insurance policy, or the line items on an invoice are best suited for this method. 
+
+This method is an alternative to the [NLP Table](doc:nlp-table) method, when the data you want can appear either as a table or as another layout.
+
+The List method can find:
+
+-  data in paragraphs of free text or in more structured layouts, such as key/value pairs or tables.  
+-  data in other extracted fields, when you configure the Source Fields parameter. In other words, you can extract data with one prompt, then apply further prompts to the extracted data.
+
+### source IDS parameter
+
+| source_ids                 | array of field IDs in the current config                     | If specified, prompts an LLM to extract data from another field's output. For example, if you extract a field `_checking_transactions` and specify it in this parameter, then Sensible answers the prompts `rank deposits by size` and `reformat withdrawals with a minus sign if they're formatted with parentheses` using `_checking_transactions` rather than searching the whole document to locate the [context](doc:prompt). Note that the `_checking_transactions` field must precede the `transactions_frequencies` field in the fields array in this example. <br/>Use this parameter to:<br/>-  reformat or otherwise transform the outputs of other fields. <br/> - narrow down the [context](doc:prompt) for your prompts to a specific part of the document. <br/>-  troubleshoot or simplify complex prompts that aren't performing reliably. Break the prompt into several simpler parts, and chain them together using successive Source Ids in the fields array. <br/>For an example, see [Examples](doc:list#example-extract-data-from-other-fields). | If you configure this parameter, then generally don't configure: <br/>-  LLM Engine parameter<br/>- Single LLM Completion parameter<br/><br/>- If you configure this parameter, Sensible doesn't support the following parameters:<br/>- Anchor parameter in the field<br/>- Context Description  parameter<br/>- Multimodal Engine parameter <br/>-  Chunk Scoring Text parameter<br/>- Search By Summarization parameter<br/>- Page Hinting parameter<br/>- Chunk Count parameter<br/>- Chunk Size parameter<br/>- Chunk Overlap Percentage parameter<br/>- Page Range parameter |
+|                            |       
+
+
+## Query Group method
+
+Extracts individual facts in a document, such as the date of an invoice, the liability limit of an insurance policy, or the destination address of a shipping container delivery. 
+
+- When you configure the Multimodal Engine parameter, you can extract from non-text data such as photographs, charts, or illustrations. For an example, see [Example: Extract from images](doc:query-group#example-extract-from-images).
+- When you configure the Source Fields parameter, you can chain LLM prompts together. In other words, you can extract data with one prompt, then apply further prompts to the extracted data.               
+
+
+### Example
+
+
+            "id": "transaction_date",
+            "description": "date of transaction"
+          },
+          {
+            "id": "merchant_name",
+            "description": "merchant"
+          },
+          {
+            "id": "transaction_description",
+            "description": "description or category of transaction"
+          },
+          {
+            "id": "transaction_amount",
+            "description": "amount",
+            "type": "accountingCurrency",
+            "isRequired": true
+          }
+        ]
+      }
+    },
+    {
+      "method": {
+        "id": "queryGroup",
+        "source_ids": [
+          /* restrict queries to data in _transactions field */
+          "_transactions"
+        ],
+        "confidenceSignals": false,
+        "queries": [
+          {
+            // correct answer is "Payment Thank You - Web"
+            "id": "freq_merchant_chained_query",
+            "type": "string",
+            "description": "What is the most frequent merchant?"
+          },
+          {
+            // correct answer is 1287.37
+            "id": "max_transaction_amount_chained_query",
+            "description": "what is the maximum transaction amount?"
+          }
+        ]
+      }
+    },
+    {
+      "method": {
+        "id": "queryGroup",
+        "confidenceSignals": false,
+        /* for contrast, if you query the whole document rather than the 
+           transactions table, you get incorrect answers to the same queries  */
+        "queries": [
+          {
+            // correct answer is "Payment Thank You - Web"
+            "id": "freq_merchant",
+            "type": "string",
+            "description": "What is the most frequent merchant?"
+          },
+          {
+            // correct answer is 1287.37
+            "id": "max_transaction_amount",
+            "description": "what is the maximum transaction amount?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "clean",
+      "method": {
+        "id": "suppressOutput",
+        "source_ids": [
+          "_transactions",
+         
+        ]
+      }
+    }
+  ]
+}
+```
+
+**Example document**
+The following image shows the example document used with this example config:
+
+![Click to enlarge](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/images/final/query_group_source_ids.png)
+
+| Example document | [Download link](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/pdfs/query_group_source_ids.pdf) |
+| ---------------- | ------------------------------------------------------------ |
+
+**Output**
+
+```json
+{
+  "freq_merchant_chained_query": {
+    "value": "Payment Thank You - Web",
+    "type": "string"
+  },
+  "max_transaction_amount_chained_query": {
+    "value": "1287.37",
+    "type": "string"
+  },
+  "freq_merchant": null,
+  "max_transaction_amount": {
+    "value": "$604.47",
+    "type": "string"
+  }
+}
+```
