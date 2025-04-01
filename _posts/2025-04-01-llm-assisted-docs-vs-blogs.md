@@ -48,7 +48,7 @@ That said, I'm sure that with the right LLM, the right docs as context, and the 
 
  On the other hand, I was much more impressed by LLM-assisted blog posts. I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
 
-I gave claude a two-part prompt:
+I gave Claude a two-part prompt:
 
 ```
 # prompt 1:
