@@ -6,7 +6,7 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm sure that generating developer documents with the assistance of LLMs is in my near future. Doc platforms like  [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
+I'm sure that generating developer documents with the assistance of LLMs will be a core part of my work in my near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
 
 I've been experimenting lately with prompting LLMs to:
 
