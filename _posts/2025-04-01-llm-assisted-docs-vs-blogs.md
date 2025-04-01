@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'AI-generated developer docs and blogs'
+title: 'Comparison: AI-generated developer docs vs blogs'
 date: '2025-04-01T00:00:00.000Z'
 author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
