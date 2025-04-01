@@ -58,9 +58,84 @@ You're a developer advocate for Sensible. I'll be asking you to write a technica
 I want you to write a blog post about our agentic LLM-based workflows for extracting data from documents.  These rely on the source_ids parameter. Here are some documents for reference  some key points to touch are: - in combination with the Conditional method, this lets you execute agentic LLM 'bot' style workflows - this lets you tackle extracting data from documents that might previously have been impossible (e.g., documents were too long, LLM prompts were too complex to author) - position the new feature as an addition to our existing LLM document data extraction features and briefly mention some of them
 ```
 
-I gave it four key documents as the context for the first prompt, and abbreviated documents on the feature itself for the second prompt.
+I gave it [four of my key documentation topics](https://github.com/fscelliott/docsdonewell/tree/master/assets/prompts/llms_1/key_topics) as the context for the first prompt, and [abbreviated docs](https://github.com/fscelliott/docsdonewell/tree/master/assets/prompts/llms_1/blog_post_source_ids) on the feature itself for the second prompt.
 
-It did [fairly well](https://claude.site/artifacts/6feb1347-56e5-4d7a-b847-c05ada9c76b3 )!
+It did fairly well!
+
+Here's an excerpt:
+
+````
+# Unlock Advanced Document Processing with Agentic LLM Workflows in SenseML
+
+At Sensible, we're constantly enhancing our document processing capabilities to help developers tackle increasingly complex extraction challenges. Today, we're excited to highlight one of our most powerful features: agentic LLM workflows through chained prompts using the `source_ids` parameter.
+
+## The Problem: Complex Documents Require Sophisticated Extraction
+
+Document processing isn't always straightforward. Many documents present challenges like:
+
+- Lengthy multi-page content where LLMs struggle with context windows
+- Complex data relationships requiring multi-step reasoning
+- Variable document formats that need conditional processing logic
+- Nested or hierarchical data structures
+
+Traditional extraction approaches often fall short with these documents, requiring developers to build custom workarounds or resort to manual processing.
+
+## Enter Agentic LLM Workflows with Chained Prompts
+
+Sensible's `source_ids` parameter unlocks a new paradigm in document processing by enabling you to:
+
+1. **Chain LLM prompts sequentially** - Extract data with one prompt, then apply further prompts to that extracted data
+2. **Create targeted extractions** - Narrow the context for your prompts to specific parts of a document
+3. **Transform and refine data** - Reformat or analyze previously extracted fields with subsequent prompts
+4. **Execute conditional workflows** - When combined with our Conditional method, create dynamic extraction paths based on document contents
+
+This approach mirrors the way human experts process complex documents - by breaking down the task into manageable steps, focusing attention on relevant sections, and making decisions based on previously discovered information.
+
+## How It Works: The Power of `source_ids`
+
+Let's look at how this works in practice with the Query Group method:
+
+```json
+{
+  "method": {
+    "id": "queryGroup",
+    "queries": [
+      {
+        "id": "_transactions",
+        "description": "Extract all transactions with date, merchant, description, and amount"
+      }
+    ]
+  }
+},
+{
+  "method": {
+    "id": "queryGroup",
+    "source_ids": ["_transactions"],
+    "queries": [
+      {
+        "id": "freq_merchant",
+        "description": "What is the most frequent merchant?"
+      },
+      {
+        "id": "max_transaction_amount",
+        "description": "What is the maximum transaction amount?"
+      }
+    ]
+  }
+}
+```
+
+In this example:
+
+1. First, we extract a transaction table from the document
+2. Then, we analyze that extracted data to find the most frequent merchant and maximum transaction amount
+
+By targeting the second set of queries specifically at the `_transactions` field, we get more accurate results and simplify the LLM's task.
+
+// continued...
+````
+
+
 
 Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard than I do feature-release blog post announcements. That said, for work-a-day technical blog posts,  Claude seems like a reasonable tool.
 
