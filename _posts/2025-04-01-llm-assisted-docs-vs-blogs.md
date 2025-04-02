@@ -17,7 +17,7 @@ Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll di
 
 ## Chat GPT unreliably updated my developer docs
 
-I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I have an impression of having to correct the work of some hasty intern who didn't actually test if the steps they listed are accurate. As soon as they gave me back a response and I spotted some glaring errors, I knew I'd have to double check each step by actually performing the documented actions myself. In that case, frankly I'd rather author the steps myself than search for gotchas authored by the 'unreliable intern.'
+I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of some hasty intern who didn't actually test if the steps they listed are accurate. As soon as the LLM gave me back a response and I spotted some glaring errors, I knew I'd have to double check each step by actually performing the documented actions myself. In that case, frankly I'd rather author the steps myself than search for gotchas authored by the 'unreliable intern.'
 
 Here's how my experiment went:
 
@@ -30,7 +30,7 @@ Here's how my experiment went:
   
   - Zap 1 now uses Google Drive's New File in Folder trigger instead of gmail's New Attachment.
   
-   Rewrite without any stylistic changes—only update it for technical accuracy where necessary. Be careful not to delete anything you don't need to delete.
+   Rewrite without any stylistic changes—only update it for technical accuracy where necessary. Be careful not to delete anything you don't absolutely need to delete.
   
   ```
 
@@ -39,7 +39,7 @@ Here's how my experiment went:
   - It removed unrelated paragraphs wholesale from the update (for example, it removed a **General limitations** section)
   - It removed helpful tips that I'd included mixed in with the UI instructions.
   - It failed to catch all necessary updates (for example, retaining a mention of email triggers in the introduction, which it should have updated to Google Drive)
-  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I wouldn't trust Chat to give me an accurate answer if questioned about the change. So now I have to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there's a differently named UI element I'm not aware of. 
+  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So now I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element I wasn't aware of. 
 
 
 That said, I'm sure that with the right LLM, the right docs as context, and the right prompts, I'll succeed soon at updating docs using LLMs. 
@@ -136,5 +136,5 @@ By targeting the second set of queries specifically at the `_transactions` field
 ````
 
 
-So all in all, AI-assisted writing is a yes for blogs and a no for docs. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
+So all in all, AI-assisted writing is a yes for blogs and a no for docs at the moment. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
 
