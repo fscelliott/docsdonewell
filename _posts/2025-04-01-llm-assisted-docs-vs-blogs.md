@@ -62,7 +62,7 @@ I gave it [four of my key documentation topics](https://github.com/fscelliott/do
 
 It did fairly well!
 
-Here's an excerpt, with my notes for improvement:
+Here's an excerpt:
 
 ````
 # Unlock Advanced Document Processing with Agentic LLM Workflows in SenseML
