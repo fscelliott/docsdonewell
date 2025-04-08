@@ -15,7 +15,7 @@ To test the waters, I've lately been prompting LLMs to:
 
 Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll dive into it briefly:
 
-## Chat GPT unreliably updated my developer docs
+## 1. Chat GPT unreliably updated my developer docs
 
 I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of some hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
@@ -44,7 +44,7 @@ Here's how my experiment went:
 
 That said, I'm sure that with the right LLM, the right docs as context, and the right prompts, I'll succeed soon at updating docs using LLMs. 
 
-## Claude 3.5 generated a plausible blog post
+## 2. Claude 3.5 generated a plausible blog post
 
  On the other hand, I was much more impressed by LLM-assisted blog posts. I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
 
