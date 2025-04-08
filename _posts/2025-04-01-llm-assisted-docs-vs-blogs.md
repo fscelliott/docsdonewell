@@ -17,7 +17,7 @@ Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll di
 
 ## 1. Chat GPT unreliably updated my developer docs
 
-I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of some hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
+I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of a hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
 Here's how my experiment went:
 
