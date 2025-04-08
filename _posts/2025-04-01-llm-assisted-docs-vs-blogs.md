@@ -6,9 +6,9 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm sure that generating developer documents with the assistance of LLMs will be a core part of my work in my near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
+I strongly suspect I'll be writing developer docs with the assistence of LLMs in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
 
-I've been experimenting lately with prompting LLMs to:
+To test the waters, I've lately been prompting LLMs to:
 
 1. update my documentation   
 2. generate technical blog posts based on my documentation.
@@ -17,7 +17,7 @@ Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll di
 
 ## Chat GPT unreliably updated my developer docs
 
-I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of some hasty intern who didn't actually test if the steps they listed are accurate. As soon as the LLM gave me back a response and I spotted some glaring errors, I knew I'd have to double check each step by actually performing the documented actions myself. In that case, frankly I'd rather author the steps myself than search for gotchas authored by the 'unreliable intern.'
+I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of some hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
 Here's how my experiment went:
 
@@ -28,9 +28,9 @@ Here's how my experiment went:
   ```
   Rewrite the following text exactly as-is but with the following technical change:
   
-  - Zap 1 now uses Google Drive's New File in Folder trigger instead of gmail's New Attachment.
+  - Zap 1 now uses Google Drive's New File in Folder trigger instead of Gmail's New Attachment.
   
-   Rewrite without any stylistic changes—only update it for technical accuracy where necessary. Be careful not to delete anything you don't absolutely need to delete.
+   Rewrite without any stylistic changes: only update it for technical accuracy where necessary. Be careful not to delete or change anything you don't absolutely need to delete.
   
   ```
 
@@ -38,7 +38,7 @@ Here's how my experiment went:
 
   - It removed unrelated paragraphs wholesale from the update (for example, it removed a **General limitations** section)
   - It removed helpful tips that I'd included mixed in with the UI instructions.
-  - It failed to catch all necessary updates (for example, retaining a mention of email triggers in the introduction, which it should have updated to Google Drive)
+  - It failed to catch all necessary updates (for example, it retained a mention of email triggers in the introduction, which it should have updated to Google Drive)
   - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So now I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element I wasn't aware of. 
 
 
@@ -62,7 +62,7 @@ I gave it [four of my key documentation topics](https://github.com/fscelliott/do
 
 It did fairly well!
 
-Here's an excerpt:
+Here's an excerpt, with my notes for improvement:
 
 ````
 # Unlock Advanced Document Processing with Agentic LLM Workflows in SenseML
@@ -134,6 +134,12 @@ By targeting the second set of queries specifically at the `_transactions` field
 
 // continued...
 ````
+
+The post's structure and content seemed bascially sound; all my comments represented manageble improvements:
+
+![image](https://github.com/user-attachments/assets/27890192-d46c-4535-aa74-f3ae19c81b96)
+
+
 
 
 So all in all, AI-assisted writing is a yes for blogs and a no for docs at the moment. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
