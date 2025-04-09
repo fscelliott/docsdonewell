@@ -51,7 +51,7 @@ I gave the same strict prompt to Claude, and it did much better. It restricted i
 
 ## 2. Claude generated a plausible blog post
 
-Since Claude did so well (and based on some chatter I followed in the DevRel Collective Slack community), I didn't bother testing blog post generation with Chat. I went straight to Claude 3.5, and I was more impressed by LLM-assisted blog posts than docs updates. 
+Based on some chatter I followed in the DevRel Collective Slack community), I didn't bother testing blog post generation with Chat. I went straight to Claude 3.5, and I was more impressed by LLM assistance with blog posts than with docs updates. 
 
 I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
 
