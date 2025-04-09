@@ -149,5 +149,5 @@ The post's structure and content seemed bascially sound; all my comments represe
 
 
 
-So all in all, AI-assisted writing is a yes for blogs and a no for docs at the moment. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
+So all in all, AI-assisted writing is a yes for my blogs and a "use with caution" for my docs at the moment. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
 
