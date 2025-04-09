@@ -6,7 +6,7 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core and structured part of my docs writing process in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
+I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
 
 To test the waters, I've lately been prompting LLMs to:
 
@@ -15,7 +15,9 @@ To test the waters, I've lately been prompting LLMs to:
 
 Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll dive into it briefly:
 
-## 1. Chat GPT unreliably updated my developer docs
+## 1. Chat GPT unreliably updated my developer docs; Claude did OK
+
+### Chat GPT-4 Turbo
 
 I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of a hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
@@ -42,11 +44,16 @@ Here's how my experiment went:
   - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So now I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element I wasn't aware of. 
 
 
-That said, I'm sure that with the right LLM, the right docs as context, and the right prompts, I'll succeed soon at updating docs using LLMs. 
+### Claude 3.5
 
-## 2. Claude 3.5 generated a plausible blog post
+I gave the same strict prompt to Claude, and it did much better. It restricted its changes to only what was absolutely necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I definitely came away with a greater sense of trust and felt I could plausibly use the results in my workflow.
 
- On the other hand, I was much more impressed by LLM-assisted blog posts. I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
+
+## 2. Claude generated a plausible blog post
+
+Since Claude did so well (and based on some chatter I followed in the DevRel Collective Slack community), I didn't bother testing blog post generation with Chat. I went straight to Claude 3.5, and I was more impressed by LLM-assisted blog posts than docs updates. 
+
+I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
 
 I gave Claude a two-part prompt:
 
