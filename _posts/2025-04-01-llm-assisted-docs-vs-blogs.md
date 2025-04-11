@@ -53,7 +53,7 @@ I gave the same strict prompt to Claude, and it did much better. It restricted i
 
 Based on some chatter I followed in the DevRel Collective Slack community), I didn't bother testing blog post generation with Chat. I went straight to Claude 3.5, and I was more impressed by LLM assistance with blog posts than with docs updates. 
 
-I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
+I don't have a paid account for Claude, which means I can't persist context across prompts with their Projects features. However, I found that I could just **barely** squeeze in enough documentation as context for my one-off prompt before Claude choked on input token limits, at least with my free account.
 
 I gave Claude a two-part prompt:
 
