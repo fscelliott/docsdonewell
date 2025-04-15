@@ -6,9 +6,9 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
+I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise AI-generated API docs. (Note to self: I've got to test out theneo soon!)
 
-To test the waters, I've lately been prompting LLMs to:
+To test the waters with my client [Sensible](https://www.sensible.so/), I've lately been prompting LLMs to:
 
 1. update my documentation   
 2. generate technical blog posts based on my documentation.
@@ -38,20 +38,20 @@ Here's how my experiment went:
 
 - Result: Chat failed for my purposes:
 
-  - It removed unrelated paragraphs wholesale from the update (for example, it removed a **General limitations** section)
-  - It removed helpful tips that I'd included mixed in with the UI instructions.
-  - It failed to catch all necessary updates (for example, it retained a mention of email triggers in the introduction, which it should have updated to Google Drive)
-  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So now I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element I wasn't aware of. 
+  - It removed unrelated paragraphs wholesale from the update. For example, it removed a **General limitations** section.
+  - It removed helpful tips, stripping down the steps to UI point-and-click interactions.
+  - It failed to catch all necessary updates. For example, it retained a mention of email triggers in the introduction, which it should have updated to Google Drive.
+  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So then I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element not yet on my radar.
 
 
 ### Claude 3.5
 
-I gave the same strict prompt to Claude, and it did much better. It restricted its changes to only what was absolutely necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I definitely came away with a greater sense of trust and felt I could plausibly use the results in my workflow.
+I gave the same strict prompt to Claude, and it did much better. Its changes were strictly necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I came away with a greater sense of trust and believed I could plausibly use the results in my workflow.
 
 
-## 2. Claude generated a plausible blog post
+## 2. Claude generated a decent blog post
 
-Based on some chatter I followed in the DevRel Collective Slack community), I didn't bother testing blog post generation with Chat. I went straight to Claude 3.5, and I was more impressed by LLM assistance with blog posts than with docs updates. 
+Based on some chatter I followed in the DevRel Collective Slack community, I didn't bother testing blog-post generation with Chat. I went straight to Claude 3.5, and the results were adequate.
 
 I don't currently have a paid account for Claude, which means I can't persist context across prompts with their Projects features. However, I found that I could just **barely** squeeze in enough documentation as context for my one-off prompt before Claude choked on input token limits.
 
@@ -142,11 +142,9 @@ By targeting the second set of queries specifically at the `_transactions` field
 // continued...
 ````
 
-The post's structure and content seemed bascially sound; all my comments represented manageble improvements:
+The post's content seemed bascially sound, though its structure was a bit list-happy. All my comments represented manageble improvements:
 
 ![image](https://github.com/user-attachments/assets/27890192-d46c-4535-aa74-f3ae19c81b96)
-
-
 
 
 So all in all, AI-assisted writing is a yes for my blogs and a "use with caution" for my docs at the moment. Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
