@@ -46,7 +46,7 @@ Here's how my experiment went:
 
 ### Claude 3.5
 
-I gave the same strict prompt to Claude, and it did much better. Its changes were strictly necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I came away with a greater sense of trust and believed I could plausibly use the results in my workflow.
+I gave the same restrictive prompt to Claude, and it did much better. Its changes were strictly necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I came away with a greater sense of trust and believed I could plausibly use the results in my workflow.
 
 
 ## 2. Claude generated a decent blog post
