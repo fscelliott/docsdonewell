@@ -53,7 +53,7 @@ I gave the same restrictive prompt to Claude, and it did much better. Its change
 
 Based on some chatter I followed in the DevRel Collective Slack community, I didn't bother testing blog-post generation with Chat. I went straight to Claude 3.5, and the results were adequate.
 
-I don't currently have a paid account for Claude, which means I can't persist context across prompts with their Projects features. However, I found that I could just **barely** squeeze in enough documentation as context for my one-off prompt before Claude choked on input token limits.
+I don't yet have a paid account for Claude, which means I can't persist context across prompts with their Projects features. However, I found that I could just **barely** squeeze in enough documentation as context for my one-off prompt before Claude choked on input token limits.
 
 I gave Claude a two-part prompt:
 
@@ -149,5 +149,5 @@ The post's content seemed bascially sound, though its structure was a bit list-h
 
 So all in all, I'll be using AIs for writing blog posts in the near future, while taking a more cautious exploratory approach with AIs and docs. Now, I'm aware I'm biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
 
-Next up, I'll post about my efforts to systematize writing AI-assisted blog posts.
+Next up, I'll post about my efforts to systematize writing AI-assisted blog posts using a paid Claude account.
 
