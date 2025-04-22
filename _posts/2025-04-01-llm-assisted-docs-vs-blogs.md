@@ -15,7 +15,7 @@ To test the waters with my client [Sensible](https://www.sensible.so/), I've lat
 
 Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll dive into it briefly:
 
-## 1. Chat GPT unreliably updated my developer docs; Claude did OK
+## 1. Chat GPT unreliably updated my developer docs; Claude did well
 
 ### Chat GPT-4 Turbo
 
@@ -148,4 +148,6 @@ The post's content seemed bascially sound, though its structure was a bit list-h
 
 
 So all in all, I'll be using AIs for writing blog posts in the near future, while taking a more cautious exploratory approach with AIs and docs. Now, I'm aware I'm biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
+
+Next up, I'll post about my efforts to systematize writing AI-assisted blog posts.
 
