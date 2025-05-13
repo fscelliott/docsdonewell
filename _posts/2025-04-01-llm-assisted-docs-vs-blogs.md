@@ -6,18 +6,20 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm sure that generating developer documents with the assistance of LLMs will be a core part of my work in my near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise the capacity to generate API docs for you with LLMs. (Note to self: I've got to test out theneo soon!)
+I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise AI-generated API docs. (Note to self: I've got to test out theneo soon!)
 
-I've been experimenting lately with prompting LLMs to:
+To test the waters with my client [Sensible](https://www.sensible.so/), I've lately been prompting LLMs to:
 
 1. update my documentation   
 2. generate technical blog posts based on my documentation.
 
 Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll dive into it briefly:
 
-## Chat GPT unreliably updated my developer docs
+## 1. Chat GPT unreliably updated my developer docs; Claude did well
 
-I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I have an impression of having to correct the work of some hasty intern who didn't actually test if the steps they listed are accurate. As soon as they gave me back a response and I spotted some glaring errors, I knew I'd have to double check each step by actually performing the documented actions myself. In that case, frankly I'd rather author the steps myself than search for gotchas authored by the 'unreliable intern.'
+### Chat GPT-4 Turbo
+
+I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of a hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
 Here's how my experiment went:
 
@@ -28,25 +30,30 @@ Here's how my experiment went:
   ```
   Rewrite the following text exactly as-is but with the following technical change:
   
-  - Zap 1 now uses Google Drive's New File in Folder trigger instead of gmail's New Attachment.
+  - Zap 1 now uses Google Drive's New File in Folder trigger instead of Gmail's New Attachment.
   
-   Rewrite without any stylistic changes—only update it for technical accuracy where necessary. Be careful not to delete anything you don't need to delete.
+   Rewrite without any stylistic changes: only update it for technical accuracy where necessary. Be careful not to delete or change anything you don't absolutely need to delete.
   
   ```
 
 - Result: Chat failed for my purposes:
 
-  - It removed unrelated paragraphs wholesale from the update (for example, it removed a **General limitations** section)
-  - It removed helpful tips that I'd included mixed in with the UI instructions.
-  - It failed to catch all necessary updates (for example, retaining a mention of email triggers in the introduction, which it should have updated to Google Drive)
-  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Now I have to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there's a differently named UI element I'm not aware of. I wouldn't trust Chat not to hallucinate an answer to these questions.
+  - It removed unrelated paragraphs wholesale from the update. For example, it removed a **General limitations** section.
+  - It removed helpful tips, stripping down the steps to UI point-and-click interactions.
+  - It failed to catch all necessary updates. For example, it retained a mention of email triggers in the introduction, which it should have updated to Google Drive.
+  - It failed to give me confidence that UI terms were accurate. For example, I reference a property displayed in Zapier as **File (exists but not shown)**, which Chat changed to **File**. Based on prior experience, I didn't trust Chat to give me an accurate answer if questioned about the change. So then I had to open Zapier and click through workflows to determine if Zapier's UI changed, or if Chat has changed my style, or if there was a differently named UI element not yet on my radar.
 
 
-That said, I'm sure that with the right LLM, the right docs as context, and the right prompts, I'll succeed soon at updating docs using LLMs. 
+### Claude 3.5
 
-## Claude 3.5 generated a plausible blog post
+I gave the same restrictive prompt to Claude, and it did much better. Its changes were strictly necessary, except for a few small proofreader-type changes that improved the formatting of a Markdown header and bulleted list. I came away with a greater sense of trust and believed I could plausibly use the results in my workflow.
 
- On the other hand, I was much more impressed by LLM-assisted blog posts. I found that I could just **barely** squeeze in enough documentation as context for my prompt before Claude choked on input token limits, at least with my free account.
+
+## 2. Claude generated a decent blog post
+
+Based on some chatter I followed in the DevRel Collective Slack community, I didn't bother testing blog-post generation with Chat. I went straight to Claude 3.5, and the results were adequate.
+
+I don't yet have a paid account for Claude, which means I can't persist context across prompts with their Projects features. However, I found that I could just **barely** squeeze in enough documentation as context for my one-off prompt before Claude choked on input token limits.
 
 I gave Claude a two-part prompt:
 
@@ -135,7 +142,12 @@ By targeting the second set of queries specifically at the `_transactions` field
 // continued...
 ````
 
+The post's content seemed bascially sound, though its structure was a bit list-happy. All my comments represented manageble improvements:
+
+![image](https://github.com/user-attachments/assets/27890192-d46c-4535-aa74-f3ae19c81b96)
 
 
-Now, I'm aware my interpretation of these results is biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard than I do feature-release blog post announcements. That said, for work-a-day technical blog posts,  Claude seems like a reasonable tool.
+So all in all, I'll be using AIs for writing blog posts in the near future, while taking a more cautious exploratory approach with AIs and docs. Now, I'm aware I'm biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
+
+Next up, I'll post about my efforts to systematize writing AI-assisted blog posts using a paid Claude account.
 
