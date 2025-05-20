@@ -110,6 +110,7 @@ The results:
 - Failed to explain the 'why' for this custom operation, which is simply that JsonLogic lacks native support for variable declaration.
 - Failed to explain the scope for the varaible declaration, a key point.
 - Were very prone to code sample hallucination. The first few prompts, for example, resulted in a code sample that made heavy use of a `do` operation that's not supported in JsonLogic.
+- Failed to provide a concise, useful description of the method's args
 
 Here are the results:
 
@@ -162,7 +163,52 @@ Here are the results:
 >                 "total": { "+": [ { "var": "subtotal" }, { "var": "tax_amount" } ] },  
 >                 "tax_rate_percentage": { "cat": [ { "var": "tax_rate" }, "%" ] }  
 >               }  
->
+>             }  
+>           }  
+>         }  
+>       ]  
+>     }  
+>   }  
+> }  
+> ```  
+>  
+> **Example document**  
+> The following image shows the example document used with this example config:  
+> _Show Image_  
+>  
+> **Output**  
+> ```json  
+> {  
+>   "calculated_invoice": {  
+>     "invoice_summary": {  
+>       "subtotal": 850.00,  
+>       "calculated_tax": 68.00,  
+>       "total": 918.00,  
+>       "tax_rate_percentage": "8%"  
+>     },  
+>     "type": "object"  
+>   }  
+> }  
+> ```  
+>  
+> ### Notes  
+> - Variables defined in the let operation are accessible only within the scope of the second parameter.  
+> - Variable definitions can reference previously defined variables within the same let operation. For example, if you define variables x and y, the definition of y can reference x.  
+> - Variables are evaluated in the order they appear in the definition object.  
+> - The operation maintains access to the document context, so you can still use the var operator to access document data.  
+> - Variable names in the let operation can be any valid JSON property name.  
+> - If a variable name conflicts with a field in the document context, the variable definition takes precedence within the scope of the let operation.  
+>  
+> ### Use cases  
+> This operation is particularly useful for:  
+> - Breaking down complex calculations into named steps for better readability  
+> - Avoiding repeating the same calculation multiple times  
+> - Creating intermediate values that can be referenced multiple times in a complex transformation  
+> - Building complex objects with multiple derived fields  
+> - Organizing multi-step data transformations in a clear, logical manner  
+>  
+> For other JsonLogic operations in Sensible, see JsonLogic extensions.  
+
 
 
 
