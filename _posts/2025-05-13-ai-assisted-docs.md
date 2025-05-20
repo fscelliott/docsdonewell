@@ -93,7 +93,8 @@ Prompt #3 was the most successful, but none of these prompts returned satisfacto
 Here's the prompt:
 
 ```
-write a reference documentation page for this custom JsonLogic operation, in the same style as the documentation pages in your project knowledge base:
+write a reference documentation page for this custom JsonLogic operation,
+in the same style as the documentation pages in your project knowledge base:
 
 function op_let(
   // content redacted; private code base
