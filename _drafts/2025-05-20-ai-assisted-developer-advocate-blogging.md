@@ -7,7 +7,7 @@ author: frances
 modified_time: '2025-05-20T00:00:00.000-08:00'
 ---
 
-Here's a short video walkthrough of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorial blog posts.  This setup is aimed to help my client meet a goal of publishing 6 AI-assisted blog posts this quarter.
+Here's a short video walkthrough of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorial blog posts. This setup is aimed to help my client meet a goal of publishing 6 AI-assisted blog posts this quarter.
 
 video:
 
