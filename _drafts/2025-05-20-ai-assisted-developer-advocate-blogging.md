@@ -26,5 +26,5 @@ I should note that even with a fairly successful prompt like this one, there's s
 - Inserted a bunch of screenshots
 - Added in a bunch of prerequiste setup steps that Claude missed even though those steps were in the prompt context (signup for an account; clone cms-1500 support to your account)
 - Slimmed down verbose fluff and nixed some marketing hyperbole ('this is the perfect method for...')
-- Modified the example PDF to provide a better example for a complex feature (sections)
+- Modified the example PDF to provide a better example for a complex feature (the sections method)
 - Rewrote a heavily hallucinated conclusion ('signup for a free account for $100/month!')
