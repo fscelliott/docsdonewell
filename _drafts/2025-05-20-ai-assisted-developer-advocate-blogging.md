@@ -16,7 +16,6 @@ video:
 
 
 
-
 Here's a recent example of a blog post written using this set up:
 
 [How to extract data from CMS 1500 forms with Sensible](http://sensible.so/blog/how-to-extract-data-from-cms-1500-forms-with-sensible)
