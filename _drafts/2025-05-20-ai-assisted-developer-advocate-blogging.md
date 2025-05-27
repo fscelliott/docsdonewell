@@ -1,13 +1,13 @@
 ---
 layout: single
-title: Video walkthrough: AI-assisted develoepr advocate blogging
+title: Video walkthrough: AI-assisted developer advocate blogging
 date: '2025-05-20T00:00:00.000-08:00'
 author: frances
 
 modified_time: '2025-05-20T00:00:00.000-08:00'
 ---
 
-Here's a short video walkthrough of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorial blog posts. This setup is aimed to help my client [Sensible](https://sensible-website.webflow.io/) meet a goal of publishing six AI-assisted blog posts this quarter.
+Here's a short video tour of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorial blog posts. This setup is aimed to help my client [Sensible](https://sensible-website.webflow.io/) meet a goal of publishing six AI-assisted blog posts this quarter.
 
 video:
 
