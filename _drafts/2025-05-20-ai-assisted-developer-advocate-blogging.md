@@ -11,9 +11,10 @@ Here's a short video walkthrough of how I've configured Claude with style guides
 
 video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?si=H9z1d_DZ_o0Z0pjw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://youtu.be/5I0nG5c2Bc0?si=H9z1d_DZ_o0Z0pjw
+
+
 
 
 Here's a recent example of a blog post written using this set up:
