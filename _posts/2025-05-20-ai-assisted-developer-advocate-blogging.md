@@ -10,7 +10,8 @@ modified_time: '2025-05-20T00:00:00.000-08:00'
 Here's a short video tour of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorials for my client [Sensible](https://www.sensible.so/). 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 Here's a recent example of a blog post published using this set up:
