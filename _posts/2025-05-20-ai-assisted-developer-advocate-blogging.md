@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Video walkthrough: AI-assisted developer advocate blogging
+title: Video walkthrough - AI-assisted developer advocate blogging
 date: '2025-05-20T00:00:00.000-08:00'
 author: frances
 
@@ -30,4 +30,4 @@ I should note that even with a fairly successful prompt like this one, there's s
 - Modified the example PDF to provide a better example for a complex feature (the sections method)
 - Rewrote a heavily hallucinated conclusion ('signup for a free account for $100/month!')
 
-Even with this heavy editorial process, LLMs still represent a significant time savings for me. I estimate I spent about half the time on this post that I'd normally spend, including Claude project configuration that I'll be able to reuse in future.
+Even with this heavy editorial process, LLMs still roughly halved the time I'd normally spend on a post like this. I expect it to save me even more time in future, since I spent a lot of that time on reusable Claude project configuration.
