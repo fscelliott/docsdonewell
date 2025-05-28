@@ -11,9 +11,9 @@ modified_time: '2025-05-08T09:55:00.001-08:00'
 
 ---
 
-Recently, I experimented with asking an AI to write reference docs for a custom extension to a rather niche, obscure scripting language.
+Recently, I experimented with asking an AI to write reference docs for a custom extension to a rather niche, obscure scripting language (JsonLogic).
 
-TLDR: The AI did poorly. It hallucinated heavily about the niche language, to the extent that its code examples were worse than useless. This is in contrast to the success I've had with basic code examples in well-known languages like Python.
+TLDR: The AI performed poorly. It hallucinated heavily about the niche language, to the extent that its code examples were worse than useless. This is in contrast to the success I've had with basic code examples in well-known languages like Python.
 
 My methodology was as follows:
 
