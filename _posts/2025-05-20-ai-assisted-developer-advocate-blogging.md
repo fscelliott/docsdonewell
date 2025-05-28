@@ -29,3 +29,5 @@ I should note that even with a fairly successful prompt like this one, there's s
 - Slimmed down verbose fluff and nixed some marketing hyperbole ('this is the perfect method for...')
 - Modified the example PDF to provide a better example for a complex feature (the sections method)
 - Rewrote a heavily hallucinated conclusion ('signup for a free account for $100/month!')
+
+Even with this heavy editorial process, LLMs still represent a significant time savings for me. I estimate I spent about half the time on this post that I'd normally spend, including Claude project configuration that I'll be able to reuse in future.
