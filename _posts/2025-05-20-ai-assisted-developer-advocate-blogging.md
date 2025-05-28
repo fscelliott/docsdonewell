@@ -30,4 +30,6 @@ I should note that even with a fairly successful prompt like this one, there's s
 - Modified the example PDF to provide a better example for a complex feature (the sections method)
 - Rewrote a heavily hallucinated conclusion ('signup for a free account for $100/month!')
 
+
 Even with this heavy editorial process, LLMs still roughly halved the time I'd normally spend on a post like this. I expect it to save me even more time in future, since I spent a lot of that time on reusable Claude project configuration.
+
