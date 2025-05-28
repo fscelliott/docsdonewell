@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Video walkthrough: AI-assisted developer advocate blogging
+title: Video walkthrough - AI-assisted developer advocate blogging
 date: '2025-05-20T00:00:00.000-08:00'
 author: frances
 
