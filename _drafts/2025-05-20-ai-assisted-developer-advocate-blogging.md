@@ -15,7 +15,7 @@ Here's a short video tour of how I've configured Claude with style guides and a 
 
 Here's a recent example of a blog post published using this set up:
 
-[How to extract data from CMS 1500 forms with Sensible](http://sensible.so/blog/how-to-extract-data-from-cms-1500-forms-with-sensible)
+[How to extract data from CMS 1500 forms with Sensible](https://www.sensible.so/blog/how-to-extract-data-from-cms-1500-forms-with-sensible)
 
 
 I should note that even with a fairly successful prompt like this one, there's still a substantial editorial process. For example, for this blog post, I made the following manual edits:
