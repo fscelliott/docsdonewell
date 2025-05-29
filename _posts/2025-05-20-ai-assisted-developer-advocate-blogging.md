@@ -18,6 +18,10 @@ Here's a recent example of a blog post published using this set up:
 
 [How to extract data from CMS 1500 forms with Sensible](https://www.sensible.so/blog/how-to-extract-data-from-cms-1500-forms-with-sensible)
 
+And for comparison's sake, here's an example of a similar blog post I wrote without AI assistance:
+
+[How to extract from rent rolls with LLMs and Sensible](https://www.sensible.so/blog/how-to-extract-data-from-rent-rolls-with-llms-and-sensible)
+
 
 I should note that even with a fairly successful prompt like this one, there's still a substantial editorial process. For example, for this blog post, I made the following manual edits:
 
