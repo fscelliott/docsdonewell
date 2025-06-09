@@ -13,7 +13,7 @@ Here's a short video tour of how I've configured Claude with style guides and a 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X0vXnEuP-aU?si=oA7oas3Tzw-e0ZOG" title="Quick walkthrough Claude project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X0vXnEuP-aU?si=oA7oas3Tzw-e0ZOG&hd=1" title="Quick walkthrough Claude project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
