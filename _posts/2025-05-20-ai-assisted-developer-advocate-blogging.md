@@ -40,5 +40,5 @@ I should note that even with a fairly successful prompt like this one, there's s
 
 Even with this editorial process, Claude still roughly halved the time I'd normally spend on a post like this. I expect it to save me even more time in future, since I spent a lot of that time on reusable Claude project configuration.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-RBcErFeoc?si=HkXuGbPzBvZGkVVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- test loom
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-RBcErFeoc?si=HkXuGbPzBvZGkVVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
