@@ -7,14 +7,17 @@ author: frances
 modified_time: '2025-05-20T00:00:00.000-08:00'
 ---
 
-Here's a short video tour of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorials for my client [Sensible](https://www.sensible.so/). 
+Here's a short video tour of how I've configured Claude with style guides and a knowledge base to automate some of my more formulaic developer advocate tutorials for my client [Sensible](https://www.sensible.so/). It's quite off-the-cuff, informal, and aimed at fellow tech writers, so don't go looking for production polish in this one!
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/5I0nG5c2Bc0?vq=720" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X0vXnEuP-aU?si=oA7oas3Tzw-e0ZOG" title="Quick walkthrough Claude project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
-Here's a recent example of a blog post published using this set up:
+Here's a recent example of a blog post published using this setup:
 
 [How to extract data from CMS 1500 forms with Sensible](https://www.sensible.so/blog/how-to-extract-data-from-cms-1500-forms-with-sensible)
 
