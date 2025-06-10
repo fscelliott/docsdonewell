@@ -43,4 +43,6 @@ Even with this editorial process, Claude still roughly halved the time I'd norma
 <!-- test loom
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-RBcErFeoc?si=HkXuGbPzBvZGkVVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VysEwKkgw20?si=_OISSAGDb-rRyl4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- higher quality smaller screen OBS
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VysEwKkgw20?si=_OISSAGDb-rRyl4Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
