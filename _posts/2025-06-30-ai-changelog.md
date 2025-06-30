@@ -12,11 +12,11 @@ Here's a few examples.
 
 ## Describing new features
 
-I wanted to announce a new feature for my client [Sensible's](https://sensible.so/). End users can now use "named anchors" to define, then reference a text match, for more concise syntax.
+I wanted to announce a new feature for my client [Sensible](https://sensible.so/). End users can now use "named anchors" to define, then reference a text match, for more concise syntax.
 
 Here's Claude's attempt, and my beef with it:
 
-
+### Claude output
 
 > New feature: Named anchors for reusable anchor definitions
 >
@@ -30,6 +30,8 @@ Commentary: This assumes the reader knows an anchor's purpose, which isn't a giv
 > For more information, see [Reuse anchor variables](https://docs.sensible.so/docs/anchor#reuse-anchor-variables).
 
 Commentary: a lot of telling, not much showing. A code example would be much simpler. It also misses out on an advanced use case.
+
+### My version
 
 Here's my stab at it. For the sake of the experiment, I wrote this before prompting Claude so I wouldn't bias my own writing:
 
@@ -69,10 +71,12 @@ Here's my stab at it. For the sake of the experiment, I wrote this before prompt
 
 ## Deprecating old features
 
-I was also unsatisfied with Claude's attempt to write a deprecation announcement.
+I was also unsatisfied with Claude's attempt to write a deprecation announcement. I wanted to communicate a change to my client's code editor.
+
+
+### Claude output
 
 Here's Claude's attempt:
-
 
 
 > ### Deprecation: Sensible Instruct visual authoring interface removed
@@ -83,12 +87,13 @@ Here's Claude's attempt:
 >
 > Previously supported Sensible Instruct methods (Query, List, and Table) remain available as SenseML methods with JSON configuration.
 
-Again, lots of telling without showing. Also, this LLM has no way of knowing something pretty important to the end-user: we're removing this feature in order to pave the way for a better feature.
+Again, lots of telling without showing. Too much passive voice. Without some tailor-made prompting, Claude also can't glean from the docs that we're removing this feature in order to pave the way for a better feature.
+
+### My version
+
+Here's my version, again written without glancing at Claude:
 
 
-Here's my take:
-
-Of course — here’s your text converted into a Markdown block quote:
 
 > ## Deprecation: Sensible Instruct visual authoring tool
 >
