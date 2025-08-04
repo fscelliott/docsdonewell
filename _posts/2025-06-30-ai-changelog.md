@@ -1,14 +1,14 @@
 ---
 layout: single
-title: Unsatisfied with AI-assisted changelog
+title: Mixed results with AI-assisted changelog
 author: frances
 ---
 
-Recently I prompted Claude to generate a new-feature changelog based on docs and past changelog examples. I wasn't impressed with the results for the most part.
+Recently I prompted Claude to generate a new-feature changelog based on docs and past changelog examples.
 
-Here's a few examples.
+I found a pattern consistent with my other experiments: AI-generated changelogs are fine for higher-level, less technical announcements, and fairly unsatisfactory for more technical or detailed announcements.
 
-
+Here are a few examples.
 
 ## Describing new features
 
