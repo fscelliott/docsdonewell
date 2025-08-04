@@ -1,10 +1,10 @@
 ---
 layout: single
-title: Mixed results with AI-assisted changelog
+title: Mixed results with AI-assisted changelogs
 author: frances
 ---
 
-Recently I prompted Claude to generate a new-feature changelog based on docs and past changelog examples.
+Recently I prompted Claude to generate a new-feature release annoucement based on docs and past changelog examples.
 
 I found a pattern consistent with my other experiments: AI-generated changelogs are fine for higher-level, less technical announcements, and fairly unsatisfactory for more technical or detailed announcements.
 
