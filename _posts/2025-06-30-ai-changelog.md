@@ -21,15 +21,11 @@ Here's Claude's attempt, and my beef with it:
 > New feature: Named anchors for reusable anchor definitions
 >
 > You can now define named anchors and reuse them across multiple fields using the new `anchorDefinition` type. This eliminates redundant anchor configuration and enables cleaner syntax when multiple fields share the same anchor logic.
-
-Commentary: This assumes the reader knows an anchor's purpose, which isn't a given. It's also overly verbose given that most technical readers are familiar with variable declaration and reference as fundamental to coding languages.
-
-
 > Define a named anchor with `"type": "anchorDefinition"` and a `name` parameter, then reference it in other fields using `"anchor": {"ref": "anchor_name"}`. Named anchors work within Conditional methods, allowing you to define language-specific or context-dependent anchors that can be referenced by subsequent fields.
 >
 > For more information, see [Reuse anchor variables](https://docs.sensible.so/docs/anchor#reuse-anchor-variables).
 
-Commentary: a lot of telling, not much showing. A code example would be much simpler. It also misses out on an advanced use case.
+Commentary: This assumes the reader knows an anchor's purpose, which isn't a given. It's also overly verbose given that most technical readers are familiar with variable declaration and reference as fundamental to coding languages. A code example would be much simpler. It also misses out on an advanced use case. 
 
 ### My version
 
@@ -87,7 +83,7 @@ Here's Claude's attempt:
 >
 > Previously supported Sensible Instruct methods (Query, List, and Table) remain available as SenseML methods with JSON configuration.
 
-Again, lots of telling without showing. Too much passive voice. Without some tailor-made prompting, Claude also can't glean from the docs that we're removing this feature in order to pave the way for a better feature.
+Commentary: Again, lots of telling without showing. Too much passive voice. Without some tailor-made prompting, Claude also can't glean from the docs that we're removing this feature in order to pave the way for a better feature.
 
 ### My version
 
