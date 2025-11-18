@@ -20,13 +20,13 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
   - **Answer**: I think that Readme maybe expects you to ignore the GitHub `main` branch, and instead treat a versioned branch as your permanently open, published branch, e.g. `v1.0`? Let me know if I'm wrong! That seems to be working for me at present, but what that means is that I'm constantly ignoring prompts from GH to create pull requests from my versioned branch into main. (My main branch is just empty at this point)
 
 - **Question** GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
-  - **Answer** Bi-directional syncing is a lot slower that what I'm used to with my existing integration, but if I wait a few minutes I see changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp. I also notice that a webapp page edit won't sync to GitHub until I both save AND navigate away from the page (at least if I'm syncing to my published branch).
+  - **Answer** Bi-directional syncing is a lot slower that what I'm used to with my existing integration, but if I wait a few minutes I see changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp. I also notice that a webapp page edit won't sync to GitHub until I both save AND navigate away from the page (at least if I'm syncing to my published branch). Wish I could see status through a GitHub action, but alas, that's not the case.
 
 
 
 
 **Footnotes**
 
-1. You can't use bi-directional sync and the CLI together; they're separate tools requiring separate static file directory structures as far as I can tell.
+1. You can't use bi-directional sync and the CLI together; they're separate tools requiring separate static file directory structures. The structure required by the bi-directional sync looks more elegant and maintainable to me.
 2. It does appear that through the web app, someone can make minor edits to the MDX, and Readme combines those MDX edits plus your spec file to publish the API reference. I'll probably discourage my contributors from making such edits just to keep things centralized.
 
