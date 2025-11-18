@@ -19,8 +19,8 @@ After skimmin Readme's documentation on the upgrade, I had several pressing conc
 - **Question**: What's the deal with GitHub branching and bi-directional syncing? Do I have to rename my `main` branch in GitHub to a semantic version?
   - **Answer**: I think that Readme maybe expects you to ignore the GitHub `main` branch, and instead treat a versioned branch as your permanently open, published branch, e.g. `v1.0`? Let me know if I'm wrong! That seems to be working for me at present, but what that means is that I'm constantly ignoring prompts from GH to create pull requests from my versioned branch into main. (My main branch is just empty at this point)
 
-- Is GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
-  - The bi-directional syncing is a lot slower that what I'm used to with my existing integration, but wait a few minutes and you'll see your changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp.
+- **Question** GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
+  - **Answer** Bi-directional syncing is a lot slower that what I'm used to with my existing integration, but if I wait a few minutes I see changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp.
 
 
 
