@@ -2,7 +2,7 @@
 "title": Guide to  recent breaking Readme changes
 ---
 
-About a week ago, I got an email that my Readme-based documentation project for a client would be automatically migrated to the newest version. I knew this would break my existing sync GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less full featured than it now is. Side note: I never want to submit to the inefficiencies inherent in authoring docs in a webapp, and will move heaven and earth to achieve a static site generation flow! Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
+About a week ago, I got an email that my Readme-based documentation project for a client would be automatically migrated to the newest version. I knew this would break my existing sync GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I never want to submit to the inefficiencies inherent in authoring docs in a webapp, and will move heaven and earth to achieve a static site generation flow! Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
 
 
 
@@ -21,7 +21,7 @@ From Readme's documentation on the upgrade, I had several pressing concerns that
   - **Answer**: I think that Readme maybe expects you to ignore the GitHub `main` branch treat a versioned branch as your permanently open, published branch, e.g. `v1.0`? Let me know if I'm wrong! That seems to be working for me at present, but what that means is that I'm constantly ignoring prompts from GH to create pull requests from my versioned branch into main. (My main branch is just empty at this point)
 
 - Is GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
-  - The bi-directional syncing is a lot slower that what I'm used to with my existing integration, but wait a few minutes and you'll see your changes show up. I haven't yet found a way to manually kick off a sync, but it is much faster from webapp -> GH than GH --> webapp.
+  - The bi-directional syncing is a lot slower that what I'm used to with my existing integration, but wait a few minutes and you'll see your changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp.
 
 
 
