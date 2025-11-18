@@ -20,7 +20,7 @@ After skimmin Readme's documentation on the upgrade, I had several pressing conc
   - **Answer**: I think that Readme maybe expects you to ignore the GitHub `main` branch, and instead treat a versioned branch as your permanently open, published branch, e.g. `v1.0`? Let me know if I'm wrong! That seems to be working for me at present, but what that means is that I'm constantly ignoring prompts from GH to create pull requests from my versioned branch into main. (My main branch is just empty at this point)
 
 - **Question** GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
-  - **Answer** Bi-directional syncing is a lot slower that what I'm used to with my existing integration, but if I wait a few minutes I see changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp.
+  - **Answer** Bi-directional syncing is a lot slower that what I'm used to with my existing integration, but if I wait a few minutes I see changes show up. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp. I also notice that a webapp page edit won't sync to GitHub until I both save AND navigate away from the page (at least if I'm syncing to my published branch).
 
 
 
