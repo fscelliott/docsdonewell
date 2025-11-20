@@ -27,5 +27,5 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
 
 1. You can't use bidirectional sync and the CLI together; they're separate tools requiring different static file directory structures. The structure required by the bidirectional sync appears more elegant and maintainable to me.
 
-2. It _does_ appear that through the web app, someone can make minor edits to the MDX in a special section of each reference page that doesn't show up in the spec source. Readme combines those MDX edits plus your spec file to publish the API reference. I'm guessing this feature is afforance for contributors who want to general info but don't want to get into the weeds of API reference editing. I'll probably discourage my contributors from making such edits just to keep things centralized.
+2. It _does_ appear that through the web app, someone can make minor edits to the MDX in a special section of each reference page that doesn't show up in the spec source. Readme combines those MDX edits plus your spec file to publish the API reference. I'm guessing this afforance is for contributors who want to add general info but don't want to get into the weeds of API reference editing. I'll probably migrate any such contributions out of the MDX and into to my spec just to keep things centralized.
 
