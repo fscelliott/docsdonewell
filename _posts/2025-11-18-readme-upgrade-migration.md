@@ -19,15 +19,13 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
 - **Question**: What's the deal with GitHub branching and bidirectional syncing? Do I have to rename my `main` branch in GitHub to a semantic version?
   - **Answer**: I believe that Readme expects you to ignore the GitHub `main` branch, and instead treat a versioned branch as your permanently open, published branch, e.g. `v1.0`. That seems to be working for me at present, but what that means is that I'm constantly ignoring prompts from GitHub to create pull requests from my versioned branch into main. (My main branch is simply empty at this point).
 
-- **Question:** Is GitHub actually syncing? Can I force a sync? Why isn't my change showing up?
+- **Question:** Is GitHub actually syncing? Can I force a sync? Why aren't my changes showing up?
   - **Answer** Bidirectional syncing is a lot slower that my previous integration, on the order of minutes. I haven't yet found a way to manually kick off a sync, but I notice the flow is much faster from webapp -> GH than GH --> webapp. I also notice that a webapp page edit won't sync to GitHub until I both save AND navigate away from the page (at least if I'm syncing to my published branch). I wish I could see status through a GitHub action, but alas, that's not the case.
-
-
 
 
 **Footnotes**
 
 1. You can't use bidirectional sync and the CLI together; they're separate tools requiring different static file directory structures. The structure required by the bidirectional sync appears more elegant and maintainable to me.
 
-2. It _does_ appear that through the web app, someone can make minor edits to the MDX, and Readme combines those MDX edits plus your spec file to publish the API reference. I'll probably discourage my contributors from making such edits just to keep things centralized.
+2. It _does_ appear that through the web app, someone can make minor edits to the MDX in a special section of each reference page that doesn't show up in the spec source. Readme combines those MDX edits plus your spec file to publish the API reference. I'm guessing this feature is afforance for contributors who want to general info but don't want to get into the weeds of API reference editing. I'll probably discourage my contributors from making such edits just to keep things centralized.
 
