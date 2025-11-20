@@ -1,5 +1,5 @@
 ---
-"title": Guide to  recent breaking API Readme changes
+"title": Guide to  recent breaking Readme API changes
 ---
 
 Recently I learned that Readme would automatically migrate one of my documentation projects to their newest version. I knew this would break my existing third-party GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
