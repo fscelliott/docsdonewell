@@ -2,7 +2,7 @@
 "title": Guide to  recent breaking API Readme changes
 ---
 
-Recently I learned that my Readme-based documentation project for a client would be automatically migrated to the newest version. I knew this would break my existing third-party GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
+Recently I learned that Readme would automatically migrate one of my documentation projects to their newest version. I knew this would break my existing third-party GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
 
 After skimming Readme's documentation on the upgrade, I had several pressing concerns that I've since cleared up through sandbox tests in advance of the migration. I'll note them here in case they help documentarians:
 
