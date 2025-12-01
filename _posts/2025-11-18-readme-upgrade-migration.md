@@ -2,7 +2,7 @@
 "title": Guide to  recent breaking Readme API changes
 ---
 
-Recently I learned that Readme would automatically migrate one of my documentation projects to their newest version. I knew this would break my existing third-party GitHub [integration](https://github.com/flowcommerce/readme-sync), which relies on an older version of the Readme API and which I chose at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
+Recently I learned that Readme would automatically migrate one of my documentation projects to their newest version. I knew this would break my existing third-party<sup>1</sup>  GitHub [integration](https://github.com/flowcommerce/readme-sync).
 
 After skimming Readme's documentation on the upgrade, I had several pressing concerns that I've since cleared up through sandbox tests in advance of the migration. I'll note these advanced Q&As here in case they help documentarians:
 
@@ -13,7 +13,7 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
   - **Answer**: I've noticed all my formatting tags are respected, whew! 
 - **Question:** Can I sync my openapi YAML spec, or is this a one-time import? Maintaining an API reference in MDX would be a deabreaking inefficiency! 
   - **Answer**, yes I can sync it with Readme's bidrectional sync feature, contrary to my initial impression! If I import my spec file in the webapp, I get a chance to disable webapp modifications. After that, Readme persists a copy of my spec in the source GitHub file directory; I just point my URL in the webapp to that new instance, and the spec is synced.<sup>2</sup>
-- **Question:** I see Readme's latest CLI demands a different file structure than I currently use. Must I manually restructure static file directories and reauthor their metatdata frontmatter? That would be a PITA!<sup>1</sup> 
+- **Question:** I see Readme's latest CLI demands a different file structure than I currently use. Must I manually restructure static file directories and reauthor their metatdata frontmatter? That would be a PITA!<sup>3</sup> 
   - **Answer**: If I use bidirectional sync and avoid the CLI, then no, I don't have to restructure my files. Readme automatically upgrades me and populates the webapp with my new MDX-compliant topics; I point the webapp admin site at a target empty GitHub repo, and it syncs the files to that repo in the desired file format and directory structure. Yay! I can effectively abandon my old MD files; I don't have to convert them by hand.
 
 - **Question**: What's the deal with GitHub branching and bidirectional syncing? Do I have to rename my `main` branch in GitHub to a semantic version?
@@ -28,7 +28,9 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
 
 **Footnotes**
 
-1. You can't use bidirectional sync and the CLI together; they're separate tools requiring different static file directory structures. The structure required by the bidirectional sync appears more elegant and maintainable to me.
+1. My integration relied on an older version of the Readme API. I chose it at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
 
-2. It _does_ appear that through the web app, someone can make minor edits to the MDX in a special section of each reference page that doesn't show up in the spec source. Readme combines those MDX edits plus your spec file to publish the API reference. I'm guessing this afforance is for contributors who want to add general info but don't want to get into the weeds of API reference editing. I'll probably migrate any such contributions out of the MDX and into to my spec just to keep things centralized.
+2. You can't use bidirectional sync and the CLI together; they're separate tools requiring different static file directory structures. The structure required by the bidirectional sync appears more elegant and maintainable to me.
+
+3. It _does_ appear that through the web app, someone can make minor edits to the MDX in a special section of each reference page that doesn't show up in the spec source. Readme combines those MDX edits plus your spec file to publish the API reference. I'm guessing this afforance is for contributors who want to add general info but don't want to get into the weeds of API reference editing. I'll probably migrate any such contributions out of the MDX and into to my spec just to keep things centralized.
 
