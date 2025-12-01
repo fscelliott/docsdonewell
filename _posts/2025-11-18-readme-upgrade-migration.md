@@ -28,7 +28,7 @@ After skimming Readme's documentation on the upgrade, I had several pressing con
 
 **Footnotes**
 
-1. My integration relied on an older version of the Readme API. I chose it at a time when Readme's own GitHub integration was much less powerful than it now is. Side note: I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp. Even if it meant choosing a third-party open source tool that's now archived, it was still worth it!
+1. My integration relied on an older version of the Readme API. I chose it at a time when Readme's own GitHub integration was much less powerful than it now is. I will move heaven and earth to achieve static site generation rather than submit to the inefficiencies inherent in authoring docs in a webapp! Even if it meant choosing a third-party open source tool that's now archived, it was still worth it.
 
 2. You can't use bidirectional sync and the CLI together; they're separate tools requiring different static file directory structures. The structure required by the bidirectional sync appears more elegant and maintainable to me.
 
