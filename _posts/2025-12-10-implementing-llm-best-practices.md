@@ -7,6 +7,6 @@ It's an [llms.txt](https://llmstxt.org/) file at the root of a docs GitHub repo 
 
 It was my first time using Claude Code, and I found it mind blowing to witness an LLM edit *local files* on *my* laptop. I'm now fired up about other docs-automation coding projects, and I've already made my first few commits on a project I'll probably blog about soon!
 
-To return to `llms.txt` --  I'd heard that Claude Code could easily go off the rails without proper guidance, and I see it's true! Even with such a simple task there were many ways I had to guide it back out of dead-ends and oversights. The descriptions it generated in llms.txt needed some light hand editing too.
+To return to `llms.txt` --  I'd heard that Claude Code could easily go off the rails without proper guidance, and I see it's true! Even with such a simple task there were many ways I had to prevent it from barking up the wrong tree several times. The descriptions it generated in llms.txt needed some light hand editing too.
 
  I also then used the llms.txt to implement another best practice (adding descriptions to the frontmatter of our MD topics, a long-neglected task). I'll figure out how to automate updating llms.txt and keep the descriptions in sync using Claude Code and GitHub actions later. 
