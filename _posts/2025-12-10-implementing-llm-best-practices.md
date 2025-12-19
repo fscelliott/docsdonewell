@@ -1,9 +1,9 @@
 ---
-"title": "Implementing docs hinting best practices for LLMs using Claude Code"
+"title": "Implementing docs-hinting best practices for LLMs using Claude Code"
 ---
 
-Recently I implementing an LLM hinting best practice for a docs site I wrote for my client Sensible using Claude Code.
-It's an [llms.txt](https://llmstxt.org/) file at the root of a docs GitHub repo that shows the file structure of the docs and provides a brief description for each.
+Recently I implementing an LLM best practice for a docs site I wrote for my client Sensible using Claude Code.
+It's an [llms.txt](https://llmstxt.org/) file at the root of a docs GitHub repo that shows the file structure of the docs and provides a brief description for each, to help LLMs interprete the docs site.
 
 It was my first time using Claude Code, and my mind was blown because it was my first time using an LLM to edit local files on my laptop. I'm now fired up about other docs-automation coding projects, and I've already made my first few commits on a project I'll probably blog about soon!
 
