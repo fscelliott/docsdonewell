@@ -20,7 +20,7 @@ For an introduction to fundamental API concepts and terminology, I found Tom Joh
 
 **building swaggger**
 
-Getting a **local swagger build** up and running was a task and a half due to the build structure (which has since been simplified, thankfully!). I leaned heavily on colleagues, but I was eventually able to get the build running on my Linux virtual machine -- though not, strangely, on my local Windows machine.  I must have spent _days_ on this, yikes! But I wrote or updated 3 process docs on the subject, so hopefully the next person will have less pain.
+Getting a local swagger build up and running was a task and a half due to the build structure (which has since been simplified, thankfully!). I leaned heavily on colleagues, but I was eventually able to get the build running on my Linux virtual machine -- though not, strangely, on my local Windows machine.  I must have spent _days_ on this, yikes! But I wrote or updated 3 process docs on the subject, so hopefully the next person will have less pain.
 
 **modifying source code**
 
