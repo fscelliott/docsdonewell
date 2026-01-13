@@ -6,7 +6,7 @@ author: frances
 modified_time: '2024-04-18T00:00:00.000Z'
 ---
 
-One of my pleasures as a founding writer a startups is restructuring the docs as the product improves.  Self-serve developer tools are fun to document, because well designed product-lead growth features usually lead to more beautiful docs that are satisfyingly to revise.
+One of my pleasures as a founding writer at startups is restructuring the docs as the product improves.  Self-serve developer tools are fun to document, because the incentives to create well-designed features usually lead to more beautiful docs that are satisfying to revise.
 
 I got a chance to overhaul the docs for my client Sensible recently because they've added some excellent self-serve features for developers, including:
 
