@@ -5,8 +5,6 @@ date: '2016-04-26T07:52:00.000-07:00'
 author: frances
 tags: 
 modified_time: '2016-04-26T07:52:36.274-07:00'
-
-
 ---
 
 I've documented low-level hardware APIs, but never REST APIs -- I learned a ton working in Swagger for a Watson service API. Looking back, it breaks down into two parts:
