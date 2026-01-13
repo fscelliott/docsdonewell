@@ -21,6 +21,5 @@ when you popup silently in multiple windows, forcing me to hunt through them
 all till I can resume my work...): 
 
 
-
-![annoying popup](/assets/images/annoyingpopup.png)
+![annoying DITA popup](/assets/images/annoyingpopup.png)
 
