@@ -30,15 +30,15 @@ I should note that even with a fairly successful prompt like this one, there's s
 
 - Corrected some inaccurately generated inline code comments (code hallucination is still a thing even with a prebuilt example config!)
 - Added lots of inline comments to the code examples
-- Corrected a misstatement about the purpose of a feature ('fingerprints are for classifying document types!' well, no, they're for classifying document *subtypes*)
+- Corrected a misstatement about the purpose of a feature ('fingerprints are for classifying document types!' Well, no, they're for classifying document *subtypes*)
 - Inserted a bunch of screenshots
-- Added in a bunch of prerequiste setup steps that Claude missed even though those steps were in the prompt context (signup for an account; clone cms-1500 support to your account)
+- Added in a bunch of prerequisite setup steps that Claude missed, even though those steps were in the prompt context (sign up for an account; clone cms-1500 support to your account)
 - Slimmed down verbose fluff and nixed some marketing hyperbole ('this is the perfect method for...')
 - Modified the example PDF to provide a better example for a complex feature (the sections method)
 - Rewrote a heavily hallucinated conclusion ('signup for a free account for $100/month!')
 
 
-Even with this editorial process, Claude still roughly halved the time I'd normally spend on a post like this. I expect it to save me even more time in future, since I spent a lot of that time on reusable Claude project configuration.
+Even with this editorial process, Claude still roughly halved the time I'd normally spend on a post like this. I expect it to save me even more time in the future, since I spent a lot of that time on reusable Claude project configuration.
 
 <!-- test loom
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-RBcErFeoc?si=HkXuGbPzBvZGkVVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->

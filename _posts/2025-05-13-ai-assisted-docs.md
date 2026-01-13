@@ -11,7 +11,7 @@ modified_time: '2025-05-08T09:55:00.001-08:00'
 
 ---
 
-Recently, I experimented with asking an AI to write reference docs for a custom extension to a rather niche, obscure scripting language (JsonLogic).
+Here are the results of my experiments with prompting an AI to write reference docs for a custom extension to a rather niche, obscure scripting language (JsonLogic).
 
 TLDR: The AI performed poorly. It hallucinated heavily about the niche language, to the extent that its code examples were worse than useless. This is in contrast to the success I've had with basic code examples in well-known languages like Python.
 
@@ -19,12 +19,12 @@ My methodology was as follows:
 
 1. I authored the reference docs for the custom operator myself, using the unit tests and comments in the operator's pull request.
 
-2. I asked Claude to author the reference docs. As a baseline, I gave it the code delcaring the operator's functionality. Beyond that I provided varying levels of context:
+2. I asked Claude to author the reference docs. As a baseline, I gave it the code declaring the operator's functionality. Beyond that, I provided varying levels of context:
    1. I prompted with zero additional context
-   2. I prompted with the context of Claude's project knowledge of my documentation
+   2. I prompted with my documentation as context  (in Claude's project knowledge)
    3. I prompted with the context of Claude's project knowledge + specific examples of my reference documentation for other JsonLogic custom operators.
    
-Prompt #3 was the most successful, but none of these prompts returned satisfactory results. For comparison, here's my docs, versus the most successful prompt
+Prompt #3 was the most successful, but none of these prompts returned satisfactory results. For comparison, here's my docs, versus the results of the most successful prompt.
 
 ## The handcrafted docs
 
@@ -109,7 +109,7 @@ The results:
 
 - Were far too verbose
 - Failed to explain the 'why' for this custom operation, which is simply that JsonLogic lacks native support for variable declaration.
-- Failed to explain the scope for the varaible declaration, a key point.
+- Failed to explain the scope for the variable declaration, a key point.
 - Were very prone to code sample hallucination. The first few prompts, for example, resulted in a code sample that made heavy use of a `do` operation that's not supported in JsonLogic.
 - Failed to provide a concise, useful description of the method's args
 
