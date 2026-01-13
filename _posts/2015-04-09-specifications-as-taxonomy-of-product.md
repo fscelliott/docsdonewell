@@ -5,9 +5,6 @@ date: '2015-04-09T06:55:00.001-07:00'
 author: frances
 tags: 
 modified_time: '2015-05-20T07:37:16.477-07:00'
-
-
-#TODO: add link to taxonomy blog post
 ---
 
 

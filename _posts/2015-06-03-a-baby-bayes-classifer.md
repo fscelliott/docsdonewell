@@ -5,9 +5,6 @@ date: '2015-06-03T13:22:00.004-07:00'
 author: frances
 tags: 
 modified_time: '2015-06-03T13:28:07.463-07:00'
-
-
-
 ---
 
 Actually, the blog title is a misnomer--I started trying to code up a naive 

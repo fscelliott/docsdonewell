@@ -32,11 +32,11 @@ some thought into the integration and realized--hey, might as well turn this
 analysis into code. I wrote up a script that worked on my local computer 
 (pulled in help systems from both old and new toolchains, decompiled them, and 
 recombined them, essentially), handed it off to a software developer, he made 
-a few changes*... 
+a few changes<sup>1</sup>... 
 
 and BOOM! Our help system now builds in the driver! 
 
-*don't want to minimize his work. It only looks like a few lines of changes, 
+<sup>1</sup> I don't want to minimize his work. It only looks like a few lines of changes, 
 but for example, he spent 3 hours hunting down a suuuuuper old .exe that lived 
 deep in our version control system! 
 
