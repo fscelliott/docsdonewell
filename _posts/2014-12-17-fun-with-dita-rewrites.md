@@ -10,7 +10,7 @@ modified_time: '2014-12-29T13:13:14.240-08:00'
 ---
 
 When I look back at the last 2 years as a tech writer, the moments in which 
-I've had the most fun have been when 
+I've had the most fun have been when: 
 
 1. I wrote a Python or Javascript tool to automate some documentation 
 task...and it works! and colleagues adopt it, grassroots style! 
