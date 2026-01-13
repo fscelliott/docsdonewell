@@ -6,7 +6,7 @@ author: frances
 modified_time: '2024-08-21T00:00:00.000Z'
 ---
 
-Recently I investigated migrating from the Readme docs platform to Mintlify for one of my clients, [Sensible](https://sensible.so/). I'll briefly record my impressions here:
+Here are my brief impressions after investigating a migration from the Readme docs platform to Mintlify for one of my clients, [Sensible](https://sensible.so/).
 
 ### Mintlify pros:
 
@@ -18,7 +18,7 @@ Recently I investigated migrating from the Readme docs platform to Mintlify for 
   | -------------------------------------------- | -------------------------------------------- |
   | ![Mintlify LLM](/assets/images/llm_mint.png) | ![Readme LLM](/assets/images/llm_readme.png) |
   
-- Mintlify in theory enables publishing your docs as a subpath instead of a subdomain on your main site. I was excited to publish our docs at `sensible.so/docs` instead of `docs.sensible.so`; it would have been a huge SEO boost. Unfortunately, it turned out that with Sensible's Webflow-powered website, I could only have enabled the subpath approach using a hacky and insecure approach; no thanks.
+- In theory, Mintlify enables publishing your docs as a subpath instead of a subdomain on your main site. I was excited to publish our docs at `sensible.so/docs` instead of `docs.sensible.so`; it would have been a huge SEO boost. Unfortunately, it turned out that with Sensible's Webflow-powered website, I could only have enabled the subpath approach using a hacky and insecure approach; no thanks.
 
 - Mintlify's API reference display is much nicer than Readme's. Readme hides lots of documentation under easily-missed accordions, to the point that many customers ask for API documentation that they don't realize already exists. Mintlify lays it all right out there.
 
@@ -34,4 +34,4 @@ In particular, lack of test infrastructure on deployment was a big issue for me.
 
 I've watched Mintlify deploy features rapidly over the last year or so, so it wouldn't surprise me if these rough edges get smoothed out with time.
 
-In the end, I decided to stick with Readme because the migration process grew too painful. Going from a lax syntax like MD (which Readme supports) to a strict syntax like MDX (which Mintlify supports) was always going to be rough, especially when MDX infamously lacks informative error messages. As it turned out, there were enough formatting errors in the migrated MDX files that Mintlify returned to me that I knew I'd be looking at a manual, line-by-line effort to fix the errors, which I wasn't on board with. I know they're improving their migration process, so maybe the story will be different in future. In the meantime, I'd certainly consider Mintlify for non-migration scenarios, for example when I'm writing docs from scratch in my role as a founding docs writer for startups.
+In the end, I decided to stick with Readme because the migration process grew too painful. Going from a lax syntax like MD (which Readme supports) to a strict syntax like MDX (which Mintlify supports) was always going to be rough, especially when MDX infamously lacks informative error messages. As it turned out, there were enough formatting errors in the migrated MDX files that Mintlify returned to me that I knew I'd be looking at a manual, line-by-line effort to fix the errors, which I wasn't on board with. I know they're improving their migration process, so maybe the story will be different in the future. In the meantime, I'd certainly consider Mintlify for non-migration scenarios, for example, when I'm writing docs from scratch in my role as a founding docs writer for startups.
