@@ -6,7 +6,7 @@ author: frances
 modified_time: '2025-02-25T00:00:00.000Z'
 ---
 
-I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise AI-generated API docs. (Note to self: I've got to test out theneo soon!)
+I'm already using LLMs in my docs writing process in an ad-hoc way, and I strongly suspect that LLMs will be a core, structured part of my docs writing tools in the near future. Doc platforms like [theneo](https://www.theneo.io/) already advertise AI-generated API docs. (Note to self: I've got to test out Theneo soon!)
 
 To test the waters with my client [Sensible](https://www.sensible.so/), I've lately been prompting LLMs to:
 
@@ -19,16 +19,16 @@ Spoiler alert: at the moment, I've been more successful with #2 than #1. I'll di
 
 ### Chat GPT-4 Turbo
 
-I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of a hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly I'd rather author the steps myself than search for an unreliable narrator's gotchas.
+I've been unimpressed by Chat's ability to maintain rigorous accuracy and keep its grabby little hands off the parts of the document I DON'T want it to update. Overall, I feel like I'm editing the work of a hasty intern. As soon as I spotted glaring errors in the LLM's response, I knew I'd have to double check each step by actually performing the documented actions myself. Frankly, I'd rather author the steps myself than search for an unreliable narrator's gotchas.
 
 Here's how my experiment went:
 
-- Goal: update a [Zapier tutorial](https://docs.sensible.so/docs/zapier-tutorial-2) for my client Sensible to use a new file action as its trigger.
+- Goal: Update a [Zapier tutorial](https://docs.sensible.so/docs/zapier-tutorial-2) for my client Sensible. The tutorial should now describe using a new file action as its trigger.
 
 - Experiment: I iterated on prompts, getting stricter and stricter. My last attempt was:
 
   ```
-  Rewrite the following text exactly as-is but with the following technical change:
+  Rewrite the following text exactly as-is, but with the following technical change:
   
   - Zap 1 now uses Google Drive's New File in Folder trigger instead of Gmail's New Attachment.
   
@@ -135,19 +135,19 @@ Let's look at how this works in practice with the Query Group method:
 In this example:
 
 1. First, we extract a transaction table from the document
-2. Then, we analyze that extracted data to find the most frequent merchant and maximum transaction amount
+2. Then, we analyze the extracted data to find the most frequent merchant and the maximum transaction amount
 
 By targeting the second set of queries specifically at the `_transactions` field, we get more accurate results and simplify the LLM's task.
 
 // continued...
 ````
 
-The post's content seemed bascially sound, though its structure was a bit list-happy. All my comments represented manageble improvements:
+The post's content seemed basically sound, though its structure was a bit list-happy. All my comments represented manageable improvements:
 
 ![image](https://github.com/user-attachments/assets/27890192-d46c-4535-aa74-f3ae19c81b96)
 
 
-So all in all, I'll be using AIs for writing blog posts in the near future, while taking a more cautious exploratory approach with AIs and docs. Now, I'm aware I'm biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimick others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
+So all in all, I'll be using AIs for writing blog posts in the near future, while taking a more cautious exploratory approach with AIs and docs. Now, I'm aware I'm biased: I'm a documentarian first and foremost, so I hold my docs to a higher standard of accuracy than I do feature-release blog post announcements. That said, I'm fairly confident my results also mimic others' experience. LLMs are better at writing generalized content and can still fall down in situations where rigorous, detailed accuracy is important.
 
 Next up, I'll post about my efforts to systematize writing AI-assisted blog posts using a paid Claude account.
 
