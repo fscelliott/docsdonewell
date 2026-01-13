@@ -5,9 +5,6 @@ date: '2014-12-29T13:21:00.001-08:00'
 author: frances
 tags: 
 modified_time: '2014-12-29T13:21:19.179-08:00'
-thumbnail: http://4.bp.blogspot.com/-zFT6OxiXAN0/VKHFMyiG5jI/AAAAAAAALL0/Ta63LdmZDko/s72-c/F12427CD910114A.png
-
-
 ---
 
 Still chugging away in DITA-writing mode; still having fun in terms of the 
