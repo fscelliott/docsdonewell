@@ -1,6 +1,6 @@
 ---
 title: "Founding writer"
-excerpt: "Docs site I wrote from scratch for a startup"
+excerpt: "Docs site I wrote from scratch for early-stage startup"
 author: frances
 #not including layout since it's in the defaults
 ---
