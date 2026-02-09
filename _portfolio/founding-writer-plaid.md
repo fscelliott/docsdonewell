@@ -1,5 +1,5 @@
 ---
-title: "Founding writer"
+title: "Founding writer for Plaid CoreX API"
 excerpt: "Docs site I wrote from scratch for Plaid"
 author: frances
 #not including layout since it's in the defaults
