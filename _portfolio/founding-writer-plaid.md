@@ -6,7 +6,7 @@ author: frances
 ---
 
 
-For an example of a docs site I authored as a founding writer, see [Plaid Core Exchange API documentation]([https://docs.sensible.so](https://plaid.com/core-exchange/docs/)).
+For an example of a docs site I authored as a founding writer, see [Plaid Core Exchange API documentation](https://plaid.com/core-exchange/docs/).
 
 <img width="1306" height="765" alt="image" src="https://github.com/user-attachments/assets/5d75d5c4-0a84-4a8e-a6cd-08a86ec00e2b" />
 
