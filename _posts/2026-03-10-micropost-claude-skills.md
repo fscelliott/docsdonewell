@@ -31,3 +31,4 @@ style-guide/
 └── integration-guide-template.md
 ```
 
+Next up: check out a [skill-validator](https://github.com/agent-ecosystem/skill-validator) whose author claims the output of Claude's `skill-creator` often actually fails her validation tool!  
