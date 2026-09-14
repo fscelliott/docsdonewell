@@ -1,5 +1,5 @@
 ---
-title: Metrics and tooling tidbits for AI-generated docs
+title: Tooling tidbits for AI-generated docs
 ---
 
 My Claude doc-generating skills are in decent, workable shape, but I'm feeling inspired to do more after listening to a recent podcast from I'd Rather Be Writing -- [Orchestrating docs instead of writing them yourself — podcast with Sarah Deaton of Anthropic](https://idratherbewriting.com/blog/podcast-deaton-anthropic-tw-automation).
