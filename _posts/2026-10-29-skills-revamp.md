@@ -1,5 +1,5 @@
 ---
-title: "Building my deterministic testing harness for AI-generated docs"
+title: "Building deterministic testing harness for AI-generated docs"
 ---
 
 AIs don't write quality developer docs without a ton of deterministic guarddrails *and* human near the loop or human in the loop. That's a point I'm seeing everyone agree on who's neck-deep in AI-generated doc and inventing best practices on the fly, and I agree. I've already introduced deterministic tests into my AI doc gen workflows to a certain extent, but after reading [Docs as Test](https://www.docsastests.com/), I'm getting a lot more granular and systematic:
