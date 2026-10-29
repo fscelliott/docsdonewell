@@ -15,6 +15,7 @@ I get back a nice HTML report on every GitHub Action run:
 Under the hood, the HTML comments direct the test runner that powers the report:
 <img width="536" height="511" alt="image" src="https://github.com/user-attachments/assets/167da416-99ac-4d67-a4db-2da30faaf563" />
 
+This will, in time, lead to a grand vision of 'self-healing' docs -- a term I can already tell will be abused, but at its finest, has a ton of infrastructure behind it.
 
 ### Eval-driven docs workflows
 - I'm auditing and parsing the logs of my doc-gen workflows so I can deterministically pass/fail worfklows that skip steps and start to build more sophisticated evals for workflows (to date, my eval-writing has been limited pretty much to "does the built-in MCP server our docs platform provided with us  servicable search results?") I especially want to add in *ablation* evals so that when LLMs models uplift their capacities, my skills auto-trim themselves so they don't actively drag down the new models. I've already witnessed that Opus 5.5 markedly improved my doc gen output from Opus 4.5, without any rewrites to my skills; now I need to find out if my skills are actually hindering Opus 5.5 with bloated content. I hear lots of anti-skill talk out there, and while I'm not abandoning them, I do want to push everything I can into hooks, scripts, etc.
