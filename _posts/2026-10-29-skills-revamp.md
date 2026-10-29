@@ -10,9 +10,11 @@ It was a revelatory thought at the time that now seems perfectly obvious: I'm  i
 For example, for a new troubleshooting table I generated, I also generated a test fixture for every row in the table, which I set up to run monthly.
 
 I get back a nice HTML report on every GitHub Action run:
+
  <img width="477" height="545" alt="image" src="https://github.com/user-attachments/assets/69d8af08-90e5-4e9b-878b-f3e8a9236cb8" />
 
 Under the hood, the HTML comments direct the test runner that powers the report:
+
 <img width="536" height="511" alt="image" src="https://github.com/user-attachments/assets/167da416-99ac-4d67-a4db-2da30faaf563" />
 
 This will, in time, lead to a grand vision of 'self-healing' docs -- a term I can already tell will be abused, but at its finest, has a ton of infrastructure behind it.
