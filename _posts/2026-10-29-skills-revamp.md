@@ -2,7 +2,7 @@
 title: "Building deterministic testing harness for AI-generated docs"
 ---
 
-LLMs don't write quality developer docs without a ton of deterministic guardrails *and* human near the loop or human in the loop. That's what I hear from those neck-deep in inventing AI doc gen best practices, and I agree. I've already introduced deterministic tests into my AI doc gen workflows to a certain extent, but after reading [Docs as Test](https://www.docsastests.com/), I'm getting a lot more granular and systematic:
+LLMs don't write quality developer docs without a ton of deterministic guardrails *and* human near the loop or human in the loop. That's what I hear from those neck-deep in inventing AI doc gen best practices, and I agree. I've already introduced deterministic tests into my AI doc gen workflows to a certain extent, but after reading the book [Docs as Test](https://www.docsastests.com/), I'm getting a lot more granular and systematic:
 
 ### Embedded test
 It was a revelatory thought at the time that now seems perfectly obvious: I'm  introducing deterministic, in-line tests embedded as HTML comments into my docs so a test runner can verify before the docs even come to my review. My doc gen workflows generate the tests before they even author new docs content, then embed them into the generated docs. The comments show up in my docs Github repository so they can trigger GitHub actions, but they're stripped from the published site so they don't muddy the raw Markdown view for agents.
