@@ -3,3 +3,43 @@ layout: single
 title: blah balh
 author: frances
 ---
+
+
+
+ Building a docs-authoring loop I can actually audit (11/2/26)
+
+  LLMs write better docs every model release, but "better" isn't something I can ship on vibes. So I replaced a single-prompt "update the
+  docs from this PR" skill with a loop: plan, judge the plan, approve, write, judge the doc, report. Each step is checked by something
+  other than the model doing the work.
+
+  The problem
+  - One big skill prompt gave me no way to tell which instruction the model followed, skipped, or quietly ignored.
+  - "It looks right" isn't a test. I needed pass/fail evidence I could trace back to what the agent actually did.
+  - Style guides and skills keep growing, and newer models may not need half of them. I had no way to measure that.
+
+  What I built
+  - Task profiles: one loop with task profiles (restyle a page, update docs from an engine PR) instead of one skill per job.
+  - Gates that can say no: hooks refuse a planner's or writer's handback until a contract check, deterministic validators (Vale, links,
+    JSON blocks) and an LLM judge all pass, with a retry cap.
+  - A run report built from Claude Code's own logs: every check row cites the exact log line it rests on and opens it at that line. Cost
+    estimates match Claude Code's own totals to the cent on Opus. The report ships as an HTML artifact from GitHub Actions, and a hard $2
+    budget hook stops runaway runs.
+  - Tests that test the tests:
+    - Fake loop sessions with deliberate faults: the writer skims a style guide, the planner edits a file, a gate retries past its cap.
+      Each fault must trip exactly its own check.
+    - Mutation testing: I break the code on purpose and confirm the tests notice.
+  - Sync gates: CI fails if the spec, test catalog, tests, report checks and design docs drift apart.
+
+  What I learned
+  - Coverage overstates protection: the secret scrubber had 100% line coverage, and 15 of 29 deliberate breaks still passed, including
+    switching off GitHub-token redaction.
+  - Fault injection found real holes: a writer that read 5 lines of the glossary, or whose read failed, counted as "read the style guide".
+    Both are now refused.
+  - Validators found 4 real defects in a published page: dead anchors and a broken JSON example.
+  - The judge rejected every plan for one page across 4 runs: the plans were mediocre, which turned "is the judge too strict?" into a
+    calibration question I can label rather than argue about.
+
+  What's next
+  - Replay a real engine PR end to end and score it against the docs change a human actually shipped.
+  - Ablation evals: drop each style guide and skill, one at a time, and see what newer models still need.
+  - A weekly drift check, so Vale rules and the style guides stay in sync.
