@@ -22,6 +22,10 @@ This will, in time, lead to a grand vision of 'self-healing' docs -- a term I ca
 ### Eval-driven docs workflows
 - I'm auditing and parsing the logs of my doc-gen workflows so I can deterministically pass/fail workflows that skip steps and start to build more sophisticated evals for workflows (to date, my eval-writing has been limited pretty much to "does the built-in MCP server our docs platform provided with us  serviceable  search results?") I especially want to add in *ablation* evals so that when LLMs models uplift their capacities, my skills auto-trim themselves so they don't actively drag down the new models. I've already witnessed that Opus 5.5 markedly improved my doc gen output from Opus 4.5, without any rewrites to my skills; now I need to find out if my skills are actually hindering Opus 5.5 with bloated content. I hear lots of anti-skill talk out there, and while I'm not abandoning them, I do want to push everything I can into hooks, scripts, etc.
 
+For example, for a Claude/Jev authoring flow I'm working on, I now have a report that traces its evidence all the way down to Claude Code's local log files on my WLS mount:
+<img width="600" height="629" alt="image" src="https://github.com/user-attachments/assets/314a5b6a-a9bc-4bd4-8cfe-e660513d3dbe" />
+
+
  
 I feel late to the "docs as test" and eval-driven party...but actually I'm pretty sure I'm *just* behind the cutting-edge documentarian practitioners whose mad-scientist vibes I adore. That's a place I like to be; I keep an eye on the pioneers for a couple months, hear out their lessons learned in real time on Slack, and then start implementing myself. For example, a few months back, I started hearing from people in the WTD Slack #ai channel that they were experimenting with front-matter metadata to guide agents' doc writing processes. I'm hearing more and more good feedback from that approach, so I'm gonna start focusing on what I'm calling 'docs ops' metadata in my topics.
 
