@@ -9,7 +9,7 @@ It was a revelatory thought at the time that now seems perfectly obvious: I'm  i
 
 For example, for a new troubleshooting table I generated, I also generated a test fixture for every row in the table, which I set up to run monthly.
 
-I get back a nice HTML report on every GitHub Action run:
+I get back a nice HTML report of the agent's steps when it's triggered by a GitHub Action:
 
  <img width="477" height="545" alt="image" src="https://github.com/user-attachments/assets/69d8af08-90e5-4e9b-878b-f3e8a9236cb8" />
 
