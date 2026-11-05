@@ -35,7 +35,7 @@ I can follow links and end up in the local JSON file to see the session ID, its 
 
 It's my first time generating deep drill-down reports to trace my Claude/Jev doc-gen workflows' gates & tests all the way to local agent logs... I'm pretty stoked!
 
-I feel late to the "docs as test" and eval-driven party...but actually I'm pretty sure I'm *just* behind the dozen or so cutting-edge documentarian practitioners whose mad-scientist vibes I adore. That's a place I like to be; I keep an eye on the pioneers for a couple months, learn from their challenges and successses as they play out real time on our practitioner's Slack community, and then start implementing myself. For example, a few months back, I started hearing from people in the WTD Slack #ai channel that they were experimenting with front-matter metadata to guide agents' doc writing processes. I'm hearing more and more good feedback from that approach, so I'm gonna start focusing on what I'm calling 'docs ops' metadata in my topics.
+I feel late to the "docs as test" and eval-driven party...but actually I'm pretty sure I'm *just* behind the dozen or so cutting-edge documentarian practitioners whose mad-scientist vibes I adore. That's a place I like to be; I keep an eye on the pioneers for a couple months, learn from their challenges and successses as they play out real time on our practitioners' Slack community, and then start implementing myself. For example, a few months back, I started hearing from people in the WTD Slack #ai channel that they were experimenting with front-matter metadata to guide agents' doc writing processes. I'm hearing more and more good feedback from that approach, so I'm gonna start focusing on what I'm calling 'docs ops' metadata in my topics.
 
 
 
