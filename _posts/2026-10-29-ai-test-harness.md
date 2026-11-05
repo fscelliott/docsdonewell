@@ -25,8 +25,11 @@ I'm auditing and parsing the logs of my doc-gen workflows so I can deterministic
 
 For example, for a Claude/Jev authoring flow I'm working on, I now have a report that traces agents' actions when they run through a workflow.
 From a higher-level report:
+
 <img width="591" height="616" alt="image" src="https://github.com/user-attachments/assets/ec32d07c-4d39-4ca0-9593-1b51464d69a8" />
+
 I can follow links and end up in the local JSON file to see the session ID, its actions, and their order:
+
 <img width="1165" height="420" alt="image (1)" src="https://github.com/user-attachments/assets/014ed500-3c73-483e-88e1-af331bc97bc5" />
 
 
